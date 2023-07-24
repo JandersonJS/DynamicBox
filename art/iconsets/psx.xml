@@ -24,7 +24,7 @@
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>
-      <pos>0.690 0.177</pos>
+      <pos>0.45 0.02</pos>
       <size>0.100 0.033</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./psx/controller.svg</imagePath>
