@@ -298,8 +298,8 @@ license: creative commons CC-BY-NC-SA
       <text>Games : {binding:total}
 Favorites : {binding:favorites}
 Games played : {binding:gamesPlayed}
-Most played : {binding:mostPlayed}
-Last played : {binding:lastPlayedDate}</text>
+Last played : {binding:lastPlayedDate}
+Most played : {binding:mostPlayed}</text>
       <text lang="fr">Nombre de jeux : {binding:total}
 Favoris : {binding:favorites}
 Jeux joués : {binding:gamesPlayed}
@@ -314,7 +314,7 @@ El más jugado : {binding:mostPlayed}
       <verticalAlignment>center</verticalAlignment>
       <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
       <fontSize>0.024</fontSize>
-      <pos>0.03 0.68</pos>
+      <pos>0.03 0.70</pos>
       <size>0.94 0.28</size>
       <zIndex>100</zIndex>
       <color>D0D0D0FF</color>
