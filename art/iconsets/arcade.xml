@@ -15,13 +15,14 @@
 			<iconR>./arcade/r.png</iconR>
 			<iconStart>./arcade/start.png</iconStart>
 			<iconSelect>./arcade/select.png</iconSelect>
+			<iconF1>./psx/f1.png</iconF1>
 		</helpsystem>		
 	</view>
   <view name="screen">
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>
-      <pos>0.38 0</pos>
+      <pos>0.690 0.177</pos>
       <size>0.099 0.025</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./arcade/controller.svg</imagePath>

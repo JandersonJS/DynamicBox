@@ -15,6 +15,7 @@
 			<iconR>./psx/r.png</iconR>
 			<iconStart>./psx/start.png</iconStart>
 			<iconSelect>./psx/select.png</iconSelect>
+			<iconF1>./psx/f1.png</iconF1>
 		</helpsystem>		
 	</view>
 
@@ -23,8 +24,8 @@
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>
-      <pos>0.38 0</pos>
-      <size>0.090 0.030</size>
+      <pos>0.690 0.177</pos>
+      <size>0.100 0.033</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./psx/controller.svg</imagePath>
       <color>FFFFFF80</color>

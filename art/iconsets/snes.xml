@@ -15,6 +15,7 @@
 			<iconR>./snes/r.png</iconR>
 			<iconStart>./snes/start.png</iconStart>
 			<iconSelect>./snes/select.png</iconSelect>
+			<iconF1>./psx/f1.png</iconF1>
 		</helpsystem>		
 	</view>
   <view name="screen">
@@ -22,7 +23,7 @@
 
     <controllerActivity name="controllerActivity">
       <origin>0 0</origin>
-      <pos>0.38 0</pos>
+      <pos>0.690 0.177</pos>
       <size>0.090 0.030</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./snes/controller.svg</imagePath>
