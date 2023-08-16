@@ -14,17 +14,18 @@ license: creative commons CC-BY-NC-SA
     <include>./info.xml</include>
     <include>./infos/${system.theme}.xml</include>
     <include>./custom-username.xml</include>
+    <include>./main/systemview/Original_Dynamic.xml</include>
   <variables>
-    <baseColor>8b0000</baseColor>
-    <gradientEndColor>6b2020</gradientEndColor>
-    <centerFadeColor>8b000050</centerFadeColor>
-    <backgroundColor>252525</backgroundColor>
-    <bottomBarColor>8b0000c0</bottomBarColor>
-    <glowColor>Ab000020</glowColor>
+    <baseColor>208b20</baseColor>
+    <gradientEndColor>005b00</gradientEndColor>
+    <centerFadeColor>208b2035</centerFadeColor>
+    <backgroundColor>102510</backgroundColor>
+    <bottomBarColor>208b20c0</bottomBarColor>
+    <glowColor>105b1020</glowColor>
     <systemInfoColor>DDDDDDD8</systemInfoColor>
-    <groupColor>BD4747</groupColor>
-    <groupSeparatorColor>BD4747</groupSeparatorColor>
-    <backgroundImage>./art/fiber.png</backgroundImage>
+    <groupColor>46BE46</groupColor>
+    <groupSeparatorColor>46BE46</groupSeparatorColor>
+    <backgroundImage>./main/media/fiber.png</backgroundImage>
     <tilesViewName>Tiles</tilesViewName>
     <roundBorderSubsetName>Round borders</roundBorderSubsetName>
     <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
@@ -70,88 +71,88 @@ license: creative commons CC-BY-NC-SA
 
   <!-- Subset options for color  -->
   <subset name="colorset" displayName="${subset.colorset}">
-    <include name="Original" displayName="${Original}">./art/colors/Original.xml</include>
-    <include name="Ripple">./art/colors/Ripple.xml</include>
-    <include name="Halo">./art/colors/Halo.xml</include>
-    <include name="Halo Courage" displayName="${Halo Courage}">./art/colors/Halo Courage.xml</include>
-    <include name="Waves" displayName="${Waves}">./art/colors/Waves.xml</include>
-    <include name="Waves Faded" displayName="${Waves Faded}">./art/colors/Waves Faded.xml</include>
-    <include name="Wasteland" displayName="${Wasteland}">./art/colors/Wasteland.xml</include>
-    <include name="Mercury" displayName="${Mercury}">./art/colors/Mercury.xml</include>
-    <include name="Spotlight Midnight" displayName="${Spotlight Midnight}">./art/colors/Spotlight Midnight.xml</include>
-    <include name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./art/colors/Spotlight Deja Goo.xml</include>
-    <include name="Spotlight Ultraviolet">./art/colors/Spotlight Ultraviolet.xml</include>
-    <include name="Motes">./art/colors/Motes.xml</include>
-    <include name="Sunset" displayName="${Sunset}">./art/colors/Sunset.xml</include>
-    <include name="Game Room">./art/colors/Game Room.xml</include>
+    <include name="Original" displayName="${Original}">./main/colors/Original.xml</include>
+    <include name="Ripple">./main/colors/Ripple.xml</include>
+    <include name="Halo">./main/colors/Halo.xml</include>
+    <include name="Halo Courage" displayName="${Halo Courage}">./main/colors/Halo Courage.xml</include>
+    <include name="Waves" displayName="${Waves}">./main/colors/Waves.xml</include>
+    <include name="Waves Faded" displayName="${Waves Faded}">./main/colors/Waves Faded.xml</include>
+    <include name="Wasteland" displayName="${Wasteland}">./main/colors/Wasteland.xml</include>
+    <include name="Mercury" displayName="${Mercury}">./main/colors/Mercury.xml</include>
+    <include name="Spotlight Midnight" displayName="${Spotlight Midnight}">./main/colors/Spotlight Midnight.xml</include>
+    <include name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./main/colors/Spotlight Deja Goo.xml</include>
+    <include name="Spotlight Ultraviolet">./main/colors/Spotlight Ultraviolet.xml</include>
+    <include name="Motes">./main/colors/Motes.xml</include>
+    <include name="Sunset" displayName="${Sunset}">./main/colors/Sunset.xml</include>
+    <include name="Game Room">./main/colors/Game Room.xml</include>
   </subset>
 
 
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}" extra="true, static">
-	<include name="custom" displayName="${custom}">./art/avatars/custom.xml</include>
-	<include name="batocera-plus" displayName="Batocera Plus">./art/avatars/batocera-plus.xml</include>
-	<include name="batocera" displayName="Batocera">./art/avatars/batocera.xml</include>
-	<include name="Bubble Bobble" displayName="Bubble Bobble">./art/avatars/bubble.xml</include>
-	<include name="castlevania" displayName="Alucard (Castlevania)">./art/avatars/castlevania.xml</include>
-	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./art/avatars/ghostgoblins.xml</include>
-	<include name="cloud" displayName="Cloud Strife">./art/avatars/cloud.xml</include>
-	<include name="daytentacle" displayName="Day of the Tentacle">./art/avatars/daytentacle.xml</include> 
-	<include name="donkey" displayName="Donkey Kong">./art/avatars/donkey.xml</include> 
-	<include name="emulationstation" displayName="Emulation Station">./art/avatars/emulationstation.xml</include>
-	<include name="halo" displayName="Halo">./art/avatars/halo.xml</include>
-	<include name="jackelguapo" displayName="Handsome Jack">./art/avatars/jackelguapo.xml</include>
-	<include name="lara" displayName="Lara Croft">./art/avatars/lara.xml</include>
-	<include name="larry" displayName="Larry Laffer">./art/avatars/larry.xml</include>
-	<include name="zelda" displayName="Link (Zelda)">./art/avatars/zelda.xml</include>
-	<include name="mario" displayName="Mario Bros.">./art/avatars/mario.xml</include>
-	<include name="megaman" displayName="Mega-Man">./art/avatars/megaman.xml</include>
-	<include name="metal-gear" displayName="Metal Gear">./art/avatars/metal-gear.xml</include>
-	<include name="metalslug" displayName="Metal Slug">./art/avatars/metalslug.xml</include>
-	<include name="metroid" displayName="Metroid">./art/avatars/metroid.xml</include>
-	<include name="monkeyisland" displayName="Monkey Island">./art/avatars/monkeyisland.xml</include>
-	<include name="outrun" displayName="OutRun">./art/avatars/outrun.xml</include>
-	<include name="pacman" displayName="Pac-Man">./art/avatars/pacman.xml</include>
-	<include name="pacman-clyde" displayName="Pac-Man Clyde">./art/avatars/pacman-clyde.xml</include>
-	<include name="pacman-Inky" displayName="Pac-Man Inky">./art/avatars/pacman-inky.xml</include>
-	<include name="pacman-blinky" displayName="Pac-Man Blinky">./art/avatars/pacman-blinky.xml</include>
-	<include name="pacman-pinky" displayName="Pac-Man Pinky">./art/avatars/pacman-pinky.xml</include>
-	<include name="ps-logo" displayName="PlayStation Logo">./art/avatars/playstation-logo.xml</include>
-	<include name="astrobot" displayName="PSN Astro Bot">./art/avatars/astrobot.xml</include>
-	<include name="retroship" displayName="PSN Retro Ship">./art/avatars/retroship.xml</include>
-	<include name="recalbox" displayName="Recalbox">./art/avatars/recalbox.xml</include>
-	<include name="retroachievements" displayName="Retroachievements Default">./art/avatars/retroachievements.xml</include>
-	<include name="retrobat" displayName="Retrobat">./art/avatars/retrobat.xml</include>
-	<include name="retropie" displayName="Retropie">./art/avatars/retropie.xml</include>
-	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./art/avatars/shenmue.xml</include>
-	<include name="ryu" displayName="Ryu (Street Fighter 2)">./art/avatars/ryu.xml</include>
-	<include name="sephirot" displayName="Sephirot">./art/avatars/sephirot.xml</include>
-	<include name="sonic" displayName="Sonic">./art/avatars/sonic.xml</include>
-	<include name="wonderboy" displayName="Wonderboy">./art/avatars/wonderboy.xml</include>	
+	<include name="custom" displayName="${custom}">./main/avatars/custom.xml</include>
+	<include name="batocera-plus" displayName="Batocera Plus">./main/avatars/batocera-plus.xml</include>
+	<include name="batocera" displayName="Batocera">./main/avatars/batocera.xml</include>
+	<include name="Bubble Bobble" displayName="Bubble Bobble">./main/avatars/bubble.xml</include>
+	<include name="castlevania" displayName="Alucard (Castlevania)">./main/avatars/castlevania.xml</include>
+	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./main/avatars/ghostgoblins.xml</include>
+	<include name="cloud" displayName="Cloud Strife">./main/avatars/cloud.xml</include>
+	<include name="daytentacle" displayName="Day of the Tentacle">./main/avatars/daytentacle.xml</include> 
+	<include name="donkey" displayName="Donkey Kong">./main/avatars/donkey.xml</include> 
+	<include name="emulationstation" displayName="Emulation Station">./main/avatars/emulationstation.xml</include>
+	<include name="halo" displayName="Halo">./main/avatars/halo.xml</include>
+	<include name="jackelguapo" displayName="Handsome Jack">./main/avatars/jackelguapo.xml</include>
+	<include name="lara" displayName="Lara Croft">./main/avatars/lara.xml</include>
+	<include name="larry" displayName="Larry Laffer">./main/avatars/larry.xml</include>
+	<include name="zelda" displayName="Link (Zelda)">./main/avatars/zelda.xml</include>
+	<include name="mario" displayName="Mario Bros.">./main/avatars/mario.xml</include>
+	<include name="megaman" displayName="Mega-Man">./main/avatars/megaman.xml</include>
+	<include name="metal-gear" displayName="Metal Gear">./main/avatars/metal-gear.xml</include>
+	<include name="metalslug" displayName="Metal Slug">./main/avatars/metalslug.xml</include>
+	<include name="metroid" displayName="Metroid">./main/avatars/metroid.xml</include>
+	<include name="monkeyisland" displayName="Monkey Island">./main/avatars/monkeyisland.xml</include>
+	<include name="outrun" displayName="OutRun">./main/avatars/outrun.xml</include>
+	<include name="pacman" displayName="Pac-Man">./main/avatars/pacman.xml</include>
+	<include name="pacman-clyde" displayName="Pac-Man Clyde">./main/avatars/pacman-clyde.xml</include>
+	<include name="pacman-Inky" displayName="Pac-Man Inky">./main/avatars/pacman-inky.xml</include>
+	<include name="pacman-blinky" displayName="Pac-Man Blinky">./main/avatars/pacman-blinky.xml</include>
+	<include name="pacman-pinky" displayName="Pac-Man Pinky">./main/avatars/pacman-pinky.xml</include>
+	<include name="ps-logo" displayName="PlayStation Logo">./main/avatars/playstation-logo.xml</include>
+	<include name="astrobot" displayName="PSN Astro Bot">./main/avatars/astrobot.xml</include>
+	<include name="retroship" displayName="PSN Retro Ship">./main/avatars/retroship.xml</include>
+	<include name="recalbox" displayName="Recalbox">./main/avatars/recalbox.xml</include>
+	<include name="retroachievements" displayName="Retroachievements Default">./main/avatars/retroachievements.xml</include>
+	<include name="retrobat" displayName="Retrobat">./main/avatars/retrobat.xml</include>
+	<include name="retropie" displayName="Retropie">./main/avatars/retropie.xml</include>
+	<include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./main/avatars/shenmue.xml</include>
+	<include name="ryu" displayName="Ryu (Street Fighter 2)">./main/avatars/ryu.xml</include>
+	<include name="sephirot" displayName="Sephirot">./main/avatars/sephirot.xml</include>
+	<include name="sonic" displayName="Sonic">./main/avatars/sonic.xml</include>
+	<include name="wonderboy" displayName="Wonderboy">./main/avatars/wonderboy.xml</include>	
 </subset>  
 
 <!--NICKNAMES-->
 <subset name="system-username" displayName="${theme.username}">
 	<include name="custom" displayName="${custom}">./custom-username.xml</include>
-	<include name="cheevos" displayName="Retroachievements ID">./art/usernames/cheevos.xml</include>
-	<include name="netplay" displayName="Netplay ID">./art/usernames/netplay.xml</include>
+	<include name="cheevos" displayName="Retroachievements ID">./main/usernames/cheevos.xml</include>
+	<include name="netplay" displayName="Netplay ID">./main/usernames/netplay.xml</include>
 </subset>  
 
   <!-- Subset options for icons  -->
   <subset name="iconset" displayName="${subset.iconset}">
-    <include name="XBOX" displayName="${XBOX}">./art/iconsets/xbox.xml</include>
-    <include name="PSX" displayName="${PSX}">./art/iconsets/psx.xml</include>
-    <include name="PSX-color" displayName="${PSX-color}">./art/iconsets/psx-color.xml</include>
-    <include name="NES" displayName="${SNES}">./art/iconsets/snes.xml</include>
-    <include name="ARCADE" displayName="${ARCADE}">./art/iconsets/arcade.xml</include>
+    <include name="XBOX" displayName="${XBOX}">./main/iconsets/xbox.xml</include>
+    <include name="PSX" displayName="${PSX}">./main/iconsets/psx.xml</include>
+    <include name="PSX-color" displayName="${PSX-color}">./main/iconsets/psx-color.xml</include>
+    <include name="NES" displayName="${SNES}">./main/iconsets/snes.xml</include>
+    <include name="ARCADE" displayName="${ARCADE}">./main/iconsets/arcade.xml</include>
   </subset>
   <view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
   <subset name="iconset" displayName="${subset.iconset}">
-    <include name="XBOX" displayName="${XBOX}">./art/iconsets/xbox.xml</include>
-    <include name="PSX" displayName="${PSX}">./art/iconsets/psx.xml</include>
-    <include name="PSX-color" displayName="${PSX-color}">./art/iconsets/psx-color.xml</include>
-    <include name="NES" displayName="${SNES}">./art/iconsets/snes.xml</include>
-    <include name="ARCADE" displayName="${ARCADE}">./art/iconsets/arcade.xml</include>
+    <include name="XBOX" displayName="${XBOX}">./main/iconsets/xbox.xml</include>
+    <include name="PSX" displayName="${PSX}">./main/iconsets/psx.xml</include>
+    <include name="PSX-color" displayName="${PSX-color}">./main/iconsets/psx-color.xml</include>
+    <include name="NES" displayName="${SNES}">./main/iconsets/snes.xml</include>
+    <include name="ARCADE" displayName="${ARCADE}">./main/iconsets/arcade.xml</include>
   </subset>
     <helpsystem name="help" extra="static">
       <textColor>7d7d7d</textColor>
@@ -189,39 +190,39 @@ license: creative commons CC-BY-NC-SA
       <size>1 1</size>
       <pos>0 0</pos>
       <origin>0 0</origin>
-      <path>./art/bg.png</path>
+      <path>./main/background/bg.png</path>
       <linearSmooth>true</linearSmooth>
       <zIndex>10</zIndex>
     </image>
     <text name="logoText">
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <color>${baseColor}</color>
       <forceUppercase>true</forceUppercase>
     </text>
     <image name="logo">
       <!-- try png -->
-      <path>./art/logos/${system.theme}.png</path>
+      <path>./main/logosDynamics/${system.theme}.png</path>
       <!-- try svg -->
-      <path>./art/logos/${system.theme}.svg</path>
+      <path>./main/logosDynamics/${system.theme}.svg</path>
       <!-- check if lang resources exist -->
-      <path>./art/logos/${system.theme}-${lang}.png</path>
-      <path>./art/logos/${system.theme}-${lang}.svg</path>
+      <path>./main/logosDynamics/${system.theme}-${lang}.png</path>
+      <path>./main/logosDynamics/${system.theme}-${lang}.svg</path>
       <!-- 
-      <path>/userdata/themes/${system.theme}/art/${system}.png</path>
-      <path>/userdata/themes/${system.theme}/art/${system}.svg</path>
-      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.png</path>
-      <path>/userdata/themes/${system.theme}/art/${system}-${lang}.svg</path>
+      <path>/userdata/themes/${system.theme}/main/${system}.png</path>
+      <path>/userdata/themes/${system.theme}/main/${system}.svg</path>
+      <path>/userdata/themes/${system.theme}/main/${system}-${lang}.png</path>
+      <path>/userdata/themes/${system.theme}/main/${system}-${lang}.svg</path>
       -->
     </image>
     <image name="logo" region="eu"></image>
 		<image name="logo" region="us">
-		  <path>./art/logos/us/${system.theme}.png</path>
-			<path>./art/logos/us/${system.theme}.svg</path>
+		  <path>./main/logosDynamics/us/${system.theme}.png</path>
+			<path>./main/logosDynamics/us/${system.theme}.svg</path>
 		</image>
 		
 		<image name="logo" region="jp">
-		  <path>./art/logos/jp/${system.theme}.png</path>
-			<path>./art/logos/jp/${system.theme}.svg</path>
+		  <path>./main/logosDynamics/jp/${system.theme}.png</path>
+			<path>./main/logosDynamics/jp/${system.theme}.svg</path>
 		</image>
 		    
     <image name="BottomBar" extra="static">
@@ -229,7 +230,7 @@ license: creative commons CC-BY-NC-SA
       <size>1 0.065</size>
       <pos>0 1</pos>
       <origin>0 1</origin>
-      <path>./art/bottom.png</path>
+      <path>./main/media/bottom.png</path>
       <color>${bottomBarColor}</color>
       <zIndex>50</zIndex>
     </image>
@@ -241,7 +242,7 @@ license: creative commons CC-BY-NC-SA
         <text>${system.sortedBy}</text>
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
-        <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.060</fontSize>
         <pos>0.029 0.137</pos>
         <size>0.942 0.28</size>
@@ -258,7 +259,7 @@ license: creative commons CC-BY-NC-SA
         <text>${system.fullName}</text>
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
-        <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.024</fontSize>
         <pos>0.03 0.220</pos>       
         <size>0.94 0.28</size>
@@ -273,7 +274,7 @@ license: creative commons CC-BY-NC-SA
         <text>${system.releaseYearOrNull}</text>
         <alignment>left</alignment>
         <verticalAlignment>top</verticalAlignment>
-        <fontPath>./../art/fonts/Cabin-Regular.ttf</fontPath>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.024</fontSize>
         <pos>0.03 0.257</pos>        
         <size>0.94 0.28</size>        
@@ -312,7 +313,7 @@ El más jugado : {binding:mostPlayed}
 Última partida : {binding:lastPlayedDate}</text>
       <alignment>left</alignment>
       <verticalAlignment>center</verticalAlignment>
-      <fontPath>./art/fonts/Cabin-Regular.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
       <fontSize>0.024</fontSize>
       <pos>0.03 0.70</pos>
       <size>0.94 0.28</size>
@@ -333,38 +334,38 @@ El más jugado : {binding:mostPlayed}
   </view>
   
   <!-- Subset options for screen -->
-  <subset name="systemview" displayName="${systemViewName}">
-    <include name="Original_Dynamic" tinyScreen="false">./art/systemview/Original_Dynamic.xml</include>
-    <include name="wheel">./art/systemview/wheel.xml</include>
-    <include name="transparent" tinyScreen="false">./art/systemview/transparent.xml</include>
-    <include name="horizontal">./art/systemview/horizontal.xml</include>
-    <include name="legacy" tinyScreen="false">./art/systemview/legacy.xml</include>
-    <include name="simple">./art/systemview/verticalone.xml</include>
-    <include name="vertical">./art/systemview/vertical.xml</include>
-  </subset>
+  <!-- <subset name="systemview" displayName="${systemViewName}">
+    <include name="wheel">./main/systemview/wheel.xml</include>
+    <include name="transparent" tinyScreen="false">./main/systemview/transparent.xml</include>
+    <include name="horizontal">./main/systemview/horizontal.xml</include>
+    <include name="legacy" tinyScreen="false">./main/systemview/legacy.xml</include>
+    <include name="simple">./main/systemview/verticalone.xml</include>
+    <include name="vertical">./main/systemview/vertical.xml</include>
+  </subset> -->
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">
-    <include name="3 mini random videos">./art/systemsbk/3smallvideos.xml</include>
-    <include name="mini random video">./art/systemsbk/smallvideo.xml</include>
-    <include tinyScreen="false" name="mini-consoles">./art/systemsbk/consoles.xml</include>
+    <include name="3 mini random videos">./main/systemsbk/3smallvideos.xml</include>
+    <include name="mini random video">./main/systemsbk/smallvideo.xml</include>
+    <include tinyScreen="false" name="mini-consoles">./main/systemsbk/consoles.xml</include>
     <!-- change default for small screens -->
-    <include name="consoles">./art/systemsbk/batomachines.xml</include>
-    <include tinyScreen="true" name="mini-consoles">./art/systemsbk/consoles.xml</include>
-    <include name="Legacy">./art/systemsbk/carbon.xml</include>
-    <include name="random video">./art/systemsbk/video.xml</include>
-    <include name="random image">./art/systemsbk/image.xml</include>
-    <include name="random box">./art/systemsbk/box.xml</include>
-    <include name="mini random image">./art/systemsbk/smallscreen.xml</include>
-    <include name="mini random box">./art/systemsbk/smallbox.xml</include>
+    <include name="consoles">./main/systemsbk/batomachines.xml</include>
+    <include tinyScreen="true" name="mini-consoles">./main/systemsbk/consoles.xml</include>
+    <include name="Legacy">./main/systemsbk/carbon.xml</include>
+    <include name="random video">./main/systemsbk/video.xml</include>
+    <include name="random image">./main/systemsbk/image.xml</include>
+    <include name="random box">./main/systemsbk/box.xml</include>
+    <include name="mini random image">./main/systemsbk/smallscreen.xml</include>
+    <include name="mini random box">./main/systemsbk/smallbox.xml</include>
   </subset>
   <!-- Fix for controller image size -->
-  <include subset="systemview" name="simple">./art/systemview/controllersizefix.xml</include>
-  <include subset="systemview" name="vertical">./art/systemview/controllersizefix.xml</include>
-  <include subset="systemview" name="wheel">./art/systemview/controllersizefix.xml</include>
+  <!-- <include subset="systemview" name="simple">./main/systemview/controllersizefix.xml</include>
+  <include subset="systemview" name="vertical">./main/systemview/controllersizefix.xml</include>
+  <include subset="systemview" name="wheel">./main/systemview/controllersizefix.xml</include>
   <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
-  <include subset="systemview" name="legacy">./art/systemview/legacyfix.xml</include>
+  <!-- <include subset="systemview" name="legacy">./main/systemview/legacyfix.xml</include> -->
   <!-- Option for logoDynamics image -->
-  <include subset="systemview" name="Original_Dynamic">./art/systemview/logoDynamics.xml</include>
+  <include subset="systemview" name="Original_Dynamic">./main/systemview/logoDynamics.xml</include> -->
+
   <view name="screen" extra="static">
     <text name="clock" extra="static">
       <color>ffffff</color>
@@ -386,32 +387,32 @@ El más jugado : {binding:mostPlayed}
       <itemSpacing>0.003</itemSpacing>
       <color>FFFFFF90</color>
       <!-- controllers -->
-      <gunPath>./art/gun.svg</gunPath>
+      <gunPath>./main/media/gun.svg</gunPath>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
       <!-- wifi 
-      <networkIcon>./art/icons/Network.png</networkIcon>
+      <networkIcon>./main/icons/Network.png</networkIcon>
       -->
       <!-- battery 
-      <incharge>./art/battery/incharge.svg</incharge>
-      <full>./art/battery/full.svg</full>
-      <at75>./art/battery/75.svg</at75>
-      <at50>./art/battery/50.svg</at50>
-      <at25>./art/battery/25.svg</at25>
-      <empty>./art/battery/empty.svg</empty>-->
+      <incharge>./main/battery/incharge.svg</incharge>
+      <full>./main/battery/full.svg</full>
+      <at75>./main/battery/75.svg</at75>
+      <at50>./main/battery/50.svg</at50>
+      <at25>./main/battery/25.svg</at25>
+      <empty>./main/battery/empty.svg</empty>-->
     </controllerActivity>
     <batteryIndicator name="batteryIndicator">
       <pos>0.905 0.05</pos>
       <size>0.035 0.035</size>
       <horizontalAlignment>right</horizontalAlignment>
-      <incharge>./art/battery/incharge.svg</incharge>
-      <full>./art/battery/full.svg</full>
-      <at75>./art/battery/75.svg</at75>
-      <at50>./art/battery/50.svg</at50>
-      <at25>./art/battery/25.svg</at25>
-      <empty>./art/battery/empty.svg</empty>
+      <incharge>./main/battery/incharge.svg</incharge>
+      <full>./main/battery/full.svg</full>
+      <at75>./main/battery/75.svg</at75>
+      <at50>./main/battery/50.svg</at50>
+      <at25>./main/battery/25.svg</at25>
+      <empty>./main/battery/empty.svg</empty>
       <!-- wifi -->
-      <!--    <networkIcon>./art/icons/Network.png</networkIcon>-->
+      <!--    <networkIcon>./main/icons/Network.png</networkIcon>-->
       <!--<networkIcon>none</networkIcon>-->
       <color>FFFFFF</color>
     </batteryIndicator>
@@ -466,36 +467,36 @@ El más jugado : {binding:mostPlayed}
         <menuBackground name="menubg">
       	    <color>${baseColor}99</color>
             <cornerSize>32 32</cornerSize>
-            <path>./main/midia/frame.png</path>
+            <path>./main/media/frame.png</path>
         </menuBackground>
 
         <menuIcons name="menuicons">
-            <iconKodi>./art/icons/Kodi.png</iconKodi>
-            <iconSystem>./art/icons/System.png</iconSystem>
-            <iconUpdates>./art/icons/Updates.png</iconUpdates>
-            <iconGames>./art/icons/Games.png</iconGames>
-            <iconControllers>./art/icons/Controllers.png</iconControllers>
-            <iconUI>./art/icons/UI.png</iconUI>
-            <iconSound>./art/icons/Sound.png</iconSound>
-            <iconNetwork>./art/icons/Network.png</iconNetwork>
-            <iconScraper>./art/icons/Scraper.png</iconScraper>
-            <iconAdvanced>./art/icons/Advanced.png</iconAdvanced>
-            <iconQuit>./art/icons/Quit.png</iconQuit>
-            <iconRestart>./art/icons/Restart.png</iconRestart>
-            <iconShutdown>./art/icons/Shutdown.png</iconShutdown>
-            <iconFastShutdown>./art/icons/Fastshutdown.png</iconFastShutdown>
-            <iconRetroachievements>./art/icons/Contest.png</iconRetroachievements>
-            <iconManual>./art/icons/Manual.png</iconManual>
+            <iconKodi>./main/icons/Kodi.png</iconKodi>
+            <iconSystem>./main/icons/System.png</iconSystem>
+            <iconUpdates>./main/icons/Updates.png</iconUpdates>
+            <iconGames>./main/icons/Games.png</iconGames>
+            <iconControllers>./main/icons/Controllers.png</iconControllers>
+            <iconUI>./main/icons/UI.png</iconUI>
+            <iconSound>./main/icons/Sound.png</iconSound>
+            <iconNetwork>./main/icons/Network.png</iconNetwork>
+            <iconScraper>./main/icons/Scraper.png</iconScraper>
+            <iconAdvanced>./main/icons/Advanced.png</iconAdvanced>
+            <iconQuit>./main/icons/Quit.png</iconQuit>
+            <iconRestart>./main/icons/Restart.png</iconRestart>
+            <iconShutdown>./main/icons/Shutdown.png</iconShutdown>
+            <iconFastShutdown>./main/icons/Fastshutdown.png</iconFastShutdown>
+            <iconRetroachievements>./main/icons/Contest.png</iconRetroachievements>
+            <iconManual>./main/icons/Manual.png</iconManual>
         </menuIcons>
 
         <menuTextEdit name="menutextedit">
-            <inactive>./main/midia/textinput_ninepatch.png</inactive>
-            <active>./main/midia/textinput_ninepatch_active.png</active>
+            <inactive>./main/media/textinput_ninepatch.png</inactive>
+            <active>./main/media/textinput_ninepatch_active.png</active>
         </menuTextEdit>
 
         <menuButton name="menubutton">
             <path>./main/midia/button.png</path>
-            <filledPath>./main/midia/button_filled.png</filledPath>
+            <filledPath>./main/media/button_filled.png</filledPath>
         </menuButton>
     </view>
 
@@ -503,7 +504,7 @@ El más jugado : {binding:mostPlayed}
     <image name="background" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./art/background/${system.theme}.jpg</path>
+      <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
@@ -524,14 +525,14 @@ El más jugado : {binding:mostPlayed}
       <selectedColor>ffffff</selectedColor>
       <primaryColor>000000</primaryColor>
       <secondaryColor>c1c1c1</secondaryColor>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.030</fontSize>
       <pos>0.025 0.18</pos>
       <size>0.950 0.73</size>
       <alignment>center</alignment>
       <horizontalMargin>0.01</horizontalMargin>
       <forceUppercase>1</forceUppercase>
-      <scrollSound>./art/scroll.wav</scrollSound>
+      <scrollSound>./main/sounds/scroll.wav</scrollSound>
       
       <scrollbarColor>252525</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
@@ -578,7 +579,7 @@ El más jugado : {binding:mostPlayed}
     <image name="background" extra="static">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./art/background/${system.theme}.jpg</path>
+      <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
@@ -599,7 +600,7 @@ El más jugado : {binding:mostPlayed}
       <pos>0.004 0.119</pos>        
       <size>0.525 0.853</size>
       <origin>0 0</origin>
-      <path>./art/dark.png</path>
+      <path>./main/media/dark.png</path>
       <color>${baseColor}99</color>
       <linearSmooth>true</linearSmooth>      
       <zIndex>15</zIndex>
@@ -609,7 +610,7 @@ El más jugado : {binding:mostPlayed}
       <pos>0.500 0.615</pos>        
       <size>0.51 0.33</size>
       <origin>0 0</origin>
-      <path>./art/darkwheel.png</path>
+      <path>./main/media/darkwheel.png</path>
       <color>${baseColor}99</color>
       <linearSmooth>true</linearSmooth>      
       <zIndex>15</zIndex>
@@ -618,13 +619,13 @@ El más jugado : {binding:mostPlayed}
       <color>ffffff</color>
       <pos>0.360 0.875</pos>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
       <color>ffffff</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
     <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
@@ -633,7 +634,7 @@ El más jugado : {binding:mostPlayed}
     <datetime name="md_lastplayed, md_releasedate">
       <color>ffffff</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </datetime>
     <datetime name="md_lastplayed">
@@ -681,7 +682,7 @@ El más jugado : {binding:mostPlayed}
       <size>0.46 0.16</size>
       <color>ffffff</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
     <textlist name="gamelist">
@@ -689,14 +690,14 @@ El más jugado : {binding:mostPlayed}
       <selectedColor>ffffff</selectedColor>
       <primaryColor>ffffff</primaryColor>
       <secondaryColor>c1c1c1</secondaryColor>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
       <pos>0.021 0.18</pos>
       <size>0.489 0.73</size>
       <alignment>left</alignment>
       <horizontalMargin>0.00</horizontalMargin>
       <fontSize>0.03</fontSize>
-      <scrollSound>./art/scroll.wav</scrollSound>
+      <scrollSound>./main/sounds/scroll.wav</scrollSound>
       
       <scrollbarColor>252525</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
@@ -707,7 +708,7 @@ El más jugado : {binding:mostPlayed}
       <horizontalMargin>0.005</horizontalMargin>
     </textlist>
     <image name="md_hidden">
-      <path>./art/hidden.svg</path>
+      <path>./main/media/hidden.svg</path>
       <pos>0.975 0.21</pos>
       <maxSize>0.02 0.03</maxSize>      
       <origin>0.5 0.5</origin>
@@ -716,7 +717,7 @@ El más jugado : {binding:mostPlayed}
     </image>
 
     <image name="md_kidgame">     
-      <path>./art/kid.svg</path>
+      <path>./main/media/kid.svg</path>
       <pos>0.86 0.9</pos>
       <maxSize>0.02 0.03</maxSize>      
       <origin>0.5 0.5</origin>
@@ -725,7 +726,7 @@ El más jugado : {binding:mostPlayed}
     </image>
 
     <image name="md_manual">
-      <path>./art/manual.svg</path>
+      <path>./main/media/manual.svg</path>
       <pos>0.882 0.9</pos>
       <maxSize>0.02 0.03</maxSize>      
       <origin>0.5 0.5</origin>
@@ -737,7 +738,7 @@ El más jugado : {binding:mostPlayed}
     <image name="md_favorite">
       <pos>0.975 0.21</pos>
       <maxSize>0.02 0.03</maxSize>      
-      <path>./art/favorite.svg</path>
+      <path>./main/media/favorite.svg</path>
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <zIndex>60</zIndex>
@@ -748,12 +749,12 @@ El más jugado : {binding:mostPlayed}
       <pos>0 1</pos>
       <origin>0 1</origin>
       <size>1 0.065</size>
-      <path>./art/bottom.png</path>
+      <path>./main/media/bottom.png</path>
       <color>${bottomBarColor}</color>
       <zIndex>50</zIndex>
     </image>
     <image name="top-shadow" extra="true">
-      <path>./art/shadow.png</path>
+      <path>./main/media/shadow.png</path>
       <color>FFFFFF90</color>
       <pos>0 0.16</pos>
       <origin>0 0</origin>
@@ -764,7 +765,7 @@ El más jugado : {binding:mostPlayed}
       <pos>0 0</pos>
       <origin>0 0</origin>
       <size>1 0.16</size>
-      <path>./art/top.png</path>
+      <path>./main/media/top.png</path>
       <color>${baseColor}</color>
       <zIndex>50</zIndex>
     </image>
@@ -773,19 +774,19 @@ El más jugado : {binding:mostPlayed}
       <size>0.98 0.126</size>
       <alignment>center</alignment>
       <fontSize>0.08</fontSize>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <!--<alignment>left</alignment>-->
       <color>${baseColor}</color>
       <!-- <forceUppercase>true</forceUppercase>-->
     </text>
     <image name="logo">
       <!-- try png -->
-      <path>./art/logos/${system.theme}.png</path>
-      <path>./art/logos/${system.theme}.svg</path>
-      <path>./art/logos/${system.theme}-${lang}.png</path>
-      <path>./art/logos/${system.theme}-${lang}.svg</path>
+      <path>./main/logos/${system.theme}.png</path>
+      <path>./main/logos/${system.theme}.svg</path>
+      <path>./main/logos/${system.theme}-${lang}.png</path>
+      <path>./main/logos/${system.theme}-${lang}.svg</path>
       <!-- if system2 exists, take this version -->
-      <path>./art/logos/${system.theme}2.svg</path>
+      <path>./main/logos/${system.theme}2.svg</path>
       <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
       <pos>0.5 0.074</pos>
       <maxSize>0.3 0.120</maxSize>
@@ -794,13 +795,13 @@ El más jugado : {binding:mostPlayed}
 
     <image name="logo" region="eu"></image>
 		<image name="logo" region="us">
-		  <path>./art/logos/us/${system.theme}.png</path>
-			<path>./art/logos/us/${system.theme}.svg</path>
+		  <path>./main/logos/us/${system.theme}.png</path>
+			<path>./main/logos/us/${system.theme}.svg</path>
 		</image>
 		
 		<image name="logo" region="jp">
-		  <path>./art/logos/jp/${system.theme}.png</path>
-			<path>./art/logos/jp/${system.theme}.svg</path>
+		  <path>./main/logos/jp/${system.theme}.png</path>
+			<path>./main/logos/jp/${system.theme}.svg</path>
 		</image>
 		    
     <text name="folderpath">
@@ -809,7 +810,7 @@ El más jugado : {binding:mostPlayed}
       <color>B0B0B0</color>  
       <alignment>center</alignment>
       <fontSize>0.016</fontSize>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <forceUppercase>true</forceUppercase>
       <zIndex>200</zIndex>
     </text>  
@@ -818,7 +819,7 @@ El más jugado : {binding:mostPlayed}
     <image name="background" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./art/background/${system.theme}.jpg</path>
+      <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
@@ -861,7 +862,7 @@ El más jugado : {binding:mostPlayed}
 -->
 
     <image name="md_manual">
-      <path>./art/manual.svg</path>
+      <path>./main/media/manual.svg</path>
       <pos>0.023 0.896</pos>
       <maxSize>0.02 0.03</maxSize>      
       <origin>0.5 0.5</origin>
@@ -923,7 +924,7 @@ El más jugado : {binding:mostPlayed}
     <image name="background" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./art/background/${system.theme}.jpg</path>
+      <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
@@ -962,7 +963,7 @@ El más jugado : {binding:mostPlayed}
     <image name="background" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./art/background/${system.theme}.jpg</path>
+      <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
@@ -1038,7 +1039,7 @@ El más jugado : {binding:mostPlayed}
     <image name="background" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
-      <path>./art/background/${system.theme}.jpg</path>
+      <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
       <pos>0.5 0.5</pos>
       <origin>0.5 0.5</origin>
@@ -1084,7 +1085,7 @@ El más jugado : {binding:mostPlayed}
     <text name="gridtile">
       <color>D0D0D0D0</color>
       <backgroundColor>00000000</backgroundColor>
-      <fontPath>./art/Cabin-Bold.ttf</fontPath>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.030</fontSize>
       <alignment>center</alignment>
       <singleLineScroll>false</singleLineScroll>
@@ -1114,69 +1115,69 @@ El más jugado : {binding:mostPlayed}
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
     <include name="standard"/>
-    <include name="colored" displayName="${colored}">./art/systemview/colorhelp.xml</include>
+    <include name="colored" displayName="${colored}">./main/systemview/colorhelp.xml</include>
   </subset>
   <!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">
     <include name="None" displayName="${none}"/>
-    <include name="ScanLines">./art/scanlines.xml</include>
-    <include name="Crt">./art/crt.xml</include>
+    <include name="ScanLines">./main/shader/scanlines.xml</include>
+    <include name="Crt">./main/shader/crt.xml</include>
   </subset>
   <!-- Subset options for screen -->
   <subset name="shader" displayName="${subset.shader}">
     <include name="None" displayName="${none}"/>
-    <include name="ScanLines">./art/scanlines.xml</include>
-    <include name="Crt">./art/crt.xml</include>
+    <include name="ScanLines">./main/shader/scanlines.xml</include>
+    <include name="Crt">./main/shader/crt.xml</include>
   </subset>
   <!-- Specific layout for systems -->
-  <include>./art/layouts/${system.theme}.xml</include>
+  <include>./main/layouts/${system.theme}.xml</include>
   <!-- Layout when help is disabled -->
-  <include ifHelpPrompts="false">./art/layouts/nohelp.xml</include>
+  <include ifHelpPrompts="false">./main/layouts/nohelp.xml</include>
   <!-- Layout for small screens -->
   <subset tinyScreen="true" name="optimizesmallscreens" displayName="${optimizesmallscreensSubsetName}">
-    <include name="yes" displayName="${yes}">./art/layouts/gpicase.xml</include>
+    <include name="yes" displayName="${yes}">./main/layouts/gpicase.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
   <!-- Subset options for grid views -->
   <subset name="videoboxes" displayName="${videoboxesSubsetName}" appliesTo="Boxes,grid">
     <include name="no" displayName="${no}"/>
-    <include name="yes" displayName="${yes}">./art/grid/videoboxes.xml</include>
+    <include name="yes" displayName="${yes}">./main/grid/videoboxes.xml</include>
   </subset>
   <subset name="zoomboxes" displayName="${zoomboxesSubsetName}" appliesTo="Boxes,grid">
     <include name="no" displayName="${no}"/>
-    <include name="yes" displayName="${yes}">./art/grid/zoomboxes.xml</include>
+    <include name="yes" displayName="${yes}">./main/grid/zoomboxes.xml</include>
   </subset>
   <subset name="scrolldirection" displayName="Orientation" appliesTo="Tiles,Boxes,grid">
     <include name="vertical"/>
-    <include name="horizontal">./art/grid/scrollhorz.xml</include>
+    <include name="horizontal">./main/grid/scrollhorz.xml</include>
   </subset>
   <subset name="hideselection" displayName="${hideselectionSubsetName}" appliesTo="Boxes,grid">
     <include name="no" displayName="${no}"/>
-    <include name="yes" displayName="${yes}">./art/grid/hidesel.xml</include>
+    <include name="yes" displayName="${yes}">./main/grid/hidesel.xml</include>
   </subset>
   <subset name="previewbar" displayName="${previewBarSubsetName}" appliesTo="Tiles,Carousel,Boxes,grid">
     <include name="no" displayName="${no}"/>
-    <include name="yes" displayName="${yes}">./art/grid/previewbar.xml</include>
+    <include name="yes" displayName="${yes}">./main/grid/previewbar.xml</include>
   </subset>
   <!-- Subset options for Tiles view -->
   <subset tinyScreen="false" name="tileborders" displayName="${roundBorderSubsetName}" appliesTo="Tiles">
     <include name="yes" displayName="${yes}"/>
-    <include name="no" displayName="${no}">./art/tiles/squareborders.xml</include>
+    <include name="no" displayName="${no}">./main/tiles/squareborders.xml</include>
   </subset>
   <subset name="blinkborders" displayName="${blinkBorderSubsetName}" appliesTo="Tiles,Carousel,Boxes,grid">
     <include name="yes" displayName="${yes}"/>
-    <include name="no" displayName="${no}">./art/grid/blinkbordersoff.xml</include>
+    <include name="no" displayName="${no}">./main/grid/blinkbordersoff.xml</include>
   </subset>
   <subset name="videotiles" displayName="Videos" appliesTo="Tiles">
     <include name="yes" displayName="${yes}"/>
-    <include name="no" displayName="${no}">./art/tiles/novideo.xml</include>
+    <include name="no" displayName="${no}">./main/tiles/novideo.xml</include>
   </subset>
   <subset name="marqueetiles" displayName="Logos" appliesTo="Tiles">
-    <include name="yes" displayName="${yes}">./art/tiles/marquee.xml</include>
+    <include name="yes" displayName="${yes}">./main/tiles/marquee.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
   <subset name="storyboards" displayName="${animationsSubsetName}">
-    <include name="yes" displayName="${yes}">./art/storyboards.xml</include>
+    <include name="yes" displayName="${yes}">./main/media/storyboards.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
     <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}">

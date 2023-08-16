@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+
+		
+				<text name="system_description" extra="true" >
+			<text>Automatic collections compatible with the system...</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+			<text>Cobranzas automáticas compatibles con el sistema...</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Collectes automatiques compatibles avec le système...</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>Coleções automaticas compativeis com o sistema...</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>ColecoVision</text>
+		</text>
+	</view>
+</theme>
