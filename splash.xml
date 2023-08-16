@@ -8,20 +8,20 @@
     <centerFadeColor>8b000050</centerFadeColor>
   </variables>
   <subset name="colorset" displayName="${subset.colorset}">
-	<include subset="colorset" name="Original" displayName="${Original}">./art/colors/Original.xml</include>
-	<include subset="colorset" name="Halo" displayName="${Halo}">./art/colors/Halo.xml</include>
-	<include subset="colorset" name="Halo Courage" displayName="${Halo Courage}">./art/colors/Halo Courage.xml</include>
+	<include subset="colorset" name="Original" displayName="${Original}">./main/colors/Original.xml</include>
+	<include subset="colorset" name="Halo" displayName="${Halo}">./main/colors/Halo.xml</include>
+	<include subset="colorset" name="Halo Courage" displayName="${Halo Courage}">./main/colors/Halo Courage.xml</include>
 	<include subset="colorset" name="Waves" displayName="${Waves}">./Waves.xml</include>
-	<include subset="colorset" name="Waves Faded" displayName="${Waves Faded}">./art/colors/Waves Faded.xml</include>
-	<include subset="colorset" name="Wasteland" displayName="${Wasteland}">./art/colors/Wasteland.xml</include>
-	<include subset="colorset" name="Game Room" displayName="${Game Room}">./art/colors/Game Room.xml</include>
-	<include subset="colorset" name="Mercury" displayName="${Mercury}">./art/colors/Mercury.xml</include>
-	<include subset="colorset" name="Spotlight Midnight" displayName="${Spotlight Midnight}">./art/colors/Spotlight Midnight.xml</include>
-	<include subset="colorset" name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./art/colors/Spotlight Deja Goo.xml</include>
-	<include subset="colorset" name="Spotlight Ultraviolet" displayName="${Spotlight Ultraviolet}">./art/colors/Spotlight Ultraviolet.xml</include>
-	<include subset="colorset" name="Motes" displayName="${Motes}">./art/colors/Motes.xml</include>
-	<include subset="colorset" name="Sunset" displayName="${Sunset}">./art/colors/Sunset.xml</include>
-	<include subset="colorset" name="Ripple" displayName="${Ripple}">./art/colors/Ripple.xml</include>
+	<include subset="colorset" name="Waves Faded" displayName="${Waves Faded}">./main/colors/Waves Faded.xml</include>
+	<include subset="colorset" name="Wasteland" displayName="${Wasteland}">./main/colors/Wasteland.xml</include>
+	<include subset="colorset" name="Game Room" displayName="${Game Room}">./main/colors/Game Room.xml</include>
+	<include subset="colorset" name="Mercury" displayName="${Mercury}">./main/colors/Mercury.xml</include>
+	<include subset="colorset" name="Spotlight Midnight" displayName="${Spotlight Midnight}">./main/colors/Spotlight Midnight.xml</include>
+	<include subset="colorset" name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./main/colors/Spotlight Deja Goo.xml</include>
+	<include subset="colorset" name="Spotlight Ultraviolet" displayName="${Spotlight Ultraviolet}">./main/colors/Spotlight Ultraviolet.xml</include>
+	<include subset="colorset" name="Motes" displayName="${Motes}">./main/colors/Motes.xml</include>
+	<include subset="colorset" name="Sunset" displayName="${Sunset}">./main/colors/Sunset.xml</include>
+	<include subset="colorset" name="Ripple" displayName="${Ripple}">./main/colors/Ripple.xml</include>
   </subset>
 	<view name="splash">
 
@@ -29,19 +29,19 @@
 			<backgroundColor>000000FF</backgroundColor>
 		</splash>
 		<image name="background">
-			<path>./art/splash.jpg</path>
+			<path>./main/media/splash.jpg</path>
 			<size>1 1</size>
 		</image>
 		<image name="logo" extra="true">
 			<pos>0.140 0.270</pos>
-			<path>./art/splash_batocera.svg</path>
+			<path>./main/media/splash_batocera.svg</path>
 			<size>0 0.25</size>
 			<alignment>left</alignment>
 		</image>
 		
 		<text name="label, DynamicBox" extra="true">
 			<origin>0 0</origin>
-			<fontPath>./art/XboxOriginalBold-YzPYy.ttf</fontPath>
+			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.023</fontSize>
 			<color>000000</color>
 			<forceUppercase>true</forceUppercase>
@@ -50,14 +50,14 @@
 
 		<text name="DynamicBox" extra="true">
 			<pos>0.367 0.239</pos>
-			<fontPath>./art/XboxOriginalBold-YzPYy.ttf</fontPath>
+			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.090</fontSize>
 			<alignment>left</alignment>
 			<text>DynamicBox</text>
 		</text>
 		<text name="PLUS" extra="true">
 			<pos>0.600 0.300</pos>
-			<fontPath>./art/XboxOriginalBold-YzPYy.ttf</fontPath>
+			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.090</fontSize>
 			<alignment>right</alignment>
 			<color>89CFF0</color>
@@ -65,7 +65,7 @@
 		</text>
 		<text name="Version" extra="true">
 			<pos>0.800 0.350</pos>
-			<fontPath>./art/XboxOriginalBold-YzPYy.ttf</fontPath>
+			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.050</fontSize>
 			<alignment>right</alignment>
 			<color>${baseColor}</color>
@@ -82,7 +82,7 @@
     </image>
     <image name="progressbar:active">
       <tile>true</tile>
-      <path>./art/progress.png</path>
+      <path>./main/media/progress.png</path>
       <color>${baseColor}</color>
       <colorEnd>${gradientEndColor}</colorEnd>
     </image>
