@@ -1,7 +1,6 @@
-<!-- Theme by pajarorrojo-->
 <theme> 
 <formatVersion>7</formatVersion>
-  <view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+  <view name="system">
      <text name="username" extra="static">
       <text>${cheevos.username}</text>
          <size>0.165 0.035</size>
