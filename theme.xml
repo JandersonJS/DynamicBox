@@ -14,7 +14,8 @@ license: creative commons CC-BY-NC-SA
     <include>./info.xml</include>
     <include>./infos/${system.theme}.xml</include>
     <include>./custom-username.xml</include>
-    <include>./main/systemview/Original_Dynamic.xml</include>
+    <include>./main/systemview/Dynamic_controllersizefix.xml</include>
+    <include>./main/logosDynamic/${system.theme}.png</include>
   <variables>
     <baseColor>208b20</baseColor>
     <gradientEndColor>005b00</gradientEndColor>
@@ -169,6 +170,24 @@ license: creative commons CC-BY-NC-SA
 
 
   <view name="system">
+
+      <text name="system_description" extra="static">
+      <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+      <origin>0.5 0.5</origin>
+      <alignment>left</alignment>
+      <verticalAlignment>top</verticalAlignment>
+      <pos>0.59 0.42</pos>
+      <size>0.78 0.12</size>
+      <glowSize>1.8</glowSize>
+      <glowColor>00000035</glowColor>
+      <glowOffset>3 2</glowOffset>
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.020</fontSize>
+      <color>FFFFFF</color>
+      <autoScroll>vertical</autoScroll>
+      <zIndex>80</zIndex>
+      </text>
+
     <!-- Used by random box need to be declared there -->
 
     <image name="box" extra="true">
@@ -244,7 +263,7 @@ license: creative commons CC-BY-NC-SA
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.060</fontSize>
-        <pos>0.029 0.137</pos>
+        <pos>0.012 0.137</pos>
         <size>0.942 0.28</size>
         <color>C0C0C0</color>      
         <zIndex>100</zIndex>
@@ -261,7 +280,7 @@ license: creative commons CC-BY-NC-SA
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.024</fontSize>
-        <pos>0.03 0.220</pos>       
+        <pos>0.013 0.220</pos>       
         <size>0.94 0.28</size>
         <zIndex>100</zIndex>
         <color>D0D0D0FF</color>
@@ -276,7 +295,7 @@ license: creative commons CC-BY-NC-SA
         <verticalAlignment>top</verticalAlignment>
         <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
         <fontSize>0.024</fontSize>
-        <pos>0.03 0.257</pos>        
+        <pos>0.013 0.257</pos>        
         <size>0.94 0.28</size>        
         <zIndex>100</zIndex>
         <color>D0D0D0FF</color>
@@ -304,44 +323,137 @@ Most played : {binding:mostPlayed}</text>
       <text lang="fr">Nombre de jeux : {binding:total}
 Favoris : {binding:favorites}
 Jeux joués : {binding:gamesPlayed}
-Le plus joué : {binding:mostPlayed}
-Dernière partie : {binding:lastPlayedDate}</text>
+Dernière partie : {binding:lastPlayedDate}
+Le plus joué : {binding:mostPlayed}</text>
       <text lang="es">Número de juegos : {binding:total}
 Favoritos : {binding:favorites}
 Jugados : {binding:gamesPlayed}
-El más jugado : {binding:mostPlayed}
-Última partida : {binding:lastPlayedDate}</text>
+Última partida : {binding:lastPlayedDate}
+El más jugado : {binding:mostPlayed}</text>
+      <text lang="pt">Número de jogos : {binding:total}
+Favoritos : {binding:favorites}
+Jogados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+O mais jogado : {binding:mostPlayed}</text>
       <alignment>left</alignment>
-      <verticalAlignment>center</verticalAlignment>
+      <verticalAlignment>top</verticalAlignment>
       <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
-      <fontSize>0.024</fontSize>
-      <pos>0.03 0.70</pos>
-      <size>0.94 0.28</size>
+      <fontSize>0.020</fontSize>
+      <pos>0.013 0.695</pos>
+      <size>0.17 0.07</size>
       <zIndex>100</zIndex>
       <color>D0D0D0FF</color>
       <glowColor>000000A0</glowColor>
       <glowSize>1</glowSize>
     </text>
+    <image name="game" extra="true">
+      <linearSmooth>true</linearSmooth>
+      <path>./main/media/white.png</path>
+      <color>105c2eDD</color>
+      <pos>0.010 0.693</pos>
+      <size>0.175 0.20</size>
+      <roundCorners>0.02</roundCorners>
+      <zIndex>90</zIndex>
+    </image>
+    <video name="video1" extra="static">
+      <path>{random}</path>
+      <origin>0 0</origin>
+      <pos>0.054 0.693</pos>
+      <minSize>0.045 0.20</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <delay>0</delay>
+      <audio>false</audio>
+      <zIndex>93</zIndex>
+    </video>
+
+    <video name="video2" extra="static">
+      <path>{random}</path>
+      <origin>0 0</origin>
+      <pos>0.098 0.693</pos>
+      <minSize>0.045 0.20</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <delay>0</delay>
+      <audio>false</audio>
+      <zIndex>95</zIndex>
+    </video>
+
+    <video name="video3" extra="static">
+      <path>{random}</path>
+      <origin>0 0</origin>
+      <pos>0.14 0.693</pos>
+      <minSize>0.045 0.20</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <delay>0</delay>
+      <roundCorners>0.02</roundCorners>
+      <audio>false</audio>
+      <zIndex>97</zIndex>
+    </video>
     <text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
       <text>Collections : {binding:subSystems}</text>
       <text lang="fr">Nombre de collections : {binding:subSystems}</text>
+      <text lang="pt">Coleções : {binding:subSystems}</text>
     </text>
     <text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots'">
       <text>Items : {binding:total}</text>
       <text lang="fr">Nombre d'élements : {binding:total}</text>
       <text lang="es">Número de elementos: {binding:total}</text>
+      <text lang="pt">Número de Imagens: {binding:total}</text>
     </text>
   </view>
-  
-  <!-- Subset options for screen -->
-  <!-- <subset name="systemview" displayName="${systemViewName}">
-    <include name="wheel">./main/systemview/wheel.xml</include>
-    <include name="transparent" tinyScreen="false">./main/systemview/transparent.xml</include>
-    <include name="horizontal">./main/systemview/horizontal.xml</include>
-    <include name="legacy" tinyScreen="false">./main/systemview/legacy.xml</include>
-    <include name="simple">./main/systemview/verticalone.xml</include>
-    <include name="vertical">./main/systemview/vertical.xml</include>
-  </subset> -->
+
+
+
+  <view name="system">
+    <carousel name="systemcarousel" extra="opacity" from="0" to="1">
+      <path>./main/logosDynamics/${system.theme}.png</path> 
+      <color>FAFAFF01</color>
+      <colorEnd>FAFAFF01</colorEnd>
+      <logoColor>ffffff</logoColor>
+      <logoSize>0.17 0.17</logoSize>
+      <visible>true</visible>
+      <opacity>0</opacity>
+      <zIndex>20</zIndex>
+      <pos>0.192 0.475</pos>
+      <size>1.71 1</size>
+      <origin>0 0</origin>
+      <logoScale>1</logoScale>
+      <logoPos>-1 0.02</logoPos>
+      <alignment>left</alignment>
+      <horizontlAlignment>top</horizontlAlignment>
+      <maxLogoCount>15</maxLogoCount> 
+    </carousel>
+
+
+   <image name="Selected" extra="static">
+      <linearSmooth>true</linearSmooth>
+      <pos>0.01 0.355</pos>        
+      <size>0.175 0</size>
+      <origin>0 0</origin>
+      <roundCorners>0.02</roundCorners>
+      <path>./main/logosDynamics/${system.theme}.png</path>     
+      <zIndex>80</zIndex>
+    </image>
+   <image name="Marco" extra="static">
+      <linearSmooth>true</linearSmooth>
+      <pos>0.01 0.355</pos>        
+      <size>0.175 0</size>
+      <origin>0 0</origin>
+      <color>${baseColor}</color>
+      <roundCorners>0.02</roundCorners>
+      <path>./main/media/marco-activo.png</path>     
+      <zIndex>81</zIndex>
+    </image>
+
+    <text name="systemInfo">
+      <pos>-0.4 0.57</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>${systemInfoColor}</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+    </text>
+  </view>
+
   <!-- Subset option for System view background -->
   <subset name="systembackground" displayName="${systemBackgroundName}">
     <include name="3 mini random videos">./main/systemsbk/3smallvideos.xml</include>
@@ -357,14 +469,6 @@ El más jugado : {binding:mostPlayed}
     <include name="mini random image">./main/systemsbk/smallscreen.xml</include>
     <include name="mini random box">./main/systemsbk/smallbox.xml</include>
   </subset>
-  <!-- Fix for controller image size -->
-  <!-- <include subset="systemview" name="simple">./main/systemview/controllersizefix.xml</include>
-  <include subset="systemview" name="vertical">./main/systemview/controllersizefix.xml</include>
-  <include subset="systemview" name="wheel">./main/systemview/controllersizefix.xml</include>
-  <!-- Fix for Legacy option in systemview subset : systemInfo colors have to be restored after applying systembackground subset -->
-  <!-- <include subset="systemview" name="legacy">./main/systemview/legacyfix.xml</include> -->
-  <!-- Option for logoDynamics image -->
-  <include subset="systemview" name="Original_Dynamic">./main/systemview/logoDynamics.xml</include> -->
 
   <view name="screen" extra="static">
     <text name="clock" extra="static">
@@ -382,7 +486,7 @@ El más jugado : {binding:mostPlayed}
     <controllerActivity name="controllerActivity" tinyScreen="true">
      <visible>false</visible>
     </controllerActivity>
--->
+    -->
     <controllerActivity name="controllerActivity">
       <itemSpacing>0.003</itemSpacing>
       <color>FFFFFF90</color>

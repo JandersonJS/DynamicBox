@@ -4,7 +4,10 @@
 
 <view name="system">
 <image name="avatar" extra="static">
-         <path>./../../custom-avatar.png</path>
+         <path>./custom-avatar.img</path>
+         <path>./custom-avatar.jpeg</path>
+         <path>./custom-avatar.jpg</path>
+         <path>./custom-avatar.png</path>
      </image>
 
 
