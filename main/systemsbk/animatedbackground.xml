@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+	<include subset="colorset" name="Original" displayName="${Original}">./animatedbackgroundOriginal.xml</include>
+	<include subset="colorset" name="Halo" displayName="${Halo}">./animatedbackgroundHalo.xml</include>
+	<include subset="colorset" name="Halo Courage" displayName="${Halo Courage}">./animatedbackgroundHalo Courage.xml</include>
+	<include subset="colorset" name="Waves" displayName="${Waves}">./animatedbackgroundWaves.xml</include>
+	<include subset="colorset" name="Waves Faded" displayName="${Waves Faded}">./animatedbackgroundWaves Faded.xml</include>
+	<include subset="colorset" name="Wasteland" displayName="${Wasteland}">./animatedbackgroundWasteland.xml</include>
+	<include subset="colorset" name="Game Room" displayName="${Game Room}">./animatedbackgroundGame Room.xml</include>
+	<include subset="colorset" name="Mercury" displayName="${Mercury}">./animatedbackgroundMercury.xml</include>
+	<include subset="colorset" name="Spotlight Midnight" displayName="${Spotlight Midnight}">./animatedbackgroundSpotlight Midnight.xml</include>
+	<include subset="colorset" name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./animatedbackgroundSpotlight Deja Goo.xml</include>
+	<include subset="colorset" name="Spotlight Ultraviolet" displayName="${Spotlight Ultraviolet}">./animatedbackgroundSpotlight Ultraviolet.xml</include>
+	<include subset="colorset" name="Motes" displayName="${Motes}">./animatedbackgroundMotes.xml</include>
+	<include subset="colorset" name="Sunset" displayName="${Sunset}">./animatedbackgroundSunset.xml</include>
+	<include subset="colorset" name="Ripple" displayName="${Ripple}">./animatedbackgroundRipple.xml</include>
+</theme>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="system">
+  <subset name="colorset" displayName="${subset.colorset}">
+	<include subset="colorset" name="Original" displayName="${Original}">./art/colors/Original.xml</include>
+	<include subset="colorset" name="Halo" displayName="${Halo}">./art/colors/Halo.xml</include>
+	<include subset="colorset" name="Halo Courage" displayName="${Halo Courage}">./art/colors/Halo Courage.xml</include>
+	<include subset="colorset" name="Waves" displayName="${Waves}">./Waves.xml</include>
+	<include subset="colorset" name="Waves Faded" displayName="${Waves Faded}">./art/colors/Waves Faded.xml</include>
+	<include subset="colorset" name="Wasteland" displayName="${Wasteland}">./art/colors/Wasteland.xml</include>
+	<include subset="colorset" name="Game Room" displayName="${Game Room}">./art/colors/Game Room.xml</include>
+	<include subset="colorset" name="Mercury" displayName="${Mercury}">./art/colors/Mercury.xml</include>
+	<include subset="colorset" name="Spotlight Midnight" displayName="${Spotlight Midnight}">./art/colors/Spotlight Midnight.xml</include>
+	<include subset="colorset" name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./art/colors/Spotlight Deja Goo.xml</include>
+	<include subset="colorset" name="Spotlight Ultraviolet" displayName="${Spotlight Ultraviolet}">./art/colors/Spotlight Ultraviolet.xml</include>
+	<include subset="colorset" name="Motes" displayName="${Motes}">./art/colors/Motes.xml</include>
+	<include subset="colorset" name="Sunset" displayName="${Sunset}">./art/colors/Sunset.xml</include>
+	<include subset="colorset" name="Ripple" displayName="${Ripple}">./art/colors/Ripple.xml</include>
+  </subset>
+    <carousel name="systemcarousel">
+      <color>FAFAFFA0</color>
+      <colorEnd>FAFAFFD0</colorEnd>
+      <systemInfoDelay>700</systemInfoDelay>
+      <pos>0 0.3837</pos>
+      <size>1 0.2325</size>
+      <zIndex>20</zIndex>
+    </carousel>
+
+    <carousel name="systemcarousel" tinyScreen="true">
+      <pos>0 0.35</pos>
+      <size>1 0.60</size>
+      <maxLogoCount>1</maxLogoCount>
+      <logoSize>0.25 0.15</logoSize>
+      <logoScale>2.6</logoScale>
+      <logoPos>-1 0.1</logoPos>
+    </carousel>    
+
+    <image name="carousel-inner" extra="true">
+      <path>./../carousel.png</path>
+      <color>FFFFFFFF</color>
+      <origin>0 0</origin>
+      <pos>0 0.3837</pos>
+      <size>1 0.2325</size>
+      <zIndex>40</zIndex>
+    </image>
+    <image name="carousel2-inner" extra="static">
+      <path>./../dark.png</path>
+      <color>${baseColor}</color>
+      <origin>0 0</origin>
+      <pos>-0.3 0.615</pos>
+      <size>2 0.05</size>
+      <zIndex>50</zIndex>
+    </image>
+    <text name="systemInfo">
+      <pos>0 0.514</pos>
+      <size>1 0.25</size>
+      <backgroundColor>0000FF00</backgroundColor>
+      <color>ffffff</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+    </text>
+    <image name="carousel-shadow" extra="true">
+      <path>./../shadow.png</path>
+      <color>FFFFFF40</color>
+      <pos>0 0.6162</pos>
+      <origin>0 0</origin>
+      <size>1 0.025</size>
+      <zIndex>13</zIndex>
+    </image>
+    <image name="CenterFade" extra="true">
+      <tile>false</tile>
+      <size>1 0.5</size>
+      <pos>0.5 0.5</pos>
+      <origin>0.5 0.5</origin>
+      <path>./../centerfade.png</path>
+      <color>${centerFadeColor}</color>      
+      <zIndex>12</zIndex>
+    </image>
+  </view>
+</theme>

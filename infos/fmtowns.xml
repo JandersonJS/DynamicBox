@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+	    
+
+		<text name="system_description" extra="true" >
+			<text>The FM Towns Marty is a fifth-generation home video game console released in 1993 by Fujitsu, exclusively for the Japanese market. It is often claimed to be the first 32-bit CD-based home video game system.</text>
+		</text>
+
+		
+		<text name="system_description" extra="true" lang="es">
+			<text>FM Towns Marty es una videoconsola de quinta generación lanzada en 1993 por Fujitsu exclusivamente para el mercado japonés. Fue la primera consola doméstica de 32 bits y la primera en incluir una unidad de CD-ROM. </text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>La FM Towns Marty est une console de jeu vidéo domestique de cinquième génération sortie en 1993 par Fujitsu, exclusivement pour le marché japonais. On prétend souvent qu'il s'agit du premier système de jeu vidéo domestique basé sur CD 32 bits.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>O FM Towns Marty é um console de videogame doméstico de quinta geração lançado em 1993 pela Fujitsu, exclusivamente para o mercado japonês. Muitas vezes, é considerado o primeiro sistema de videogame doméstico baseado em CD de 32 bits.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>FM Towns Marty</text>
+		</text>
+	</view>
+</theme>

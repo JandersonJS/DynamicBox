@@ -1,0 +1,45 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+
+
+		<text name="system_description" extra="true" >
+			<text>Here we see all system games that have not yet been played</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Aquí vemos todos los juegos del sistema que aún no se han jugado</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Ici, nous voyons tous les jeux système qui n'ont pas encore été joués</text>
+		</text>
+
+			    <text name="system_description" extra="true" lang="pt" >
+			<text>Aqui vemos todos os jogos do sistema que ainda não foram jogados</text>
+		</text>
+
+		
+
+
+
+				
+
+		<text name="system_name" extra="true">
+			<text>Never Played</text>
+		</text>
+
+		<text name="system_name" extra="true" lang="es">
+			<text>Nunca Jugado</text>
+		</text>
+
+		<text name="system_name" extra="true" lang="fr">
+			<text>Jamais Joué</text>
+		</text>
+
+				<text name="system_name" extra="true" lang="pt">
+			<text>Nunca Jogados</text>
+		</text>
+	</view>
+</theme>

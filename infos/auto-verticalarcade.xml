@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+
+		
+				<text name="system_description" extra="true" >
+			<text>They are games where the screen is vertical instead of horizontal, they are usually spaceship games.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es" >
+			<text>Son juegos donde la pantalla es vertical en vez de horizontal, suelen ser juegos de naves espaciales.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+			<text>Ce sont des jeux où l'écran est vertical au lieu d'horizontal, ce sont généralement des jeux de vaisseaux spatiaux.</text>
+		</text>
+
+				<text name="system_description" extra="true" lang="pt">
+			<text>São jogos onde a tela é vertical ao invés de horizontal, geralmente são jogos de naves espaciais.</text>
+		</text>
+		
+						
+
+		<text name="system_name" extra="true" >
+			<text>Vertical Arcade</text>
+		</text>
+	</view>
+</theme>

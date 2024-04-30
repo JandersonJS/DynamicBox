@@ -1,0 +1,58 @@
+<!-- Theme by LordOgro 
+-->
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="system">
+
+
+      <image name="avatar" extra="static">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <pos>0.02 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="achievement" extra="static">
+         <path>./main/media/achievement.png</path>
+         <pos>0.06 0.072</pos>
+         <maxSize>0.025 0.025</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <text name="trophy-level" extra="static">
+         <text>2022</text>
+         <pos>0.08 0.068</pos>
+         <size>0.048 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.020</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+      <text name="username" extra="static">
+         <text>${theme.nick}</text>
+         <text ifSubset="system-username:custom">${custom.nick}</text>
+         <pos>0.06 0.03</pos>
+         <size>0.165 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.028</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+   </view>
+</theme>

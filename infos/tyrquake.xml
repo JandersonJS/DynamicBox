@@ -1,0 +1,30 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+	    
+
+		<text name="system_description" extra="true" >
+			<text>Tyr-Quake is a branch of the Quake source code released by id Software. It is intended to support Quake and Quakeworld while fixing little bugs that have come up over the years.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="fr" >
+			<text>Tyr-Quake est une branche du code source de Quake publié par id Software. Il est destiné à prendre en charge Quake et Quakeworld tout en corrigeant les petits bogues qui sont apparus au fil des ans.</text>
+		</text>
+
+		
+		<text name="system_description" extra="true" lang="es">
+			<text>Tyr-Quake es una rama del código fuente de Quake publicado por id Software. Está destinado a admitir Quake y Quakeworld mientras corrige pequeños errores que han surgido a lo largo de los años.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt" >
+			<text>Tyr-Quake é uma ramificação do código-fonte do Quake lançado pela id Software. Destina-se a apoiar Quake e Quakeworld enquanto corrige pequenos bugs que surgiram ao longo dos anos.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>Tyr-Quake</text>
+		</text>
+	</view>
+</theme>

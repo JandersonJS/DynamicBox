@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+	<include subset="colorset" name="Original" displayName="${Original}">./Original_wheel.xml</include>
+	<include subset="colorset" name="Halo" displayName="${Halo}">./wheel1.xml</include>
+	<include subset="colorset" name="Halo Courage" displayName="${Halo Courage}">./wheel1.xml</include>
+	<include subset="colorset" name="Waves" displayName="${Waves}">./wheel1.xml</include>
+	<include subset="colorset" name="Waves Faded" displayName="${Waves Faded}">./wheel1.xml</include>
+	<include subset="colorset" name="Wasteland" displayName="${Wasteland}">./wheel1.xml</include>
+	<include subset="colorset" name="Game Room" displayName="${Game Room}">./wheel1.xml</include>
+	<include subset="colorset" name="Mercury" displayName="${Mercury}">./wheel1.xml</include>
+	<include subset="colorset" name="Spotlight Midnight" displayName="${Spotlight Midnight}">./wheel1.xml</include>
+	<include subset="colorset" name="Spotlight Deja Goo" displayName="${Spotlight Deja Goo}">./wheel1.xml</include>
+	<include subset="colorset" name="Spotlight Ultraviolet" displayName="${Spotlight Ultraviolet}">./wheel1.xml</include>
+	<include subset="colorset" name="Motes" displayName="${Motes}">./wheel1.xml</include>
+	<include subset="colorset" name="Sunset" displayName="${Sunset}">./wheel1.xml</include>
+	<include subset="colorset" name="Ripple" displayName="${Ripple}">./Ripple_wheel.xml</include>
+</theme>
