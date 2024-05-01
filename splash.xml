@@ -32,13 +32,6 @@
 			<path>./main/media/splash.jpg</path>
 			<size>1 1</size>
 		</image>
-		<image name="logo" extra="true">
-			<pos>0.140 0.270</pos>
-			<path>./main/media/splash_batocera.svg</path>
-			<size>0 0.25</size>
-			<alignment>left</alignment>
-		</image>
-		
 		<text name="label, DynamicBox" extra="true">
 			<origin>0 0</origin>
 			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
@@ -53,36 +46,23 @@
 			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.090</fontSize>
 			<alignment>left</alignment>
-			<text>DynamicBox</text>
-		</text>
-		<text name="PLUS" extra="true">
-			<pos>0.600 0.300</pos>
-			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
-			<fontSize>0.090</fontSize>
-			<alignment>right</alignment>
-			<color>89CFF0</color>
-			<text>PLUS</text>
-		</text>
-		<text name="Version" extra="true">
-			<pos>0.800 0.350</pos>
-			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
-			<fontSize>0.050</fontSize>
-			<alignment>right</alignment>
 			<color>${baseColor}</color>
-			<text>1.0</text>
+			<text>DynamicBox</text>
 		</text>
 
     <image name="progressbar">
+      <path>./main/media/colorbg.png</path>
       <origin>0 0</origin>
-      <pos>0.25 0.87</pos>
-      <size>0.5 0.036</size>
+      <pos>0.05 0.87</pos>
+      <size>0.9 0.036</size>
       <color>6060607F</color>
       <colorEnd>6060607F</colorEnd>
-      <roundCorners>0.01</roundCorners>
+      <roundCorners>0.005</roundCorners>
     </image>
     <image name="progressbar:active">
       <tile>true</tile>
-      <path>./main/media/progress.png</path>
+      <pos>0.05 0.87</pos>
+      <size>0.9 0.036</size>
       <color>${baseColor}</color>
       <colorEnd>${gradientEndColor}</colorEnd>
     </image>
