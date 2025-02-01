@@ -92,6 +92,7 @@ license: creative commons CC-BY-NC-SA
 
 <!--AVATARES-->
 <subset name="system-avatar" displayName="${theme.Avatar}" extra="true, static">
+	<include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements Avatar" />
 	<include name="custom" displayName="${custom}">./main/avatars/custom.xml</include>
 	<include name="batocera-plus" displayName="Batocera Plus">./main/avatars/batocera-plus.xml</include>
 	<include name="batocera" displayName="Batocera">./main/avatars/batocera.xml</include>
