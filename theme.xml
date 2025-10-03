@@ -9,7 +9,7 @@ Theme: DynamicBox
 author: LordOgro
 license: creative commons CC-BY-NC-SA
 -->
-<theme defaultView="detailed">
+<theme defaultView="Tiles">
   <formatVersion>7</formatVersion>
     <include>./info.xml</include>
     <include>./infos/${system.theme}.xml</include>
@@ -161,8 +161,8 @@ license: creative commons CC-BY-NC-SA
     <image name="iconBar" extra="static">
       <tile>false</tile>
       <size>0.3 0.065</size>
-      <pos>0.35 0.075</pos>
-      <origin>0 1</origin>
+      <pos>0.35 0.008</pos>
+      <origin>0 0</origin>
       <path>./main/media/white.png</path>
       <roundCorners>0.02</roundCorners>
       <color>${baseColor}</color>
@@ -176,9 +176,9 @@ license: creative commons CC-BY-NC-SA
 
       <text name="system_description" extra="static">
       <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <verticalAlignment>top</verticalAlignment>
-      <pos>0.61 0.395</pos>
+      <pos>0.235 0.325</pos>
       <size>0.75 0.152</size>
       <glowSize>1.8</glowSize>
       <glowColor>00000035</glowColor>
@@ -194,21 +194,21 @@ license: creative commons CC-BY-NC-SA
 
     <image name="box" extra="true">
       <pos>0.50 0.18</pos>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <maxSize>0.24 0.24</maxSize>
       <zIndex>12</zIndex>
       <visible>false</visible>
     </image>
     <video name="videobox" extra="true">
       <pos>0.50 0.18</pos>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <maxSize>0.24 0.24</maxSize>
       <visible>false</visible>
       <zIndex>12</zIndex>
     </video>
     <image name="background" extra="static">
       <tile>false</tile>
-      <size>1 1</size>
+      <minSize>1 1</minSize>
       <pos>0 0</pos>
       <origin>0 0</origin>
       <path>./main/background/bg.png</path>
@@ -554,7 +554,7 @@ O mais jogado : {binding:mostPlayed}</text>
             <color>ffffff</color>
         </menuTextSmall>
 
-        <!---
+        <!--
         <menuGroup name="menugroup">
             <fontPath>./main/Cabin-Bold.ttf</fontPath>
             <fontSize>0.025</fontSize>
@@ -563,7 +563,7 @@ O mais jogado : {binding:mostPlayed}</text>
             <backgroundColor>00000000</backgroundColor>
             <lineSpacing>2.5</lineSpacing>
         </menuGroup>
-        --->
+        -->
 
         <menuBackground name="menubg">
       	    <color>${baseColor}99</color>
@@ -607,14 +607,14 @@ O mais jogado : {binding:mostPlayed}</text>
       <linearSmooth>true</linearSmooth>
       <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
       <minSize>1 1</minSize>
       <zIndex>11</zIndex>
     </image>
     <image name="md_fanart" extra="true">
       <pos>0 0</pos>
-      <size>1 1</size>      
+      <minSize>1 1</minSize>      
       <origin>0 0</origin>
       <color>808080</color>
       <zIndex>14</zIndex>
@@ -645,51 +645,43 @@ O mais jogado : {binding:mostPlayed}</text>
     </textlist>
   </view>
 
-  <view name="Carousel, Boxes, grid">
-    <video name="md_video">
-      <size>1 1</size>
-      <pos>0 0</pos>
-      <origin>0 0</origin>
-      <delay>0.8</delay>
-      <loops>2</loops> 
-      <zIndex>2</zIndex>   
-    </video>
-  </view>
-
   <view name="detailed">
       <image name="md_thumbnail">
-         <pos>0.56 0.5</pos>
-         <size>0.08 0</size>
+         <pos>0.58 0.49</pos>
+         <maxSize>0.14 0.3</maxSize>
          <zIndex>36</zIndex>
       </image>
       <image name="md_marquee">
-         <pos>0.87 0.55</pos>
-         <maxSize>0.25 0.25</maxSize>
+         <pos>0.88 0.55</pos>
+         <maxSize>0.2 0.17</maxSize>
          <zIndex>36</zIndex>
       </image>
     <video name="md_video">
-      <pos>0.76 0.408</pos>
-      <maxSize>0.46 0.436</maxSize>
-      <origin>0.5 0.5</origin>
+      <pos>0.565 0.22</pos>
+      <minSize>0.3798 0.36</minSize>
+      <origin>0 0</origin>
       <delay>0.8</delay>
-      <showSnapshotNoVideo>true</showSnapshotNoVideo>
-      <showSnapshotDelay>true</showSnapshotDelay>
-      <loops>9</loops>
-      <roundCorners>0.02</roundCorners>
+      <loops>1</loops>
     </video>
+    <image name="md_image">
+      <default>./main/media/novideo.png</default>
+      <pos>0.565 0.22</pos>
+      <minSize>0.3798 0.36</minSize>
+      <origin>0 0</origin>
+      <delay>0.8</delay>
+    </image>
     <image name="background" extra="static">
-      <tile>false</tile>
       <linearSmooth>true</linearSmooth>
       <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <minSize>1 1</minSize>
       <zIndex>11</zIndex>
     </image>
     <image name="md_fanart" extra="true">
       <pos>0 0</pos>
-      <size>1 1</size>      
+      <minSize>1 1</minSize>      
       <origin>0 0</origin>
       <color>808080</color>
       <zIndex>14</zIndex>
@@ -717,8 +709,10 @@ O mais jogado : {binding:mostPlayed}</text>
       <zIndex>15</zIndex>
     </image>
     <text name="md_genre">
+      <autoScroll>horizontal</autoScroll>        
+      <size>0.1 0</size>
       <color>ffffff</color>
-      <pos>0.360 0.875</pos>
+      <pos>0.71 0.875</pos>
       <forceUppercase>0</forceUppercase>
       <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
@@ -786,6 +780,7 @@ O mais jogado : {binding:mostPlayed}</text>
       <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
+
     <textlist name="gamelist">
       <selectorColor>${baseColor}</selectorColor>
       <selectedColor>ffffff</selectedColor>
@@ -798,21 +793,22 @@ O mais jogado : {binding:mostPlayed}</text>
       <alignment>left</alignment>
       <horizontalMargin>0.00</horizontalMargin>
       <fontSize>0.03</fontSize>
-      <scrollSound>./main/sounds/scroll.wav</scrollSound>
+      <scrollSound>./main/sounds/scroll-2.wav</scrollSound>
       
       <scrollbarColor>252525</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
       <scrollbarSize>0.0055</scrollbarSize>            
       <scrollbarAlignment>outerright</scrollbarAlignment>
       
-      <lines>17</lines>
+      <lines>15</lines>
       <horizontalMargin>0.005</horizontalMargin>
     </textlist>
+
     <image name="md_hidden">
       <path>./main/media/hidden.svg</path>
       <pos>0.975 0.21</pos>
       <maxSize>0.02 0.03</maxSize>      
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
     </image>
@@ -821,7 +817,7 @@ O mais jogado : {binding:mostPlayed}</text>
       <path>./main/media/kid.svg</path>
       <pos>0.86 0.9</pos>
       <maxSize>0.02 0.03</maxSize>      
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
     </image>
@@ -830,7 +826,7 @@ O mais jogado : {binding:mostPlayed}</text>
       <path>./main/media/manual.svg</path>
       <pos>0.882 0.9</pos>
       <maxSize>0.02 0.03</maxSize>      
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <color>969696</color>
       <zIndex>150</zIndex>
     </image>
@@ -840,12 +836,21 @@ O mais jogado : {binding:mostPlayed}</text>
       <pos>0.975 0.21</pos>
       <maxSize>0.02 0.03</maxSize>      
       <path>./main/media/favorite.svg</path>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <color>969696</color>
       <zIndex>60</zIndex>
     </image>-->
   </view>
   <view name="basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+
+      <text name="system_description" extra="static">
+      <visible>false</visible>
+      <origin>0 0</origin>
+      <pos>-0.235 -0.325</pos>
+      <size>0 0</size>
+      <zIndex>0</zIndex>
+      </text>
+
     <image name="bottom" extra="static">
       <pos>0 1</pos>
       <origin>0 1</origin>
@@ -889,9 +894,9 @@ O mais jogado : {binding:mostPlayed}</text>
       <!-- if system2 exists, take this version -->
       <path>./main/logos/${system.theme}2.svg</path>
       <!--<pos>0.266 0.074</pos><maxSize>0.460 0.126</maxSize>-->
-      <pos>0.15 0.074</pos>
+      <pos>0.02 0.026</pos>
       <maxSize>0.3 0.120</maxSize>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
     </image>
 
     <image name="logo" region="eu"></image>
@@ -922,55 +927,20 @@ O mais jogado : {binding:mostPlayed}</text>
       <linearSmooth>true</linearSmooth>
       <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <minSize>1 1</minSize>
       <zIndex>0</zIndex>
     </image>
     <image name="md_fanart" extra="true">
       <pos>0 0</pos>
-      <size>1 1</size>      
+      <minSize>1 1</minSize>      
       <origin>0 0</origin>
       <color>808080</color>
       <zIndex>1</zIndex>
       <linearSmooth>true</linearSmooth>
       <tile>false</tile>
     </image>
-    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
-      <color>A0A0B000</color>
-    </text>
-    <text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
-      <color>ffffff</color>
-    </text>
-    <datetime name="md_releasedate, md_lastplayed">
-      <color>ffffff00</color>
-    </datetime>
-    <rating name="md_rating">
-      <pos>0.88 0.88</pos>
-      <size>0.05 0.03</size>
-      <color>FFFFFF</color>
-      <unfilledColor>808080</unfilledColor>
-    </rating>
-<!--
-    <image name="md_fanart">
-      <pos>0.5 0.08</pos>
-      <minSize>1 0.16</minSize>      
-      <origin>0.5 0.5</origin>
-      <color>808080</color>
-      <zIndex>1</zIndex>
-      <linearSmooth>true</linearSmooth>
-    </image>
--->
-
-    <image name="md_manual">
-      <path>./main/media/manual.svg</path>
-      <pos>0.023 0.896</pos>
-      <maxSize>0.02 0.03</maxSize>      
-      <origin>0.5 0.5</origin>
-      <color>808080</color>
-      <zIndex>150</zIndex>
-    </image>
-
     <imagegrid name="gamegrid">
       <!--
       <pos>0.025 0.16</pos>
@@ -994,7 +964,6 @@ O mais jogado : {binding:mostPlayed}</text>
     </imagegrid>
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
-      <backgroundCornerSize>9 9</backgroundCornerSize>
       <selectionMode>image</selectionMode>
       <padding>5 5</padding>
       <imageColor>FFFFFFB0</imageColor>
@@ -1027,14 +996,14 @@ O mais jogado : {binding:mostPlayed}</text>
       <linearSmooth>true</linearSmooth>
       <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <minSize>1 1</minSize>
       <zIndex>0</zIndex>
     </image>
     <image name="md_fanart" extra="true">
       <pos>0 0</pos>
-      <size>1 1</size>      
+      <minSize>1 1</minSize>      
       <origin>0 0</origin>
       <color>808080</color>
       <zIndex>1</zIndex>
@@ -1055,7 +1024,7 @@ O mais jogado : {binding:mostPlayed}</text>
       <path>:/star_filled.svg</path>
       <pos>0.91 0.09</pos>
       <maxSize>0.14 0.14</maxSize>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <horizontalAlignment>right</horizontalAlignment>
       <color>FFFF00B0</color>
     </image>
@@ -1066,14 +1035,14 @@ O mais jogado : {binding:mostPlayed}</text>
       <linearSmooth>true</linearSmooth>
       <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <minSize>1 1</minSize>
       <zIndex>0</zIndex>
     </image>
     <image name="md_fanart" extra="true">
       <pos>0 0</pos>
-      <size>1 1</size>      
+      <minSize>1 1</minSize>      
       <origin>0 0</origin>
       <color>808080</color>
       <zIndex>1</zIndex>
@@ -1137,30 +1106,70 @@ O mais jogado : {binding:mostPlayed}</text>
     </ninepatch>
   </customView>
   <customView name="Tiles" inherits="grid" displayName="${tilesViewName}">
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.075 0.185</pos>
+         <maxSize>0.126 0.126</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
     <image name="background" extra="true">
       <tile>false</tile>
       <linearSmooth>true</linearSmooth>
       <path>./main/background/${system.theme}.jpg</path>
       <color>FFFFFFFF</color>
-      <pos>0.5 0.5</pos>
-      <origin>0.5 0.5</origin>
-      <size>1 1</size>
+      <pos>0 0</pos>
+      <origin>0 0</origin>
+      <minSize>1 1</minSize>
       <zIndex>0</zIndex>
     </image>
     <image name="md_fanart" extra="true">
       <pos>0 0</pos>
-      <size>1 1</size>      
+      <minSize>1 1</minSize>      
       <origin>0 0</origin>
       <color>808080</color>
       <zIndex>1</zIndex>
       <linearSmooth>true</linearSmooth>
       <tile>false</tile>
     </image>
+    <image name="leftbar" extra="true">
+      <path>./main/media/colorbg.png</path>
+      <pos>0 0.16</pos>
+      <size>0.22 0.78</size>      
+      <origin>0 0</origin>
+      <color>00000099</color>
+      <zIndex>10</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <tile>false</tile>
+    </image>
+    <image name="leftbaralt" extra="true">
+      <path>./main/media/colorbg.png</path>
+      <pos>0.22 0.16</pos>
+      <size>0.004 0.78</size>      
+      <origin>0 0</origin>
+      <color>${bottomBarColor}</color>
+      <zIndex>12</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <tile>false</tile>
+    </image>
     <imagegrid name="gamegrid">
-      <autoLayout>3 2</autoLayout>
+
+      <margin>0.005 0.010</margin>
+      <pos>0.22 0.16</pos>
+      <size>0.78 0.78</size>
+      <padding>0.03 0.04 0.03 0.1</padding>
+      <zIndex>10</zIndex>
+      <autoLayout>6 3</autoLayout>
+      <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>      
+      <imageSizeMode>minSize</imageSizeMode>
+      <scrollbarColor>252525</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.005</scrollbarSize>
       <autoLayoutSelectedZoom>1.03</autoLayoutSelectedZoom>
       <imageSource>image</imageSource>
-      <margin>0.005 0.010</margin>
       <showVideoAtDelay>800</showVideoAtDelay>
       <zIndex>10</zIndex>
     </imagegrid>
@@ -1171,17 +1180,12 @@ O mais jogado : {binding:mostPlayed}</text>
       <padding>1 1</padding>
       <imageSizeMode>minSize</imageSizeMode>
       <imageColor>A0A0A0FF</imageColor>
-      <backgroundCornerSize>0 0</backgroundCornerSize>
-      <backgroundCornerSize>0.06</backgroundCornerSize>
     </gridtile>
     <gridtile name="selected">
       <padding>5 5</padding>
       <imageColor>FFFFFFFF</imageColor>
-      <backgroundCornerSize>0 0</backgroundCornerSize>
-      <backgroundCornerSize>0.06</backgroundCornerSize>
     </gridtile>
     <image name="gridtile.image">
-      <roundCorners>0.06</roundCorners>
     </image>
     <text name="gridtile">
       <color>D0D0D0D0</color>
@@ -1205,13 +1209,88 @@ O mais jogado : {binding:mostPlayed}</text>
       <path>:/star_filled.svg</path>
       <pos>0.93 0.07</pos>
       <maxSize>0.10 0.10</maxSize>
-      <origin>0.5 0.5</origin>
+      <origin>0 0</origin>
       <horizontalAlignment>right</horizontalAlignment>
       <color>FFFF0080</color>
     </image>
     <image name="gridtile.favorite:selected">
       <color>FFFF00D0</color>
     </image>
+    
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
+      <color>ffffff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+    <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+      <pos>1 1</pos>
+    </text>
+    <text name="md_genre">
+      <autoScroll>horizontal</autoScroll>        
+      <size>0.1 0</size>
+      <color>ffffff</color>
+      <pos>0.01 0.875</pos>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+    <datetime name="md_lastplayed, md_releasedate">
+      <color>ffffff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </datetime>
+    <datetime name="md_lastplayed">
+      <pos>1 1</pos>
+    </datetime>
+    <image name="md_flag">
+      <origin>0 0</origin>
+      <pos>0.01 0.35</pos>
+      <maxSize>0.02 0.05</maxSize>
+    </image>
+    <text name="md_developer">
+      <autoScroll>horizontal</autoScroll> 
+      <color>ffffff</color>
+      <pos>0.04 0.337</pos>       
+      <size>0.08 0</size>
+      <alignment>left</alignment>
+      <fontSize>0.025</fontSize>
+    </text>
+    <rating name="md_rating">
+      <pos>0.13 0.886</pos>
+      <size>0.05 0.03</size>
+      <color>efb810</color>
+      <unfilledColor>808080</unfilledColor>
+    </rating>
+    <text name="md_lbl_players">
+      <pos>0.13 0.345</pos>
+      <size>0.19 0</size>
+    </text>
+    <text name="md_players">
+      <color>EFEFFF</color>
+      <pos>0.195 0.345</pos>
+      <size>0.19 0</size>
+    </text>
+    <text name="md_lbl_releasedate">
+      <color>ffffff</color>
+      <pos>0.01 0.4</pos>
+      <size>0.2 0</size>
+    </text>
+    <datetime name="md_releasedate">
+      <color>EFEFFF</color>
+      <pos>0.138 0.4</pos>
+      <size>0 0.033</size>
+    </datetime>
+    <text name="md_description">
+      <pos>0.01 0.45</pos>
+      <size>0.203 0.416</size>
+      <color>ffffff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+
   </customView>
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">

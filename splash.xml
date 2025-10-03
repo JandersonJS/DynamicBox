@@ -36,7 +36,7 @@
 			<origin>0 0</origin>
 			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.023</fontSize>
-			<color>000000</color>
+			<color>FFFFFF</color>
 			<forceUppercase>true</forceUppercase>
 		</text>
 
@@ -46,7 +46,7 @@
 			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.090</fontSize>
 			<alignment>left</alignment>
-			<color>${baseColor}</color>
+			<color>FFFFFF</color>
 			<text>DynamicBox</text>
 		</text>
 
