@@ -187,6 +187,7 @@ license: creative commons CC-BY-NC-SA
       <fontSize>0.020</fontSize>
       <color>FFFFFF</color>
       <autoScroll>vertical</autoScroll>
+      <autoScrollDelay>0</autoScrollDelay>
       <zIndex>80</zIndex>
       </text>
 
@@ -656,7 +657,15 @@ O mais jogado : {binding:mostPlayed}</text>
          <maxSize>0.2 0.17</maxSize>
          <zIndex>36</zIndex>
       </image>
-    <video name="md_video">
+    <video name="md_video" ifSubset="gameVideosAudio:on">
+      <pos>0.565 0.22</pos>
+      <minSize>0.3798 0.36</minSize>
+      <origin>0 0</origin>
+      <delay>0.8</delay>
+      <loops>1</loops>
+    </video>
+    <video name="md_video" ifSubset="gameVideosAudio:off">
+      <audio>false</audio>
       <pos>0.565 0.22</pos>
       <minSize>0.3798 0.36</minSize>
       <origin>0 0</origin>
@@ -1268,9 +1277,10 @@ O mais jogado : {binding:mostPlayed}</text>
       <size>0.19 0</size>
     </text>
     <text name="md_players">
+      <autoScroll>horizontal</autoScroll> 
       <color>EFEFFF</color>
-      <pos>0.195 0.345</pos>
-      <size>0.19 0</size>
+      <pos>0.195 0.34</pos>
+      <size>0.018 0</size>
     </text>
     <text name="md_lbl_releasedate">
       <color>ffffff</color>
@@ -1360,8 +1370,16 @@ O mais jogado : {binding:mostPlayed}</text>
     <include name="yes" displayName="${yes}">./main/media/storyboards.xml</include>
     <include name="no" displayName="${no}"/>
   </subset>
-    <subset name="randomVideosAudio" displayName="${lang.randomVideosAudio}">
-        <include name="off" displayName="${lang.off}"/>
-        <include name="on" displayName="${lang.on}"/>
+    <subset name="hotkeytips" displayName="${hotkeytips}">
+        <include name="on" displayName="${yes}"/>
+        <include name="off" displayName="${no}"/>
+   </subset>
+    <subset name="gameVideosAudio" displayName="${gameVideosAudio}">
+        <include name="on" displayName="${on}"/>
+        <include name="off" displayName="${off}"/>
+   </subset>
+    <subset name="randomVideosAudio" displayName="${randomVideosAudio}">
+        <include name="off" displayName="${off}"/>
+        <include name="on" displayName="${on}"/>
    </subset>
 </theme>

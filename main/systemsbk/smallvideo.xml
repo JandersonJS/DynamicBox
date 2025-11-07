@@ -4,6 +4,7 @@
   <include>./animatedbackgroundsubset.xml</include>
   <view name="system">
     <video name="videobox" extra="static" ifSubset="randomVideosAudio:on">
+      <default>./main/video/no-video.mp4</default>
       <size>0.216 0.198</size>
       <path>{random}</path>
       <zIndex>21</zIndex>     
@@ -18,6 +19,7 @@
     </video>
 
     <video name="videobox" extra="static" ifSubset="randomVideosAudio:off">
+      <default>./main/video/no-video.mp4</default>
       <size>0.216 0.198</size>
       <path>{random}</path>
       <zIndex>21</zIndex>     
