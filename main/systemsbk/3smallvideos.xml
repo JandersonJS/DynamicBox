@@ -10,7 +10,7 @@
 <minSize>0.216 0.198</minSize>
 <origin>0.5 0.5</origin>
 <pos>0.3416 0.793</pos>
-<delay>0</delay>
+<showVideoAtDelay>0</showVideoAtDelay>
 <efect>none</efect>
 <audio>true</audio>
 <zIndex>40</zIndex>
@@ -22,7 +22,7 @@
 <minSize>0.216 0.198</minSize>
 <origin>0.5 0.5</origin>
 <pos>0.61 0.793</pos>
-<delay>0</delay>
+<showVideoAtDelay>0</showVideoAtDelay>
 <efect>none</efect>
 <audio>true</audio>
 <zIndex>40</zIndex>
@@ -34,7 +34,7 @@
 <minSize>0.216 0.198</minSize>
 <origin>0.5 0.5</origin>
 <pos>0.8777 0.793</pos>
-<delay>0</delay>
+<showVideoAtDelay>0</showVideoAtDelay>
 <efect>none</efect>
 <audio>true</audio>
 <zIndex>40</zIndex>
@@ -46,7 +46,7 @@
 <minSize>0.216 0.198</minSize>
 <origin>0.5 0.5</origin>
 <pos>0.3416 0.793</pos>
-<delay>0</delay>
+<showVideoAtDelay>0</showVideoAtDelay>
 <efect>none</efect>
 <audio>false</audio>
 <zIndex>40</zIndex>
@@ -58,7 +58,7 @@
 <minSize>0.216 0.198</minSize>
 <origin>0.5 0.5</origin>
 <pos>0.61 0.793</pos>
-<delay>0</delay>
+<showVideoAtDelay>0</showVideoAtDelay>
 <efect>none</efect>
 <audio>false</audio>
 <zIndex>40</zIndex>
@@ -70,7 +70,7 @@
 <minSize>0.216 0.198</minSize>
 <origin>0.5 0.5</origin>
 <pos>0.8777 0.793</pos>
-<delay>0</delay>
+<showVideoAtDelay>0</showVideoAtDelay>
 <efect>none</efect>
 <audio>false</audio>
 <zIndex>40</zIndex>

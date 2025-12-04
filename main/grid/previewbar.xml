@@ -43,14 +43,22 @@
       <alignment>left</alignment>
       <fontSize>0.025</fontSize>
     </text>
-    <video name="md_video">
+    <video name="md_video" ifSubset="gameVideosAudio:on">
       <pos>0.83 0.455</pos>
       <minSize>0.29 0.39</minSize>
       <origin>0.5 0.5</origin>
       <delay>1</delay>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
       <showSnapshotDelay>true</showSnapshotDelay>
-      <loops>0</loops>
+    </video>
+    <video name="md_video" ifSubset="gameVideosAudio:off">
+      <audio>false</audio>
+      <pos>0.83 0.455</pos>
+      <minSize>0.29 0.39</minSize>
+      <origin>0.5 0.5</origin>
+      <delay>1</delay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+      <showSnapshotDelay>true</showSnapshotDelay>
     </video>
     <image name="tv_overlay" extra="true">
       <pos>0.68 0.25</pos>

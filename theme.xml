@@ -40,16 +40,22 @@ license: creative commons CC-BY-NC-SA
     <subset.colorset>Colorset</subset.colorset>
     <subset.shader>Shader</subset.shader>
   </variables>
+  
   <!-- French -->
   <variables lang="fr">
     <tilesViewName>Vignettes</tilesViewName>
     <basicGridName>Boites</basicGridName>
     <carouselViewName>Carrousel</carouselViewName>
-    <Original>Original</Original>
     <gray>Gris</gray>
     <blue>Bleu</blue>
     <red>Rouge</red>
+    <green>Vert</green>
     <yellow>Jaune</yellow>
+    <violet>Violet</violet>
+    <cyan>Cyan</cyan>
+    <orange>Orange</orange>
+    <brawn>Brun</brawn>
+    <silver>Argent</silver>
     <none>Aucun</none>
     <roundBorderSubsetName>Bords arrondis</roundBorderSubsetName>
     <blinkBorderSubsetName>Bords clignotants</blinkBorderSubsetName>
@@ -66,6 +72,55 @@ license: creative commons CC-BY-NC-SA
     <colored>Colorés</colored>
     <subset.colorset>Jeux de couleurs</subset.colorset>
     <subset.shader>Effets TV</subset.shader>
+    <theme.Avatar>Avatar</theme.Avatar>
+    <theme.username>Nom d'utilisateur</theme.username>
+    <subset.iconset>ensemble d'icônes</subset.iconset>
+    <animationsSubsetName>Animations</animationsSubsetName>
+    <logoColor>Logos colorés</logoColor>
+    <hotkeytips>Raccourcis Clavier</hotkeytips>
+    <gameVideosAudio>Extrait audio des vidéos (Liste des jeux)</gameVideosAudio>
+    <randomVideosAudio>Extrait audio des vidéos (Système)</randomVideosAudio>
+  </variables>
+
+  <!-- Pordtugues -->
+  <variables lang="pt">
+    <tilesViewName>Vinhetas</tilesViewName>
+    <basicGridName>Caixas</basicGridName>
+    <carouselViewName>Carrossel</carouselViewName>
+    <gray>Cinza</gray>
+    <blue>Azul</blue>
+    <red>Vermelho</red>
+    <green>Verde</green>
+    <yellow>Amarelo</yellow>
+    <violet>Violeta</violet>
+    <cyan>Ciano</cyan>
+    <orange>Laranja</orange>
+    <brawn>Marrom</brawn>
+    <silver>Prata</silver>
+    <none>Nenhum</none>
+    <roundBorderSubsetName>Bordas arredondadas</roundBorderSubsetName>
+    <blinkBorderSubsetName>Bordas reluzentes</blinkBorderSubsetName>
+    <yes>Sim</yes>
+    <no>Não</no>
+    <systemBackgroundName>Plano de Fundo</systemBackgroundName>
+    <systemViewName>Visão do sistema</systemViewName>
+    <previewBarSubsetName>Seção de visão geral</previewBarSubsetName>
+    <videoboxesSubsetName>Vídeo em modo caixa</videoboxesSubsetName>
+    <zoomboxesSubsetName>Zoom nas caixas</zoomboxesSubsetName>
+    <hideselectionSubsetName>Ocultar seleção</hideselectionSubsetName>
+    <optimizesmallscreensSubsetName>Otimize telas pequenas</optimizesmallscreensSubsetName>
+    <helpSubsetName>Ícones de ajuda</helpSubsetName>
+    <colored>Colorido</colored>
+    <subset.colorset>Cores</subset.colorset>
+    <subset.shader>Efeitos de TV</subset.shader>
+    <theme.Avatar>Avatar</theme.Avatar>
+    <theme.username>Nome de Usuário</theme.username>
+    <subset.iconset>Ícones</subset.iconset>
+    <animationsSubsetName>Animações</animationsSubsetName>
+    <logoColor>Logotipos Coloridos</logoColor>
+    <hotkeytips>Dicas de Teclas de Atalho</hotkeytips>
+    <gameVideosAudio>Audio dos videos (Lista de Jogos)</gameVideosAudio>
+    <randomVideosAudio>Audio dos videos (Sistema)</randomVideosAudio>
   </variables>
 
   <!-- Subset options for color  -->
@@ -951,11 +1006,6 @@ O mais jogado : {binding:mostPlayed}</text>
       <tile>false</tile>
     </image>
     <imagegrid name="gamegrid">
-      <!--
-      <pos>0.025 0.16</pos>
-      <size>0.950 0.774</size>
-      <padding>0.03 0.05 0.03 0.04</padding>
--->
       <margin>0.005 0.010</margin>
       <pos>0.025 0.16</pos>
       <size>0.950 0.84</size>
@@ -965,11 +1015,9 @@ O mais jogado : {binding:mostPlayed}</text>
       <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
-
       <scrollbarColor>252525</scrollbarColor>
       <scrollbarCorner>0.49</scrollbarCorner>
       <scrollbarSize>0.005</scrollbarSize>
-
     </imagegrid>
     <gridtile name="default">
       <backgroundColor>FFFFFF00</backgroundColor>
@@ -1162,8 +1210,7 @@ O mais jogado : {binding:mostPlayed}</text>
       <linearSmooth>true</linearSmooth>
       <tile>false</tile>
     </image>
-    <imagegrid name="gamegrid">
-
+    <imagegrid name="gamegrid" ifSubset="gameVideosAudio:off">
       <margin>0.005 0.010</margin>
       <pos>0.22 0.16</pos>
       <size>0.78 0.78</size>
@@ -1180,6 +1227,7 @@ O mais jogado : {binding:mostPlayed}</text>
       <autoLayoutSelectedZoom>1.03</autoLayoutSelectedZoom>
       <imageSource>image</imageSource>
       <showVideoAtDelay>800</showVideoAtDelay>
+      <videoAudio>false</videoAudio>
       <zIndex>10</zIndex>
     </imagegrid>
     <gridtile name="default">
@@ -1224,8 +1272,7 @@ O mais jogado : {binding:mostPlayed}</text>
     </image>
     <image name="gridtile.favorite:selected">
       <color>FFFF00D0</color>
-    </image>
-    
+    </image>    
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_lbl_releasedate">
       <color>ffffff</color>
       <forceUppercase>0</forceUppercase>
@@ -1300,7 +1347,6 @@ O mais jogado : {binding:mostPlayed}</text>
       <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
-
   </customView>
   <!-- Subset options for help -->
   <subset name="helpsystem" displayName="${helpSubsetName}">
@@ -1375,11 +1421,11 @@ O mais jogado : {binding:mostPlayed}</text>
         <include name="off" displayName="${no}"/>
    </subset>
     <subset name="gameVideosAudio" displayName="${gameVideosAudio}">
-        <include name="on" displayName="${on}"/>
-        <include name="off" displayName="${off}"/>
+        <include name="on" displayName="${yes}"/>
+        <include name="off" displayName="${no}"/>
    </subset>
     <subset name="randomVideosAudio" displayName="${randomVideosAudio}">
-        <include name="off" displayName="${off}"/>
-        <include name="on" displayName="${on}"/>
+        <include name="off" displayName="${no}"/>
+        <include name="on" displayName="${yes}"/>
    </subset>
 </theme>

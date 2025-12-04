@@ -45,7 +45,7 @@
 			<text lang="fr">Attendez un instant...</text>
 			<text lang="pt">Aguarde um instante...</text>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.58</pos>
+			<pos>0.865 0.935</pos>
 			<color>ffffff</color>
 			<fontPath>./main/fonts/Circular Std Black.ttf</fontPath>
 			<fontSize>0.040</fontSize>
