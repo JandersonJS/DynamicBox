@@ -1,0 +1,75 @@
+
+  <?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="original">
+  <formatVersion>7</formatVersion>
+  <customView name="original" inherits="grid" displayName="${originalViewName}">
+
+    <imagegrid name="gamegrid">
+      <margin>0.005 0.010</margin>
+      <pos>0.22 0.212</pos>
+      <size>0.78 0.73</size>
+      <padding>0.03 0.04 0.03 0.1</padding>
+      <autoLayout>6 3</autoLayout>
+      <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>      
+      <imageSizeMode>minSize</imageSizeMode>
+      <scrollbarColor>252525</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.005</scrollbarSize>
+      <autoLayoutSelectedZoom>1.03</autoLayoutSelectedZoom>
+      <imageSource>image</imageSource>
+      <showVideoAtDelay>800</showVideoAtDelay>
+      <zIndex>150</zIndex>
+    </imagegrid>
+
+    <gridtile name="default">
+      <backgroundImage/>
+      <backgroundCenterColor>40404080</backgroundCenterColor>
+      <backgroundEdgeColor>40404080</backgroundEdgeColor>
+      <padding>1 1</padding>
+      <imageSizeMode>minSize</imageSizeMode>
+      <imageColor>A0A0A0FF</imageColor>
+    </gridtile>
+
+    <gridtile name="selected">
+      <padding>5 5</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+    <image name="gridtile.image">
+    </image>
+
+    <text name="gridtile">
+      <color>D0D0D0D0</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.030</fontSize>
+      <alignment>center</alignment>
+      <singleLineScroll>false</singleLineScroll>
+      <padding>0.08 0</padding>
+      <size>0 0.23</size>
+      <glowColor>00000060</glowColor>
+      <glowSize>1</glowSize>
+    </text>
+
+    <text name="gridtile:selected">
+      <singleLineScroll>false</singleLineScroll>
+      <color>FFFFFF</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize>2</glowSize>
+    </text>
+
+    <image name="gridtile.favorite">
+      <path>:/star_filled.svg</path>
+      <pos>0.93 0.07</pos>
+      <maxSize>0.10 0.10</maxSize>
+      <origin>0 0</origin>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>FFFF0080</color>
+    </image>
+
+    <image name="gridtile.favorite:selected">
+      <color>FFFF00D0</color>
+    </image> 
+  </customView>
+</theme>

@@ -5,32 +5,26 @@
   <view name="system">
     <video name="videobox" extra="static" ifSubset="randomVideosAudio:on">
       <default>./main/video/no-video.mp4</default>
-      <size>0.216 0.198</size>
       <path>{random}</path>
-      <zIndex>21</zIndex>     
-      <origin>0 0</origin>
-      <pos>0.763 0.700</pos>
-      <delay>0</delay>
-      <color>FFFFFFFF</color>
-      <effect>bump</effect>
-      <roundCorners>0.02</roundCorners>
+      <minSize>0.216 0.198</minSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.8777 0.793</pos>
+      <showVideoAtDelay>0</showVideoAtDelay>
+      <efect>none</efect>
       <audio>true</audio>
-      <visible>true</visible>
+      <zIndex>40</zIndex>
     </video>
 
     <video name="videobox" extra="static" ifSubset="randomVideosAudio:off">
       <default>./main/video/no-video.mp4</default>
-      <size>0.216 0.198</size>
       <path>{random}</path>
-      <zIndex>21</zIndex>     
-      <origin>0 0</origin>
-      <pos>0.763 0.700</pos>
-      <delay>0</delay>
-      <color>FFFFFFFF</color>
-      <effect>bump</effect>
-      <roundCorners>0.02</roundCorners>
+      <minSize>0.216 0.198</minSize>
+      <origin>0.5 0.5</origin>
+      <pos>0.8777 0.793</pos>
+      <showVideoAtDelay>0</showVideoAtDelay>
+      <efect>none</efect>
       <audio>false</audio>
-      <visible>true</visible>
+      <zIndex>40</zIndex>
     </video>
   </view>
 </theme>

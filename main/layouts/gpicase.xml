@@ -32,11 +32,6 @@
       <size>1 0.5</size>
       <pos>0.5 0.6</pos>
     </image>
-    <clock name="clock">
-      <textColor>A2A2A2FF</textColor>
-      <fontSize>0.048</fontSize>
-      <pos>0.86 0.03</pos>
-    </clock>
     <image name="ControllerOverlay" extra="true">
       <pos>0.5 0.25</pos>
       <size>0.4 0</size>
@@ -49,7 +44,7 @@
     </image>
   </view>
   <view name="system, basic, detailed, grid">
-    <helpsystem name="help" extra="static">
+    <helpsystem name="help">
       <fontSize>0.026</fontSize>
     </helpsystem>
   </view>

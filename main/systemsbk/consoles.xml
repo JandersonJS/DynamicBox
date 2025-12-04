@@ -11,17 +11,8 @@
       <pos>0.700 0.695</pos>
       <size>0 0.2</size>
       <color>FFFFFFF0</color>
-      <zIndex>21</zIndex>
+      <zIndex>40</zIndex>
     </image>
-
-    <image name="ControllerOverlay" extra="true" region="eu"></image>
-		<image name="ControllerOverlay" extra="true" region="us">
-		  <path>./art/consoles/us/${system.theme}.png</path>
-		</image>
-		
-		<image name="ControllerOverlay" extra="true" region="jp">
-		  <path>./art/consoles/jp/${system.theme}.png</path>
-		</image>
 
   </view>
 </theme>

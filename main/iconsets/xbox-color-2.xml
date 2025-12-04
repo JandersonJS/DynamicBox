@@ -1,0 +1,22 @@
+<theme>
+	<formatVersion>7</formatVersion>
+	
+	<view name="menu, system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+		<helpsystem name="help">
+			<iconColor>${baseColor}</iconColor>
+			<iconUpDown>./xbox-color-2/updown.png</iconUpDown>
+			<iconLeftRight>./xbox-color-2/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./xbox-color-2/all.png</iconUpDownLeftRight>
+			<iconA>./xbox-color-2/a.png</iconA>
+			<iconB>./xbox-color-2/b.png</iconB>
+			<iconX>./xbox-color-2/x.png</iconX>
+			<iconY>./xbox-color-2/y.png</iconY>
+			<iconL>./xbox-color-2/l.png</iconL>
+			<iconR>./xbox-color-2/r.png</iconR>
+			<iconStart>./xbox-color-2/start.png</iconStart>
+			<iconSelect>./xbox-color-2/select.png</iconSelect>
+			<iconF1>./xbox-color-2/f1.png</iconF1>
+		</helpsystem>		
+	</view>
+	
+</theme>

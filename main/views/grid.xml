@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="Tiles">
+  <formatVersion>7</formatVersion>
+  <view name="grid">
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.075 0.222</pos>
+         <maxSize>0.11 0.11</maxSize>
+         <roundCorners>0.5</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
+    <image name="leftbar" extra="true">
+      <path>./main/media/band.svg</path>
+      <pos>0 0.212</pos>
+      <size>0.22 0.73</size>      
+      <origin>0 0</origin>
+      <color>00000080</color>
+      <zIndex>31</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <tile>false</tile>
+    </image>
+
+    <image name="leftbaralt" extra="true">
+      <path>./main/media/band.svg</path>
+      <pos>0.22 0.212</pos>
+      <size>0.004 0.73</size>      
+      <origin>0 0</origin>
+      <color>${bottomBarColor}</color>
+      <zIndex>32</zIndex>
+      <linearSmooth>true</linearSmooth>
+      <tile>false</tile>
+    </image>
+
+    <image name="ControllerOverlay" extra="true" ifSubset="systembackground:mini-consoles" ifArch="windows,x86,x86_64,odroidc4,odroidxu4" >
+      <default>./main/consoles/default.png</default>
+      <path>./main/consoles/${system.theme}.png</path>
+      <linearSmooth>true</linearSmooth>
+      <pos>0.5 0.5</pos>
+      <maxSize>0.5 0.5</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>FFFFFF09</color>
+      <zIndex>150</zIndex>
+    </image> 
+
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_players, md_lbl_releasedate">
+      <color>ffffff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+
+    <text name="md_lbl_rating, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_lbl_releasedate, md_lbl_genre, md_lbl_developer">
+      <pos>1 1</pos>
+    </text>
+
+    <datetime name="md_lastplayed, md_releasedate, md_developer, md_lbl_developer, md_publisher, md_lbl_publisher">
+      <color>ffffff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </datetime>
+
+    <datetime name="md_lastplayed">
+      <pos>1 1</pos>
+    </datetime>
+
+    <text name="md_genre">
+      <autoScroll>horizontal</autoScroll>        
+      <size>0.1 0</size>
+      <color>ffffff</color>
+      <pos>0.01 0.875</pos>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+
+    <rating name="md_rating">
+      <pos>0.129 0.886</pos>
+      <size>0.05 0.03</size>
+      <color>efb810</color>
+      <unfilledColor>808080</unfilledColor>
+    </rating> 
+		
+    <image name="md_flag"> 
+      <origin>0.5 0.5</origin>
+      <pos>0.018 0.86</pos>
+      <maxSize>0.025 0.018</maxSize>
+      <zIndex>150</zIndex>
+    </image>
+
+    <text name="md_players">
+      <fontPath>./main/fonts/players.ttf</fontPath>
+      <text>1</text>
+      <origin>0.5 0.5</origin>
+      <size>0.025 0.035</size>
+      <pos>0.048 0.86</pos>
+      <alignment>center</alignment>
+      <fontSize>0.03</fontSize>
+      <color>D0D0D0D0</color>
+      <zIndex>150</zIndex>
+    </text>
+
+    <image name="md_manual, md_nomanual">
+      <path>./main/media/book.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.078 0.86</pos>
+      <maxSize>0.02 0.028</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>D0D0D0D0</color>
+      <zIndex>150</zIndex>
+      <linearSmooth>true</linearSmooth>
+    </image>
+
+    <image name="md_nomanual">
+      <color>80808025</color>
+      <zIndex>150</zIndex>
+    </image>
+    
+    <image name="md_cheevos, md_notcheevos">
+      <path>./main/icons/Contest.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.108 0.86</pos>
+      <maxSize>0.02 0.03</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>D0D0D0D0</color>
+      <zIndex>150</zIndex>
+    </image>
+    
+    <image name="md_notcheevos">
+      <color>80808030</color>
+      <zIndex>150</zIndex>
+    </image>
+
+    <image name="md_savestate, md_nosavestate">
+      <path>./main/icons/SaveState.png</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.138 0.86</pos>
+      <maxSize>0.02 0.03</maxSize>
+      <pos ifCheevos="false">0.0225 0.766</pos>
+      <origin>0.5 0.5</origin>
+      <color>D0D0D0D0</color>
+      <zIndex>150</zIndex>
+    </image>
+    
+    <image name="md_nosavestate">
+      <color>80808030</color>
+      <zIndex>150</zIndex>
+    </image>
+
+    <image name="md_favorite">
+      <path>./main/media/favorite.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.168 0.86</pos>
+      <maxSize>0.02 0.03</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>FFFFFF</color>
+      <zIndex>150</zIndex>
+    </image>
+
+    <image name="md_kidgame">
+      <path>./main/media/kid.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.198 0.86</pos>
+      <maxSize>0.02 0.03</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>FFFFFF</color>
+      <zIndex>150</zIndex>
+    </image>
+
+    <image name="md_hidden">
+      <path>./main/media/hidden.svg</path>
+      <origin>0.5 0.5</origin>
+      <pos>0.228 0.86</pos>
+      <maxSize>0.02 0.03</maxSize>
+      <origin>0.5 0.5</origin>
+      <color>FFFFFF</color>
+      <zIndex>150</zIndex>
+    </image>
+
+    <text name="md_description">
+      <pos>0.01 0.45</pos>
+      <size>0.205 0.38</size>
+      <color>ffffff</color>
+      <alignment>justify</alignment>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <fontSize>0.023</fontSize>
+    </text>
+
+    <text name="md_lbl_releasedate">
+      <color>ffffff</color>
+      <pos>0.01 0.41</pos>
+      <size>0.2 0</size>
+    </text>
+
+    <datetime name="md_releasedate">
+      <color>EFEFFF</color>
+      <pos>0.115 0.41</pos>       
+      <size>0.1 0</size>
+    </datetime>
+
+    <text name="md_lbl_developer">
+      <autoScroll>horizontal</autoScroll>
+      <origin>0 0.5</origin>
+      <color>ffffff</color>
+      <pos>0.01 0.355</pos>       
+      <size>0.1 0</size>
+      <alignment>left</alignment>
+    </text>
+
+    <text name="md_developer">
+      <autoScroll>horizontal</autoScroll> 
+      <origin>0 0.5</origin>
+      <color>ffffff</color>
+      <pos>0.115 0.355</pos>       
+      <size>0.1 0</size>
+      <alignment>left</alignment>
+    </text>
+
+    <text name="md_lbl_publisher">
+      <autoScroll>horizontal</autoScroll> 
+      <color>ffffff</color>
+      <pos>0.01 0.365</pos>       
+      <size>0.1 0</size>
+      <alignment>left</alignment>
+    </text>
+
+    <text name="md_publisher">
+      <autoScroll>horizontal</autoScroll> 
+      <color>ffffff</color>
+      <pos>0.115 0.365</pos>       
+      <size>0.1 0</size>
+      <alignment>left</alignment>
+    </text>
+        
+    <imagegrid name="gamegrid">
+      <margin>0.005 0.010</margin>
+      <pos>0.22 0.22</pos>
+      <size>0.78 0.715</size>
+      <padding>0.03 0.04 0.03 0.1</padding>
+      <autoLayout>6 3</autoLayout>
+      <autoLayout verticalScreen="true">2 2</autoLayout>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>
+      <scrollbarColor>96969620</scrollbarColor>
+      <scrollbarCorner>0.49</scrollbarCorner>
+      <scrollbarSize>0.005</scrollbarSize>
+      <zIndex>150</zIndex>
+    </imagegrid>
+
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>5 5</padding>
+      <imageColor>FFFFFF</imageColor>
+    </gridtile>
+    <gridtile name="selected">
+      <backgroundCenterColor>${centerFadeColor}</backgroundCenterColor>
+      <backgroundEdgeColor>${bottomBarColor}</backgroundEdgeColor>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+
+    <text name="gridtile">
+      <color>FFFFFF80</color>
+      <backgroundColor>00000000</backgroundColor>
+      <fontSize>0.022</fontSize>
+      <alignment>center</alignment>
+      <size>1 0.24</size>
+    </text>
+
+    <text name="gridtile:selected">
+      <color>FFFFFF</color>
+      <glowColor>${glowColor}</glowColor>
+      <glowSize ifArch="windows,x86,x86_64,odroidc4,odroidxu4">2</glowSize>
+      <glowSize ifNotArch="windows,x86,x86_64,odroidc4,odroidxu4">1</glowSize>
+    </text>
+
+    <image name="gridtile.image">
+      <linearSmooth>true</linearSmooth>
+    </image>
+    
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>EFEF60B0</animateColor>
+      <animateColorTime>750</animateColorTime>
+    </ninepatch>
+  </view>
+</theme>

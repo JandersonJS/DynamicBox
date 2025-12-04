@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="Tiles">
+  <formatVersion>7</formatVersion>
+    
+  <feature supported="manufacturer">
+  <view name="system">  
+
+        <image name="iconBar" extra="static">
+            <tile>false</tile>
+            <size>0.3 0.065</size>
+            <pos>0.35 0.008</pos>
+            <origin>0 0</origin>
+            <path>./main/media/band.svg</path>
+            <roundCorners>0.02</roundCorners>
+            <color>${baseColor}</color>
+            <zIndex>80</zIndex>
+        </image>
+
+        <helpsystem name="help">
+            <textColor>ffffff</textColor>
+            <iconColor>ffffff</iconColor>
+        </helpsystem>
+
+      <text name="system_description" extra="static">
+      <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+      <origin>0 0</origin>
+      <verticalAlignment>top</verticalAlignment>
+      <pos>0.235 0.325</pos>
+      <size>0.75 0.152</size>
+      <glowSize>1.8</glowSize>
+      <glowColor>00000035</glowColor>
+      <glowOffset>3 2</glowOffset>
+      <forceUppercase>1</forceUppercase>
+      <fontSize>0.020</fontSize>
+      <color>FFFFFF</color>
+      <autoScroll>vertical</autoScroll>
+      <autoScrollDelay>0</autoScrollDelay>
+      <zIndex>80</zIndex>
+      </text>
+
+    <text name="logoText">
+      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+      <color>${baseColor}</color>
+      <forceUppercase>true</forceUppercase>
+    </text>
+    <image name="logo">
+
+      <storyboard event="scroll" repeatAt="1" ifSubset="staticTiles:yes">
+        <animation property="opacity" from="1" to="1" duration="1" mode="Linear"/>
+      </storyboard>
+
+      <!-- try png -->
+      <path>./main/logosDynamics/${system.theme}.png</path>
+      <!-- try jpg -->
+      <path>./main/logosDynamics/${system.theme}.jpg</path>
+      <!-- check if lang resources exist -->
+      <path>./main/logosDynamics/${system.theme}-${lang}.png</path>
+      <path>./main/logosDynamics/${system.theme}-${lang}.jpg</path>
+    </image>
+      <carousel name="systemcarousel">
+         <type>horizontal</type>
+         <color>00000000</color>
+         <logoSize>0.17</logoSize>
+         <logoScale>2</logoScale>
+         <scaledLogoSpacing>1.22</scaledLogoSpacing>
+         <maxLogoCount>17</maxLogoCount>
+         <logoAlignment>bottom</logoAlignment>
+         <pos>-0.825 -0.32</pos>
+         <size>1.86 1</size>
+      </carousel>
+
+      <image name="marco" extra="static">
+      <path>./main/media/marco.png</path>
+      <linearSmooth>true</linearSmooth>
+      <pos>0.009 0.32</pos>        
+      <size>0.193 0</size>
+      <origin>0 0</origin>
+      <color>${baseColor}</color>
+      <storyboard>
+        <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
+        <animation property="offsetX" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+        <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+        <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
+        <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
+      </storyboard>
+         <zIndex>81</zIndex>
+      </image>
+
+        <image name="bottom" extra="static">
+            <pos>0 1</pos>
+            <origin>0 1</origin>
+            <size>1 0.065</size>
+            <path>./main/media/band.svg</path>
+            <color>00000080</color>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="bottomLine" extra="true">
+            <pos>0 0.935</pos>
+            <origin>0 0</origin>
+            <size>1 0.005</size>
+            <path>./main/media/band.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>50</zIndex>
+        </image>
+      <text name="manufacturerName" extra="static">
+        <text>${system.sortedBy}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
+        <fontSize>0.060</fontSize>
+        <pos>0.012 0.137</pos>
+        <size>0.942 0.28</size>
+        <color>FFFFFF</color>      
+        <zIndex>100</zIndex>
+        <color>D0D0D0FF</color>
+        <glowColor>00000080</glowColor>
+        <glowSize>1</glowSize>
+        <fontSize tinyScreen="true">0.065</fontSize>
+        <glowSize tinyScreen="true">1</glowSize>
+      </text>
+      <text name="fullName" extra="true">
+        <text>${system.fullName}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <pos>0.013 0.220</pos>       
+        <size>0.94 0.28</size>
+        <zIndex>100</zIndex>
+        <color>FFFFFF</color>
+        <glowColor>000000A0</glowColor>
+        <glowSize>1</glowSize>
+        <glowColor tinyScreen="true">00000040</glowColor>
+        <fontSize tinyScreen="true">0.035</fontSize>
+      </text>
+      <text name="releaseYyear" extra="true">
+        <text>${system.releaseYearOrNull}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <pos>0.013 0.257</pos>        
+        <size>0.94 0.28</size>        
+        <zIndex>100</zIndex>
+        <color>FFFFFF</color>
+        <glowColor>000000A0</glowColor>
+        <glowSize>1</glowSize>
+                
+        <glowColor tinyScreen="true">00000040</glowColor>
+        <fontSize tinyScreen="true">0.035</fontSize>
+      </text> 
+
+    <image name="game" extra="true">
+      <linearSmooth>true</linearSmooth>
+      <path>./main/media/band.svg</path>
+      <color>${baseColor}</color>
+      <origin>0 0.5</origin>
+      <pos>0.010 0.793</pos>
+      <size>0.191 0.198</size>
+      <zIndex>90</zIndex>
+    </image>
+
+    <image name="fanart1" extra="static">
+      <path>{random:fanart}</path>
+      <origin>0 0.5</origin>
+      <pos>0.051 0.793</pos>
+      <minSize>0.05 0.198</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <zIndex>93</zIndex>
+    </image>
+
+    <image name="fanart2" extra="static">
+      <path>{random:fanart}</path>
+      <origin>0 0.5</origin>
+      <pos>0.101 0.793</pos>
+      <minSize>0.05 0.198</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <zIndex>95</zIndex>
+    </image>
+
+    <image name="fanart3" extra="static">
+      <path>{random:fanart}</path>
+      <origin>0 0.5</origin>
+      <pos>0.151 0.793</pos>
+      <minSize>0.05 0.198</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <zIndex>97</zIndex>
+    </image>
+
+    <text name="systemInfo" visible="false"/>
+    <text name="systemInfoEx" extra="true">
+      <!-- possible bindings are :
+{binding:total}, {binding:played}, {binding:favorites}, {binding:hidden}, {binding:gamesPlayed}
+{binding:mostPlayed}, {binding:lastPlayedDate}
+-->
+      <text>Games : {binding:total}
+Favorites : {binding:favorites}
+Games played : {binding:gamesPlayed}
+Last played : {binding:lastPlayedDate}
+Most played : {binding:mostPlayed}
+Games started : {binding:played}</text>
+      <text lang="fr">Nombre de jeux : {binding:total}
+Favoris : {binding:favorites}
+Jeux joués : {binding:gamesPlayed}
+Dernière partie : {binding:lastPlayedDate}
+Le plus joué : {binding:mostPlayed}
+Parties commencées : {binding:played}</text>
+      <text lang="es">Número de juegos : {binding:total}
+Favoritos : {binding:favorites}
+Jugados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+El más jugado : {binding:mostPlayed}
+Juegos iniciados : {binding:played}</text>
+      <text lang="pt">Número de jogos : {binding:total}
+Favoritos : {binding:favorites}
+Jogados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+O mais jogado : {binding:mostPlayed}
+Partidas iniciadas : {binding:played}</text>
+      <alignment>left</alignment>
+      <verticalAlignment>top</verticalAlignment>
+      <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.020</fontSize>
+      <pos>0.013 0.695</pos>
+      <size>0.2 0.07</size>
+      <zIndex>100</zIndex>
+      <color>FFFFFF</color>
+      <glowColor>000000</glowColor>
+      <glowSize>1</glowSize>
+    </text>
+
+    <text name="systemInfoEx" extra="true" if="{system.name} == 'collections'">
+      <text>Collections : {binding:subSystems}</text>
+      <text lang="fr">Nombre de collections : {binding:subSystems}</text>
+      <text lang="pt">Coleções : {binding:subSystems}</text>
+    </text>
+    <text name="systemInfoEx" extra="true" if="{system.name} == 'library' || {system.name} == 'screenshots'">
+      <text>Items : {binding:total}</text>
+      <text lang="fr">Nombre d'élements : {binding:total}</text>
+      <text lang="es">Número de elementos: {binding:total}</text>
+      <text lang="pt">Número de Imagens: {binding:total}</text>
+    </text>
+
+
+      <image name="avatar" extra="static">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <pos>0.02 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.02 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
+      <image name="achievement" extra="static">
+         <path>./main/media/achievement.png</path>
+         <pos>0.06 0.072</pos>
+         <maxSize>0.025 0.025</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <text name="trophy-level" extra="static">
+         <text>2025</text>
+         <pos>0.08 0.068</pos>
+         <size>0.048 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.020</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+
+      <text name="username" extra="static">
+         <text>${theme.nick}</text>
+         <text ifSubset="system-username:custom">${custom.nick}</text>
+         <pos>0.06 0.03</pos>
+         <size>0.165 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.028</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
+    </view>
+  </feature> 
+  
+</theme>

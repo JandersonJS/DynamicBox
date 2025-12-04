@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="Tiles">
+  <formatVersion>7</formatVersion>
+  <customView name="Carousel" inherits="grid" tinyScreen="false" displayName="${carouselViewName}">
+    <text name="md_name">
+      <color>ffffffff</color>
+      <pos>0.16 0.76</pos>
+      <size>0.92 0.10</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>4</glowSize>
+    </text>
+
+    <imagegrid name="gamegrid">
+      <pos>0.22 0.22</pos>
+      <size>0.78 0.715</size>
+      <padding>0.03 0.04 0.03 0.1</padding>
+      <scrollDirection>horizontal</scrollDirection>
+      <autoLayout>5 1</autoLayout>
+      <autoLayout verticalScreen="true">3 1</autoLayout>
+      <autoLayoutSelectedZoom>1.50</autoLayoutSelectedZoom>
+      <margin>0.005 0.010</margin>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+      <zIndex>150</zIndex>
+    </imagegrid>
+
+    <gridtile name="default">
+      <padding>64 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>FFFFFFFF</imageColor>
+      <reflexion>0.24 0.0</reflexion>
+    </gridtile>
+
+    <gridtile name="selected">
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFF00</backgroundEdgeColor>
+      <padding>64 16</padding>
+    </gridtile>
+
+    <text name="gridtile">
+      <visible>false</visible>
+      <color>80808080</color>
+      <fontSize>0.016</fontSize>
+      <size>1 0</size>
+    </text>
+
+    <text name="gridtile:selected">
+      <color>FFFFFF00</color>
+      <fontSize>0.035</fontSize>
+      <size>1 0</size>
+    </text>
+
+    <ninepatch name="gridtile.background:selected">
+      <animateColorTime>0</animateColorTime>
+    </ninepatch>
+  </customView>
+</theme>

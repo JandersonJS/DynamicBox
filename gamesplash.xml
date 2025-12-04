@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
 <formatVersion>7</formatVersion>
-
   <subset name="colorset" displayName="${subset.colorset}">
     <include name="Original" displayName="${Original}">./main/colors/Original.xml</include>
     <include name="Ripple">./main/colors/Ripple.xml</include>
@@ -44,8 +43,8 @@
 			<text lang="es">Espera un momento...</text>
 			<text lang="fr">Attendez un instant...</text>
 			<text lang="pt">Aguarde um instante...</text>
-			<origin>0.5 0.5</origin>
-			<pos>0.865 0.935</pos>
+			<origin>0 0</origin>
+			<pos>0.70 0.935</pos>
 			<color>ffffff</color>
 			<fontPath>./main/fonts/Circular Std Black.ttf</fontPath>
 			<fontSize>0.040</fontSize>
@@ -136,7 +135,7 @@
 		<stackpanel name="container-gamedata" extra="static" ifSubset="hotkeytips:yes">
 			<separator>0.015</separator>
 			<pos>0.025 0.26</pos>
-			<size>0.5 0.032</size>
+			<size>0.25 0.032</size>
 			<orientation>horizontal</orientation>
 			<backgroundColor>FF000000</backgroundColor>
 			<zIndex>09</zIndex>
@@ -231,7 +230,7 @@
 		<stackpanel name="container-gamedata2" extra="true" ifSubset="hotkeytips:yes">
 			<separator>0.018</separator>
 			<pos>0.025 0.31</pos>
-			<size>0.5 0.032</size>
+			<size>0.25 0.032</size>
 			<orientation>horizontal</orientation>
 			<backgroundColor>FF000000</backgroundColor>
 			<zIndex>05</zIndex>
@@ -271,7 +270,7 @@
 		<stackpanel name="container-icons" extra="true" ifSubset="hotkeytips:yes">
 			<separator>0.015</separator>
 			<pos>0.024 0.36</pos>
-			<size>0.7 0.032</size>
+			<size>0.25 0.032</size>
 			<orientation>horizontal</orientation>
 			<backgroundColor>FF000000</backgroundColor>
 			<zIndex>09</zIndex>
@@ -403,22 +402,22 @@
 
        	<image name="hotkeyBack" extra="true" ifSubset="hotkeytips:yes">
 			<visible>true</visible>
-			<path>./main/media/white.png</path>
+			<path>./main/media/colorbg.png</path>
 			<origin>1 0.5</origin>
 			<pos>1 0.35</pos>
 			<size>0.27 0.65</size>
-            <color>${baseColor}bb</color>
+      <color>${baseColor}bb</color>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>8</zIndex>
 		</image>
 
        	<image name="infoBack" extra="true" ifSubset="hotkeytips:yes">
 			<visible>true</visible>
-			<path>./main/media/white.png</path>
+			<path>./main/media/colorbg.png</path>
 			<origin>0 0</origin>
 			<pos>0 0.17</pos>
 			<size>0.29 0.25</size>
-            <color>${baseColor}bb</color>
+      <color>${baseColor}bb</color>
 			<linearSmooth>true</linearSmooth>
 			<zIndex>4</zIndex>
 		</image>

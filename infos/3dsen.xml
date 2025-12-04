@@ -1,7 +1,7 @@
 <theme>
 	<formatVersion>7</formatVersion>
 
-	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid">
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
 
 		<text name="system_description" extra="true">
 			<text>3dSen is a Nintendo Entertainment System (NES) emulator that converts classic games to a 3D perspective, recreating scenarios and characters in a three-dimensional environment. Available on Steam, the emulator does not include games and requires the user to obtain them separately, focusing on specific titles that have been adjusted for the 3D effect. It was developed by Geod Studio and can be used with or without virtual reality (VR) support.</text>

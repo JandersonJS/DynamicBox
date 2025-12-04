@@ -15,7 +15,8 @@
 		</image>
 
 		<image name="backgroundalt" extra="true">
-	    	<path>./main/background/game.jpg</path>
+		<default>./main/background/bg.png</default>
+		<path></path>
 			<linearSmooth>true</linearSmooth>
 			<minSize>1 1</minSize>
 			<zIndex>1</zIndex>
@@ -25,7 +26,7 @@
 			<origin>0 0</origin>
 			<pos>0.855 0.935</pos>
 			<alignment>left</alignment>
-			<color>208b20</color>
+			<color>dddddd</color>
 			<fontPath>./main/fonts/Circular Std Black.ttf</fontPath>
 			<fontSize>0.03</fontSize>
 			<glowColor>09090920</glowColor>
@@ -40,21 +41,22 @@
 		</text>
 
 		<text name="label">
-			<origin>0 0.5</origin>
-			<pos>0.05 0.88</pos>
+			<origin>0 0</origin>
+			<pos>0.05 0.86</pos>
 			<alignment>left</alignment>
-			<color>208b20</color>
-			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.otf</fontPath>
+			<color>dddddd</color>
+			<fontPath>./main/fonts/PhatBoy Slim BoldItalic.otf</fontPath>
+			<size>0.9 0.1</size>
 			<fontSize>0.052</fontSize>
+      		<autoScroll>horizontal</autoScroll>
 			<glowColor>09090920</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>1</glowOffset>
 		</text>
 
        		<image name="hotkey-tips" extra="true">
-			<color>208b20</color>
-			<origin>1 0.5</origin>
-			<pos>1 0.443</pos>
+			<origin>0 0</origin>
+			<pos>0.79 0.3</pos>
 			<maxSize>0.35</maxSize>
 			<maxSize tinyScreen="true">0.45</maxSize>			
 			<path>./main/hotkey-tips/en.png</path>

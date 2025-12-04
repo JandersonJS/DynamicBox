@@ -4,13 +4,14 @@
   <include>./animatedbackgroundsubset.xml</include>
   <view name="system">
     <image name="box" extra="true">
+      <default>./main/media/nocover.png</default>
       <path>{random:thumbnail}</path>
       <linearSmooth>true</linearSmooth>
-      <zIndex>21</zIndex>     
+      <zIndex>40</zIndex>     
       <color>FFFFFFFF</color>
+      <size>0 0.2</size>
       <origin>0 0</origin>
       <pos>0.730 0.680</pos>
-      <roundCorners>0.02</roundCorners>
       <visible>true</visible>
     </image>
   </view>

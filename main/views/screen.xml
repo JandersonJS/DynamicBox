@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="Tiles">
+  <formatVersion>7</formatVersion>
+  <view name="screen">
+
+        <text name="clock" extra="static">
+          <color>ffffff</color>
+          <glowColor>00000035</glowColor>
+          <glowSize>1</glowSize>
+          <glowOffset>3 2</glowOffset>
+          <fontSize>0.035</fontSize>
+          <pos>0.89 0.04</pos>
+          <size>0.09 0.058</size>
+          <alignment>right</alignment>
+          <verticalAlignment>center</verticalAlignment>
+        </text>
+
+        <controllerActivity name="controllerActivity">
+          <pos>0.365 0.025</pos>
+          <size>0.08 0.036</size>
+          <itemSpacing>0.015</itemSpacing>
+          <color>FFFFFF</color>
+          <!-- controllers -->
+          <imagePath>./main/media/controller.png</imagePath>
+          <gunPath>./main/media/gun.svg</gunPath>
+          <activityColor>A0A0FFC0</activityColor>
+          <hotkeyColor>FFA0A0C0</hotkeyColor>
+        </controllerActivity>
+
+        <batteryIndicator name="batteryIndicator">
+          <pos>0.905 0.05</pos>
+          <size>0.035 0.035</size>
+          <horizontalAlignment>right</horizontalAlignment>
+          <incharge>./main/battery/incharge.svg</incharge>
+          <full>./main/battery/full.svg</full>
+          <at75>./main/battery/75.svg</at75>
+          <at50>./main/battery/50.svg</at50>
+          <at25>./main/battery/25.svg</at25>
+          <empty>./main/battery/empty.svg</empty>
+          <color>FFFFFF</color>
+        </batteryIndicator>
+
+        <batteryIndicator name="batteryIndicator" tinyScreen="true">
+          <pos>0.885 0.05</pos>
+          <origin>0 0</origin>
+          <size>0.030 0.040</size>
+        </batteryIndicator>
+
+    <!-- Hide batteryIndicator and replace it with a stackpanel -->
+    <!--
+    <batteryIndicator name="batteryIndicator">
+      <visible>false</visible>
+    </batteryIndicator>
+    <stackpanel name="batteryIndicatorReplacement" extra="true">
+      <pos>0.70 0.012</pos>
+      <size>0.28 0.0275</size>
+      <pos verticalScreen="true">0.7 0.04</pos>
+      <size verticalScreen="true">0.28 0.023</size>
+      <orientation>horizontal</orientation>
+      <separator>2</separator>
+      <reverse>true</reverse>
+      <batteryText name="ss.batterytext">
+        <fontSize>0.019</fontSize>
+        <fontSize tinyScreen="true">0.025</fontSize>
+        <color>FFFFFFA0</color>
+        <padding>4 0</padding>
+      </batteryText>
+      <batteryIcon name="ss.battery">
+        <incharge>./main/media/battery/incharge.svg</incharge>
+        <full>./main/media/battery/full.svg</full>
+        <at75>./main/media/battery/75.svg</at75>
+        <at50>./main/media/battery/50.svg</at50>
+        <at25>./main/media/battery/25.svg</at25>
+        <empty>./main/media/battery/empty.svg</empty>
+        <planemodeIcon>./main/media/icons/Planemode.png</planemodeIcon>
+        <maxSize>1 1</maxSize>
+        <linearSmooth>true</linearSmooth>
+        <padding>1 1</padding>
+        <color>FFFFFFA0</color>
+      </batteryIcon>
+      <text name="ss.separator1">
+        <text>-</text>
+        <fontSize>0.01</fontSize>
+        <color>00000000</color>
+      </text>
+      <networkIcon name="ss.network">
+        <networkIcon>./main/icons/Network.png</networkIcon>
+        <planemodeIcon>./main/icons/Planemode.png</planemodeIcon>
+        <maxSize>1 1</maxSize>
+        <linearSmooth>true</linearSmooth>
+        <padding>1 1</padding>
+        <color>FFFFFFA0</color>
+      </networkIcon>
+      <text name="ss.separator2">
+        <text>AAAA</text>
+        <fontSize>0.01</fontSize>
+        <color>00000000</color>
+      </text>
+      <text name="ss.cheevosUser" if="${global.cheevos}" tinyScreen="false">
+        <text>${global.cheevos.username}</text>
+        <alignment>center</alignment>
+        <fontSize>0.022</fontSize>
+        <fontSize tinyScreen="true">0.025</fontSize>
+        <color>FFFFFFA0</color>
+      </text>
+      <text name="ss.separator2">
+        <text>AA</text>
+        <fontSize>0.01</fontSize>
+        <color>00000000</color>
+      </text>
+      <webImage name="ss.cheevosUserPic" if="${global.cheevos}" tinyScreen="false">
+        <visible>{global:cheevos}</visible>
+        <linearSmooth>true</linearSmooth>
+        <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+        <maxSize>1 1</maxSize>
+        <color>FFFFFFFF</color>
+      </webImage>
+    </stackpanel>
+    <stackpanel name="batteryIndicatorReplacement" extra="true" tinyScreen="true">
+      <pos>0.708 0.015</pos>
+      <size>0.28 0.06</size>
+    </stackpanel>
+    -->
+  </view>
+</theme>

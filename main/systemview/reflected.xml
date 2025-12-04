@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>  
+  <view name="system">
+    <carousel name="systemcarousel">
+      <color>FAFAFF00</color>
+      <colorEnd>FAFAFF00</colorEnd>
+      <zIndex>20</zIndex>
+      <pos>0 0.39</pos>
+      <size>1 0.3925</size>
+      <origin>0 0</origin>
+      <logoPos>-1 0.02</logoPos>
+      <scrollSound>./main/sounds/scroll.wav</scrollSound>
+    </carousel>
+
+    <image name="logo">
+      <reflexion>0.16 0.0</reflexion>
+      <reflexionOnFrame>true</reflexionOnFrame>
+    </image>
+  </view>
+</theme>

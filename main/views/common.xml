@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="Tiles">
+  <formatVersion>7</formatVersion>
+  <view name="basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel, original">
+
+        <text name="system_description" extra="static">
+            <visible>false</visible>
+        </text>
+
+        <helpsystem name="help">
+            <textColor>ffffff</textColor>
+            <iconColor>ffffff</iconColor>
+        </helpsystem>   
+
+        <image name="iconBar" extra="static">
+            <tile>false</tile>
+            <size>0.3 0.065</size>
+            <pos>0.35 0.008</pos>
+            <origin>0 0</origin>
+            <path>./main/media/band.svg</path>
+            <roundCorners>0.02</roundCorners>
+            <color>${baseColor}</color>
+            <zIndex>80</zIndex>
+        </image>
+
+        <image name="background" extra="static">
+            <default>./main/background/bg.png</default>
+            <path>./main/background/${system.theme}.jpg</path>
+            <linearSmooth>true</linearSmooth>
+            <color>FFFFFFFF</color>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <minSize>1 1</minSize>
+        </image>
+
+        <image name="md_fanart" extra="true">
+            <pos>0 0.212</pos>
+            <minSize>1 0.725</minSize>      
+            <origin>0 0</origin>
+            <color>FFFFFFFF</color>
+            <linearSmooth>true</linearSmooth>
+            <tile>false</tile>
+        </image>
+
+        <image name="top" extra="true" onclick="back">
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <size>1 0.212</size>
+            <path>./main/media/band.svg</path>
+            <color>00000080</color>
+            <zIndex>49</zIndex>
+        </image>
+
+        <image name="topLine" extra="true">
+            <pos>0 0.212</pos>
+            <origin>0 0</origin>
+            <size>1 0.005</size>
+            <path>./main/media/band.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="bottom" extra="static">
+            <pos>0 1</pos>
+            <origin>0 1</origin>
+            <size>1 0.065</size>
+            <path>./main/media/band.svg</path>
+            <color>00000080</color>
+            <zIndex>50</zIndex>
+        </image>
+
+        <image name="bottomLine" extra="true">
+            <pos>0 0.935</pos>
+            <origin>0 0</origin>
+            <size>1 0.005</size>
+            <path>./main/media/band.svg</path>
+            <color>${baseColor}</color>
+            <zIndex>50</zIndex>
+        </image>
+
+        <text name="logoText">
+            <pos>0.02 0.02</pos>
+            <visible>false</visible>
+            <size>0.98 0.126</size>
+            <alignment>center</alignment>
+            <fontSize>0.08</fontSize>
+            <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+            <color>${baseColor}</color>
+        </text>
+
+        <image name="logo">
+            <!-- try png -->
+            <path>./main/logos/${system.theme}.png</path>
+            <!-- try svg -->
+            <path>./main/logos/${system.theme}.svg</path>
+            <!-- check if lang resources exist -->
+            <path>./main/logos/${system.theme}-${lang}.png</path>
+            <path>./main/logos/${system.theme}-${lang}.svg</path>
+            <!-- check if white logos exist -->
+            <path>./main/logos/${system.theme}-w.png</path>
+            <path>./main/logos/${system.theme}-w.svg</path>
+            <origin>0.5 0.5</origin>
+            <pos>0.165 0.105</pos>
+            <maxSize>0.3 0.2</maxSize>
+        </image>        
+
+        <text name="folderpath">
+            <pos>0.05 0.132</pos>
+            <size>0.90 0.02</size>  
+            <color>B0B0B0</color>  
+            <alignment>center</alignment>
+            <fontSize>0.016</fontSize>
+            <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+            <forceUppercase>true</forceUppercase>
+            <zIndex>200</zIndex>
+            <storyboard>
+              <sound path="./main/sounds/bip.wav"/>
+            </storyboard>
+        </text> 
+  </view>
+</theme>
