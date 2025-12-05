@@ -1,30 +1,36 @@
-<!-- Theme by pajarorrojo
-https://github.com/pajarorrojo/es-theme-PlayStation-X 
--->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
 		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
 
-Packs of two or more previously released video games (usually bestsellers) in a later edition at a lower price.			</text>
+		<text name="system_description" extra="true">
+			<text>Los paquetes de juegos combinan dos o más títulos de videojuegos lanzados previamente, generalmente los más vendidos y populares. Esta edición posterior ofrece al jugador la oportunidad de adquirir grandes éxitos juntos, a un precio más asequible y ventajoso. Además de ahorrar dinero, estos paquetes ofrecen una experiencia completa, permitiéndote revivir clásicos o descubrir títulos emblemáticos en una sola colección. Es la manera ideal de ampliar tu biblioteca y disfrutar al máximo de lo mejor que cada sistema ha lanzado.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Los paquetes de juegos combinan dos o más títulos de videojuegos lanzados previamente, generalmente los más vendidos y populares. Esta edición posterior ofrece al jugador la oportunidad de adquirir grandes éxitos juntos, a un precio más asequible y ventajoso. Además de ahorrar dinero, estos paquetes ofrecen una experiencia completa, permitiéndote revivir clásicos o descubrir títulos emblemáticos en una sola colección. Es la manera ideal de ampliar tu biblioteca y disfrutar al máximo de lo mejor que cada sistema ha lanzado.</text>
 		</text>
 		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-
-Packs de dos o más videojuegos lanzados anteriormente (normalmente éxitos en ventas) en una edición posterior y a un precio más ajustado.
+		<text name="system_description" extra="true" lang="fr">
+			<text>Les packs de jeux regroupent deux titres vidéo ou plus déjà sortis, généralement des best-sellers. Cette nouvelle édition permet d'acquérir des jeux incontournables à un prix plus avantageux. Outre les économies réalisées, ces packs offrent une expérience complète, permettant de redécouvrir des classiques ou de découvrir des titres phares dans une seule collection. C'est le moyen idéal d'enrichir sa ludothèque et de profiter pleinement des meilleurs jeux jamais sortis sur chaque console.</text>
 		</text>
-	</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>Os pacotes de jogos reúnem dois ou mais títulos de videogame lançados anteriormente, geralmente aqueles que se destacaram como os mais vendidos e populares. Essa edição posterior oferece ao jogador a oportunidade de adquirir grandes sucessos em conjunto, por um preço mais acessível e vantajoso. Além de garantir economia, esses pacotes proporcionam uma experiência completa, permitindo reviver clássicos ou descobrir títulos marcantes em uma única coleção. É a forma ideal de ampliar sua biblioteca e aproveitar ao máximo o melhor que cada sistema já lançou.</text>
+		</text>
 
 		<text name="system_name" extra="true">
 			<text>Compilation</text>
 		</text>
 		<text name="system_name" extra="true" lang="es">
 			<text>Recopilaciones</text>
+		</text>
+		<text name="system_name" extra="true" lang="fr">
+			<text>Compilation</text>
+		</text>
+		<text name="system_name" extra="true" lang="pt">
+			<text>Compilação</text>
 		</text>
 	</view>
 </theme>

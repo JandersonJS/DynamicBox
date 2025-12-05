@@ -8,22 +8,19 @@ https://github.com/pajarorrojo/es-theme-PlayStation-X
 
 
 		<text name="system_description" extra="true" >
-			<text>A list of all compatible games for two players, of any system.</text>
+			<text>Here you'll find a complete list of all compatible two-player games, bringing together titles from different systems in one place. It's the ideal space to discover which games allow for shared fun, whether retro classics or more modern experiences. The library automatically organizes available titles, making access easy and ensuring that you and a friend can enjoy every game together. In this way, your collection transforms into a true catalog of cooperation and competition, ready to provide hours of entertainment for two.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text>Una lista con todos los juegos compatibles para dos jugadores, de cualquier sistema.
-</text>
+			<text>Aquí encontrarás una lista completa de todos los juegos compatibles para dos jugadores, reuniendo títulos de diferentes sistemas en un solo lugar. Es el espacio ideal para descubrir qué juegos permiten divertirse juntos, ya sean clásicos retro o experiencias más modernas. La biblioteca organiza automáticamente los títulos disponibles, facilitando el acceso y garantizando que tú y un amigo puedan disfrutar de todos los juegos juntos. De esta manera, tu colección se transforma en un auténtico catálogo de cooperación y competición, listo para ofrecerte horas de entretenimiento para dos.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="fr" >
-			<text>Une liste de tous les jeux compatibles pour deux joueurs, de n'importe quel système.
-</text>
+			<text>Vous trouverez ici la liste complète des jeux compatibles à deux joueurs, regroupant des titres de différentes consoles. C'est l'endroit idéal pour découvrir les jeux à partager, qu'il s'agisse de classiques rétro ou de titres plus modernes. La bibliothèque organise automatiquement les jeux disponibles, facilitant ainsi l'accès et vous permettant, à vous et à un ami, de profiter de chaque jeu ensemble. Votre collection se transforme alors en un véritable catalogue de coopération et de compétition, prêt à vous offrir des heures de divertissement à deux.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="pt" >
-			<text>Uma lista de todos os jogos compatíveis para dois jogadores, de qualquer sistema.
-</text>
+			<text>Aqui você encontra uma lista completa de todos os jogos compatíveis para dois jogadores, reunindo títulos de diferentes sistemas em um só lugar. É o espaço ideal para descobrir quais jogos permitem diversão compartilhada, seja em clássicos retrô ou em experiências mais modernas. A biblioteca organiza automaticamente os títulos disponíveis, facilitando o acesso e garantindo que você e um amigo possam aproveitar juntos cada partida. Dessa forma, sua coleção se transforma em um verdadeiro catálogo de cooperação e competição, pronto para proporcionar horas de entretenimento em dupla.</text>
 		</text>
 		
 		

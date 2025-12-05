@@ -4,19 +4,19 @@
 	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
 
 		<text name="system_description" extra="true" >
-			<text>Here we visualize all the games we have on the system.</text>
+			<text>Here you can view all the games available in the system, gathered in a single space to facilitate your navigation. The digital library automatically organizes your titles, allowing quick and easy access to your collections. This way, every game you own is just a click away, making your experience more dynamic and engaging.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text>Aquí visualizamos todos los juegos que tenemos en el sistema.</text>
+			<text>Aquí puedes ver todos los juegos disponibles en el sistema, reunidos en un solo espacio para facilitar tu navegación. La biblioteca digital organiza automáticamente tus títulos, permitiéndote acceder a tus colecciones de forma rápida y sencilla. De esta forma, todos tus juegos están a un solo clic, haciendo tu experiencia más dinámica y atractiva.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="fr" >
-			<text>Ici, nous visualisons tous les jeux que nous avons sur le système.</text>
+			<text>Ici, vous pouvez consulter tous les jeux disponibles dans le système, regroupés en un seul endroit pour faciliter votre navigation. La bibliothèque numérique organise automatiquement vos titres, vous permettant d'accéder rapidement et facilement à vos collections. Ainsi, chaque jeu que vous possédez est à portée de clic, pour une expérience plus dynamique et immersive.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="pt" >
-			<text>Aqui visualisamos todos os jogos que possuimos no sistema.</text>
+			<text>Aqui você visualiza todos os jogos disponíveis no sistema, reunidos em um único espaço para facilitar sua navegação. A biblioteca digital organiza automaticamente seus títulos, permitindo acesso rápido e prático às suas coleções. Dessa forma, cada jogo que você possui fica ao alcance de um clique, transformando sua experiência em algo mais dinâmico e envolvente.</text>
 		</text>
 		
 				

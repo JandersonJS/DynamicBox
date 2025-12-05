@@ -5,18 +5,18 @@
 
 		
 		<text name="system_description" extra="true">
-			<text>This system is used to display your system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarouselshots, captured with the shortcut Hotkey+L.</text>
+			<text>This system was developed to display all your screenshots in a practical and organized way. With just one simple command — the shortcut Hotkey+L — you instantly record what's on the screen and keep everything accessible in one place. The images are gathered in your digital library, allowing you to view, consult, and manage your captures whenever you need. It's a fast, modern, and efficient solution for those who value practicality and organization in their daily lives.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text>Aquí encontrarás todas tus capturas de pantalla guardadas con la combinación del mando: Hotkey+L.</text>
+			<text>Este sistema fue desarrollado para mostrar todas tus capturas de pantalla de forma práctica y organizada. Con un simple comando —el atajo de teclado + L—, grabas al instante lo que aparece en la pantalla y tienes todo accesible en un solo lugar. Las imágenes se recopilan en tu biblioteca digital, lo que te permite ver, consultar y gestionar tus capturas cuando lo necesites. Es una solución rápida, moderna y eficiente para quienes valoran la practicidad y la organización en su día a día.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="fr">
-			<text>Retrouvez ici tous vos system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarouselshots avec le Hotkey+L.</text>
+			<text>Ce système a été conçu pour afficher toutes vos captures d'écran de manière pratique et organisée. D'une simple commande (le raccourci clavier Hotkey+L), vous enregistrez instantanément le contenu de votre écran et conservez tout à portée de main. Les images sont regroupées dans votre bibliothèque numérique, vous permettant de les consulter, de les gérer et de les visualiser à tout moment. C'est une solution rapide, moderne et efficace pour celles et ceux qui privilégient la praticité et l'organisation au quotidien.</text>
 		</text>	
 		<text name="system_description" extra="true" lang="pt">
-			<text>este sistema é usado para exibir suas capturas de tela, capturadas com o atalho Hotkey+L.</text>
+			<text>Este sistema foi desenvolvido para exibir de forma prática e organizada todas as suas capturas de tela. Com apenas um comando simples — o atalho Hotkey+L — você registra instantaneamente o que está na tela e mantém tudo acessível em um só lugar. As imagens ficam reunidas em sua biblioteca digital, permitindo que você visualize, consulte e gerencie suas capturas sempre que precisar. É uma solução rápida, moderna e eficiente para quem valoriza praticidade e organização no dia a dia.</text>
 		</text>	
 
 

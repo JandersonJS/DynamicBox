@@ -5,26 +5,21 @@
 
 
 		<text name="system_description" extra="true" >
-			<text>Here we see all system games that have not yet been played</text>
+			<text>Here are all those system games you haven't yet dared to play. They're just sitting here, waiting for your attention… almost as if they're lining up to complain: "Hey, what about us?!" It's practically a digital protest list, showing everything you've left aside. Maybe now you'll finally give these poor forgotten things a chance?</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text>Aquí vemos todos los juegos del sistema que aún no se han jugado</text>
+			<text>Aquí están todos esos juegos de sistema que aún no te has atrevido a jugar. Están ahí, esperando tu atención... casi como si hicieran fila para quejarse: "¡Oye, ¿y nosotros qué?". Es prácticamente una lista de protesta digital que muestra todo lo que has dejado de lado. ¿Quizás ahora por fin les des una oportunidad a estos pobres olvidados?</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="fr" >
-			<text>Ici, nous voyons tous les jeux système qui n'ont pas encore été joués</text>
+			<text>Voici tous ces jeux système auxquels vous n'avez jamais osé jouer. Ils sont là, à attendre votre attention… comme s'ils faisaient la queue pour protester: «Et nous alors?!» C'est presque une liste de protestation numérique, recensant tout ce que vous avez laissé de côté. Peut-être que maintenant, vous donnerez enfin une chance à ces pauvres jeux oubliés?</text>
 		</text>
 
 			    <text name="system_description" extra="true" lang="pt" >
-			<text>Aqui vemos todos os jogos do sistema que ainda não foram jogados</text>
+			<text>Aqui estão todos aqueles jogos do sistema que você ainda não teve coragem de jogar. Eles ficam aqui, parados, só esperando sua atenção… quase como se estivessem fazendo fila para reclamar: “Ei, e nós?!” É praticamente uma lista de protesto digital, mostrando tudo o que você deixou de lado. Quem sabe agora você finalmente dá uma chance para esses coitados esquecidos?</text>
 		</text>
 
-		
-
-
-
-				
 
 		<text name="system_name" extra="true">
 			<text>Never Played</text>

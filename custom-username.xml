@@ -1,6 +1,6 @@
 <theme> 
 <formatVersion>7</formatVersion>
-<view name="system, Tiles"> 
+<view name="system, grid"> 
 <!-- put here your username, symply change username for your own username-->
 <!-- pon aquí tu nombre de usuario, simplemente cambia nombre de usuario por tu nombre de usuario-->
 <!-- mettez ici votre nom d'utilisateur, changez simplement le nom d'utilisateur pour votre propre nom d'utilisateur-->

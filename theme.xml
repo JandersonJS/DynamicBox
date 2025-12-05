@@ -77,7 +77,7 @@ license: creative commons CC-BY-NC-SA
     <theme.username>Nome de Usuário</theme.username>
     <subset.iconset>Ícones</subset.iconset>
     <animationsSubsetName>Animações</animationsSubsetName>
-    <logoColor>Logotipos Coloridos</logoColor>
+    <roundAvatar>Avatar Redondo</roundAvatar>
     <hotkeytips>Dicas de Teclas de Atalho</hotkeytips>
     <gameVideosAudio>Audio dos videos (Lista de Jogos)</gameVideosAudio>
     <randomVideosAudio>Audio dos videos (Sistema)</randomVideosAudio>
@@ -120,7 +120,7 @@ license: creative commons CC-BY-NC-SA
     <theme.username>Nom d'utilisateur</theme.username>
     <subset.iconset>ensemble d'icônes</subset.iconset>
     <animationsSubsetName>Animations</animationsSubsetName>
-    <logoColor>Logos colorés</logoColor>
+    <roundAvatar>avatar rond</roundAvatar>
     <hotkeytips>Raccourcis Clavier</hotkeytips>
     <gameVideosAudio>Extrait audio des vidéos (Liste des jeux)</gameVideosAudio>
     <randomVideosAudio>Extrait audio des vidéos (Système)</randomVideosAudio>
@@ -163,7 +163,7 @@ license: creative commons CC-BY-NC-SA
     <theme.username>Nombre de usuario</theme.username>
     <subset.iconset>Iconos</subset.iconset>
     <animationsSubsetName>Animaciones</animationsSubsetName>
-    <logoColor>Logotipos coloridos</logoColor>
+    <roundAvatar>Avatar Redondo</roundAvatar>
     <hotkeytips>Consejos sobre teclas de acceso directo</hotkeytips>
     <gameVideosAudio>Audio de vídeo (Lista de juegos)</gameVideosAudio>
     <randomVideosAudio>Audio de vídeo (Sistema)</randomVideosAudio>
@@ -208,44 +208,18 @@ license: creative commons CC-BY-NC-SA
 <subset name="system-avatar" displayName="${theme.Avatar}" extra="true, static">
   <include if="{global.cheevos} == true" name="cheevos" displayName="Retroachievements Avatar" />
   <include name="custom" displayName="${custom}">./main/avatars/custom.xml</include>
-  <include name="batocera-plus" displayName="Batocera Plus">./main/avatars/batocera-plus.xml</include>
-  <include name="batocera" displayName="Batocera">./main/avatars/batocera.xml</include>
-  <include name="Bubble Bobble" displayName="Bubble Bobble">./main/avatars/bubble.xml</include>
-  <include name="castlevania" displayName="Alucard (Castlevania)">./main/avatars/castlevania.xml</include>
-  <include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./main/avatars/ghostgoblins.xml</include>
-  <include name="cloud" displayName="Cloud Strife">./main/avatars/cloud.xml</include>
-  <include name="daytentacle" displayName="Day of the Tentacle">./main/avatars/daytentacle.xml</include> 
-  <include name="donkey" displayName="Donkey Kong">./main/avatars/donkey.xml</include> 
-  <include name="emulationstation" displayName="Emulation Station">./main/avatars/emulationstation.xml</include>
-  <include name="halo" displayName="Halo">./main/avatars/halo.xml</include>
-  <include name="jackelguapo" displayName="Handsome Jack">./main/avatars/jackelguapo.xml</include>
-  <include name="lara" displayName="Lara Croft">./main/avatars/lara.xml</include>
-  <include name="larry" displayName="Larry Laffer">./main/avatars/larry.xml</include>
-  <include name="zelda" displayName="Link (Zelda)">./main/avatars/zelda.xml</include>
-  <include name="mario" displayName="Mario Bros.">./main/avatars/mario.xml</include>
-  <include name="megaman" displayName="Mega-Man">./main/avatars/megaman.xml</include>
-  <include name="metal-gear" displayName="Metal Gear">./main/avatars/metal-gear.xml</include>
-  <include name="metalslug" displayName="Metal Slug">./main/avatars/metalslug.xml</include>
-  <include name="metroid" displayName="Metroid">./main/avatars/metroid.xml</include>
-  <include name="monkeyisland" displayName="Monkey Island">./main/avatars/monkeyisland.xml</include>
-  <include name="outrun" displayName="OutRun">./main/avatars/outrun.xml</include>
-  <include name="pacman" displayName="Pac-Man">./main/avatars/pacman.xml</include>
-  <include name="pacman-clyde" displayName="Pac-Man Clyde">./main/avatars/pacman-clyde.xml</include>
-  <include name="pacman-Inky" displayName="Pac-Man Inky">./main/avatars/pacman-inky.xml</include>
-  <include name="pacman-blinky" displayName="Pac-Man Blinky">./main/avatars/pacman-blinky.xml</include>
-  <include name="pacman-pinky" displayName="Pac-Man Pinky">./main/avatars/pacman-pinky.xml</include>
-  <include name="ps-logo" displayName="PlayStation Logo">./main/avatars/playstation-logo.xml</include>
-  <include name="astrobot" displayName="PSN Astro Bot">./main/avatars/astrobot.xml</include>
-  <include name="retroship" displayName="PSN Retro Ship">./main/avatars/retroship.xml</include>
-  <include name="recalbox" displayName="Recalbox">./main/avatars/recalbox.xml</include>
-  <include name="retroachievements" displayName="Retroachievements Default">./main/avatars/retroachievements.xml</include>
-  <include name="retrobat" displayName="Retrobat">./main/avatars/retrobat.xml</include>
-  <include name="retropie" displayName="Retropie">./main/avatars/retropie.xml</include>
-  <include name="shenmue" displayName="Ryo Hazuki (Shenmue)">./main/avatars/shenmue.xml</include>
-  <include name="ryu" displayName="Ryu (Street Fighter 2)">./main/avatars/ryu.xml</include>
-  <include name="sephirot" displayName="Sephirot">./main/avatars/sephirot.xml</include>
-  <include name="sonic" displayName="Sonic">./main/avatars/sonic.xml</include>
-  <include name="wonderboy" displayName="Wonderboy">./main/avatars/wonderboy.xml</include>  
+  <include name="anime" displayName="Anime Cat Girl">./main/avatars/anime.xml</include>
+  <include name="blue" displayName="Blue Face Man">./main/avatars/blue.xml</include>
+  <include name="dog" displayName="Dog">./main/avatars/dog.xml</include>
+  <include name="dragon" displayName="Dragon">./main/avatars/dragon.xml</include>
+  <include name="emo" displayName="Emo Hat Boy">./main/avatars/emo.xml</include> 
+  <include name="football" displayName="Football">./main/avatars/football.xml</include> 
+  <include name="monkey" displayName="Monkey">./main/avatars/monkey.xml</include>
+  <include name="panda" displayName="Panda">./main/avatars/panda.xml</include>
+  <include name="pirate" displayName="Pirate">./main/avatars/pirate.xml</include>
+  <include name="pandemic" displayName="Skull Pandemic Guy">./main/avatars/pandemic.xml</include>
+  <include name="smiley" displayName="Smiley-Face">./main/avatars/smiley.xml</include>
+  <include name="waves" displayName="Waves">./main/avatars/waves.xml</include>  
 </subset>  
 
 
@@ -336,7 +310,7 @@ license: creative commons CC-BY-NC-SA
     <include name="yes" displayName="${yes}">./storyboards.xml</include>
     <include name="no" displayName="${no}"/>
   </subset> 
-    <subset name="logoColor" displayName="${logoColor}">
+    <subset name="roundAvatar" displayName="${roundAvatar}">
         <include name="off" displayName="${no}"/>
         <include name="on" displayName="${yes}"/>
    </subset>

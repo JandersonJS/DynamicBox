@@ -3,7 +3,27 @@
   <formatVersion>7</formatVersion>
   <view name="grid">
 
-      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
+      <image name="avatar" extra="static" ifSubset="roundAvatar:on">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <pos>0.075 0.222</pos>
+         <maxSize>0.11 0.11</maxSize>
+         <roundCorners>0.5</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <image name="avatar" extra="static" ifSubset="roundAvatar:off">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <pos>0.075 0.222</pos>
+         <maxSize>0.11 0.11</maxSize>
+         <roundCorners>0</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:on">
          <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
          <pos>0.075 0.222</pos>
          <maxSize>0.11 0.11</maxSize>
@@ -11,6 +31,32 @@
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
        </webimage>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:off">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.075 0.222</pos>
+         <maxSize>0.11 0.11</maxSize>
+         <roundCorners>0</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
+      <text name="username" extra="static">
+         <text>${theme.nick}</text>
+         <text ifSubset="system-username:custom">${custom.nick}</text>
+         <origin>0.5 0.5</origin>
+         <pos>0.155 0.35</pos>
+         <size>0.205 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.028</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
+      </text>
 
     <image name="leftbar" extra="true">
       <path>./main/media/band.svg</path>
@@ -181,8 +227,8 @@
     </image>
 
     <text name="md_description">
-      <pos>0.01 0.45</pos>
-      <size>0.205 0.38</size>
+      <pos>0.01 0.48</pos>
+      <size>0.205 0.35</size>
       <color>ffffff</color>
       <alignment>justify</alignment>
       <forceUppercase>0</forceUppercase>
@@ -192,13 +238,13 @@
 
     <text name="md_lbl_releasedate">
       <color>ffffff</color>
-      <pos>0.01 0.41</pos>
+      <pos>0.01 0.44</pos>
       <size>0.2 0</size>
     </text>
 
     <datetime name="md_releasedate">
       <color>EFEFFF</color>
-      <pos>0.115 0.41</pos>       
+      <pos>0.115 0.44</pos>       
       <size>0.1 0</size>
     </datetime>
 
@@ -206,7 +252,7 @@
       <autoScroll>horizontal</autoScroll>
       <origin>0 0.5</origin>
       <color>ffffff</color>
-      <pos>0.01 0.355</pos>       
+      <pos>0.01 0.385</pos>       
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>
@@ -215,7 +261,7 @@
       <autoScroll>horizontal</autoScroll> 
       <origin>0 0.5</origin>
       <color>ffffff</color>
-      <pos>0.115 0.355</pos>       
+      <pos>0.115 0.385</pos>       
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>
@@ -223,7 +269,7 @@
     <text name="md_lbl_publisher">
       <autoScroll>horizontal</autoScroll> 
       <color>ffffff</color>
-      <pos>0.01 0.365</pos>       
+      <pos>0.01 0.395</pos>       
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>
@@ -231,7 +277,7 @@
     <text name="md_publisher">
       <autoScroll>horizontal</autoScroll> 
       <color>ffffff</color>
-      <pos>0.115 0.365</pos>       
+      <pos>0.115 0.395</pos>       
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>

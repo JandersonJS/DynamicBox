@@ -4,17 +4,17 @@
 	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
 
 		<text name="system_description" extra="true">
-			<text>Place in library directory your magazine and videos. Acceptable extensions : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text>This is your digital magazine and book stand, created to gather and organize your favorite readings in one place. Transform your library into an exclusive personal collection, storing complete editions, special collections, and digitized covers. Various formats are accepted, such as pdf, cbz, jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, and pgm, ensuring flexibility to build your collection the way you prefer.</text>
 		</text>
 		
 			<text name="system_description" extra="true" lang="es">
-			<text>Coloca en el directorio 'library' los elementos que conformarán tu propia bibilioteca de medios; como revistas, catálogos, vídeos, imágenes etc... Extensiones aceptadas: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text>Este es tu revistero y puesto de libros digital, creado para reunir y organizar tus lecturas favoritas en un solo lugar. Transforma tu biblioteca en una colección personal exclusiva, almacenando ediciones completas, colecciones especiales y portadas digitalizadas. Aceptamos varios formatos, como PDF, CBZ, JPG, JPEG, PNG, BMP, PSD, TGA, GIF, HDR, PIC, PPM y PGM, lo que te garantiza la flexibilidad para crear tu colección a tu gusto.</text>
 		</text>
 		<text name="system_description" extra="true" lang="fr">
-			<text>Placez dans le répertoire de la bibliothèque votre magazine et vos vidéos. Extensions acceptées : jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text>Voici votre bibliothèque numérique, conçue pour rassembler et organiser vos lectures préférées. Transformez votre bibliothèque en une collection personnelle exclusive, en stockant des éditions complètes, des collections spéciales et des couvertures numérisées. Différents formats sont acceptés, tels que PDF, CBZ, JPG, JPEG, PNG, BMP, PSD, TGA, GIF, HDR, PIC, PPM et PGM, vous offrant ainsi la flexibilité nécessaire pour créer votre collection selon vos envies.</text>
 		</text>
 		<text name="system_description" extra="true" lang="pt">
-			<text>Coloque no diretório da biblioteca sua revista e vídeos. Extensões aceitáveis: jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm, pgm, mkv, pdf, mp4, avi, cbz.</text>
+			<text>Esta é a sua banca de revistas e livros digitais, criada para reunir e organizar suas leituras favoritas em um só lugar. Transforme sua biblioteca em um acervo pessoal exclusivo, armazenando edições completas, coleções especiais e capas digitalizadas. São aceitos diversos formatos como pdf, cbz, jpg, jpeg, png, bmp, psd, tga, gif, hdr, pic, ppm e pgm, garantindo flexibilidade para montar sua coleção do jeito que preferir.</text>
 		</text>
 
 

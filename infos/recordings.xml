@@ -4,19 +4,19 @@
 	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
 
 		<text name="system_description" extra="true">
-			<text>Here you can see your videos recorded with a system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel recorder integrated into Batocera.</text>
+			<text>Here you can easily and efficiently store your recorded videos. The system features a screen recorder integrated with EmulationStation, accessed directly in Batocera, allowing you to record your gameplay, special moments, and any activity you want to save. All videos are available in one place, ready to be viewed whenever you want. It's a simple, modern, and efficient solution for those who value recording and reliving their digital experiences.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text>Aquí podrás ver tus vídeos grabados con un grabador de pantalla integrado en Batocera.</text>
+			<text>Aquí puedes guardar tus vídeos grabados de forma fácil y eficiente. El sistema cuenta con una grabadora de pantalla integrada con EmulationStation, accesible directamente desde Batocera, que te permite grabar tus partidas, momentos especiales y cualquier actividad que quieras guardar. Todos los vídeos están disponibles en un solo lugar, listos para verlos cuando quieras. Es una solución sencilla, moderna y eficiente para quienes valoran grabar y revivir sus experiencias digitales.</text>
 		</text>
 		
 				<text name="system_description" extra="true" lang="fr">
-			<text>Ici vous pouvez voir vos vidéos enregistrées avec un enregistreur d'écran intégré à Batocera.</text>
+			<text>Ici, vous pouvez facilement et efficacement stocker vos vidéos enregistrées. Le système intègre un enregistreur d'écran avec EmulationStation, accessible directement depuis Batocera, vous permettant d'enregistrer vos sessions de jeu, vos moments forts et toute activité que vous souhaitez sauvegarder. Toutes vos vidéos sont disponibles au même endroit, prêtes à être visionnées à tout moment. C'est une solution simple, moderne et efficace pour ceux qui aiment enregistrer et revivre leurs expériences numériques.</text>
 		</text>
 
 				<text name="system_description" extra="true" lang="pt">
-			<text>Aqui voçê consegue ver seus videos gravados com um gravador de tela integrado ao Batocera.</text>
+			<text>Aqui você encontra seus vídeos gravados com praticidade e organização. O sistema conta com um gravador de tela integrado ao EmulationStation, acessado diretamente no Batocera, permitindo registrar suas jogadas, momentos especiais e qualquer atividade que queira guardar. Todos os vídeos ficam disponíveis em um só lugar, prontos para serem visualizados sempre que desejar. É uma solução simples, moderna e eficiente para quem valoriza registrar e reviver suas experiências digitais.</text>
 		</text>
 
 

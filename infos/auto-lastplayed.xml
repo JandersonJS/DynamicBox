@@ -5,26 +5,20 @@
 
 
 		<text name="system_description" extra="true" >
-			<text>A list of the last 50 games you have played.</text>
+			<text>In this section you will find a list of the last 50 games you played, organized in a practical and accessible way. It's the ideal place to revisit your recent experiences, track your game history, and easily pick up any title you've explored. The library automatically records your gameplay, transforming your journey into a dynamic catalog that reflects your preferences and moments of fun. This way, you always have an up-to-date overview of your gaming experience at hand.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="es">
-			<text>Una lista de los últimos 50 juegos a los que has jugado.</text>
+			<text>En esta sección encontrarás una lista de los últimos 50 juegos que has jugado, organizada de forma práctica y accesible. Es el lugar ideal para revisitar tus experiencias recientes, seguir tu historial de juego y acceder fácilmente a cualquier título que hayas explorado. La biblioteca registra automáticamente tus partidas, transformando tu recorrido en un catálogo dinámico que refleja tus preferencias y momentos de diversión. Así, siempre tendrás a mano un resumen actualizado de tu experiencia de juego.</text>
 		</text>
 
 		<text name="system_description" extra="true" lang="fr" >
-			<text>Une liste des 50 derniers jeux auxquels vous avez joué.</text>
+			<text>Dans cette section, vous trouverez la liste de vos 50 derniers jeux, organisée de manière pratique et accessible. C'est l'endroit idéal pour vous replonger dans vos expériences récentes, consulter votre historique de jeu et retrouver facilement n'importe quel titre que vous avez exploré. La bibliothèque enregistre automatiquement vos parties, transformant votre parcours en un catalogue dynamique qui reflète vos préférences et vos meilleurs moments. Ainsi, vous avez toujours à portée de main un aperçu à jour de votre expérience de jeu.</text>
 		</text>
 
 			    <text name="system_description" extra="true" lang="pt" >
-			<text>Uma lista dos últimos 50 jogos que você jogou.</text>
+			<text>Nesta seção você encontrará uma lista dos últimos 50 jogos que jogou, organizada de forma prática e acessível. É o espaço ideal para revisitar suas experiências recentes, acompanhar seu histórico de partidas e retomar facilmente qualquer título que tenha explorado. A biblioteca registra automaticamente suas jogadas, transformando seu percurso em um catálogo dinâmico que reflete suas preferências e momentos de diversão. Assim, você tem sempre à mão um panorama atualizado da sua jornada pelos jogos.</text>
 		</text>
-
-		
-
-
-
-				
 
 		<text name="system_name" extra="true">
 			<text>Last Played</text>

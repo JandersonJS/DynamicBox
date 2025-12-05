@@ -1,30 +1,35 @@
-<!-- Theme by pajarorrojo
-https://github.com/pajarorrojo/es-theme-PlayStation-X 
--->
 <theme>
 	<formatVersion>7</formatVersion>
 
 	<view name="system">
-		<text name="system_description" extra="true" >
-			<text>Auto gamelist.
 
-Board game is the classification given to games that consist of a board and pieces of different shapes and colors more or less elaborate, usually in this list you will find classic board games adapted to the system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel and especially chess games.			</text>
+		<text name="system_description" extra="true">
+			<text>Board game is the classification given to games that consist of a board and pieces of different shapes and colors more or less elaborate, usually in this list you will find classic board games adapted to the system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel and especially chess games.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Juego de mesa es la clasificación que se da a los juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.</text>
 		</text>
 		
-
-
-	<text name="system_description" extra="true" lang="es">
-		<text>Lista de juegos automática.
-
-Juego de mesa es la clasificación que se da a los juegos que constan de un tablero y fichas de diferentes formas y colores mas o menos elaboradas, por lo general en esta lista encontrarás juegos de mesa clásicos adaptados a la pantalla y sobretodo juegos de ajedrez.
+		<text name="system_description" extra="true" lang="fr">
+			<text>Les jeux de société sont des jeux composés d'un plateau et de pièces de formes et de couleurs variées, plus ou moins élaborées. On y trouve généralement des jeux de société classiques adaptés à l'écran, et notamment des jeux d'échecs.</text>
 		</text>
-	</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>Os jogos de tabuleiro são classificados como jogos que consistem em um tabuleiro e peças de diferentes formatos e cores, mais ou menos elaboradas. Geralmente, nesta lista você encontrará jogos de tabuleiro clássicos adaptados para a tela, especialmente jogos de xadrez.</text>
+		</text>
 
 		<text name="system_name" extra="true">
 			<text>Board games</text>
 		</text>
 		<text name="system_name" extra="true" lang="es">
 			<text>Juegos de mesa</text>
+		</text>
+		<text name="system_name" extra="true" lang="fr">
+			<text>Jeux de société</text>
+		</text>
+		<text name="system_name" extra="true" lang="pt">
+			<text>Jogos de tabuleiro</text>
 		</text>
 	
 	</view>

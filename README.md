@@ -10,19 +10,21 @@ This is a free theme, available for use on any compatible system. Enjoy and have
 Starting with this version, all customizations and additions will be cataloged so users know exactly what they are using.
 
 🆕 New features and improvements
-Added multiple systems for better adaptation to Retrobat.
+1. Added multiple systems for better adaptation to Retrobat.
 
-Support for new systems compatible with Batocera v42.
+2. Support for new systems compatible with Batocera v42.
 
-General organization of the theme: reduced code, improved indentation, simplified paths.
+3. General organization of the theme: reduced code, improved indentation, simplified paths.
 
-Standardized square logos to reduce loading delays.
+4. Standardized square logos to reduce loading delays.
 
-Fixed a frame issue that didn’t respond properly to square logos.
+5. Fixed a frame issue that didn’t respond properly to square logos.
 
-New game views inspired by modern dashboard styles.
+6. New game views inspired by modern dashboard styles.
 
-Added original and exclusive images for square logos.
+7. Added original and exclusive images for square logos.
+
+8. Several new customizations have been added, such as avatar format, video sound, and more.
 
 🚀 Next steps
 There are countless ideas planned for future versions. I hope you enjoy the result, and of course, feel free to share your suggestions!

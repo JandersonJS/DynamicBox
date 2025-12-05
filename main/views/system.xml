@@ -242,28 +242,48 @@ Partidas iniciadas : {binding:played}</text>
       <text lang="pt">Número de Imagens: {binding:total}</text>
     </text>
 
-
-      <image name="avatar" extra="static">
+      <image name="avatar" extra="static" ifSubset="roundAvatar:on">
          <path>./main/avatars/${image.avatar}</path>
          <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
          <pos>0.02 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
+         <roundCorners>0.5</roundCorners>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos">
+      <image name="avatar" extra="static" ifSubset="roundAvatar:off">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
+         <pos>0.02 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <roundCorners>0</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+      </image>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:on">
          <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
          <pos>0.02 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
+         <roundCorners>0.5</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:off">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.02 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <roundCorners>0</roundCorners>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
        </webimage>
 
       <image name="achievement" extra="static">
-         <path>./main/media/achievement.png</path>
+         <path>./main/media/achievement.svg</path>
          <pos>0.06 0.072</pos>
-         <maxSize>0.025 0.025</maxSize>
+         <maxSize>0.023 0.023</maxSize>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
       </image>
