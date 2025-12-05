@@ -1,5 +1,12 @@
 🎮 DynamicBox Theme – Release Notes
-Theme: DynamicBox Author: LordOgro License: Creative Commons CC-BY-NC-SA Special thanks: Fabrice Caruso
+
+Theme: DynamicBox 
+
+Author: LordOgro 
+
+License: Creative Commons CC-BY-NC-SA 
+
+Special thanks: Fabrice Caruso
 
 ✨ About the theme
 DynamicBox was created to recreate the visual experience of the official Xbox dashboard, featuring an information bar inspired by modern console styles. The square logos in the system view follow a clean and colorful standard, designed to provide clarity and fast navigation.
