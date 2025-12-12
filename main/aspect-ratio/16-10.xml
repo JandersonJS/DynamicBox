@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+  <view name="system">
+      <text name="system_description" extra="static">
+         <pos ifSubset="aspect-ratio:16-10">0.235 0.36</pos>
+         <size ifSubset="aspect-ratio:16-10">0.75 0.132</size>
+      </text>
+
+      <carousel name="systemcarousel">
+         <logoSize ifSubset="aspect-ratio:16-10">0.15</logoSize>
+      </carousel>
+
+      <image name="marco" extra="static">
+          <pos ifSubset="aspect-ratio:16-10">0.00865 0.36</pos> 
+      </image>
+  </view>
+
+  <view name="grid">
+    <text name="md_lbl_developer">
+      <size ifSubset="aspect-ratio:16-10">0.12 0</size> 
+    </text>
+
+    <text name="md_developer">
+    </text>
+
+    <text name="md_lbl_publisher">
+      <pos ifSubset="aspect-ratio:16-10">0.01 0.37</pos> 
+    </text>
+
+    <text name="md_publisher">
+    </text>
+  </view>
+
+  <customView name="Tiles" inherits="grid" displayName="${tilesViewName}">
+    <imagegrid name="gamegrid">
+      <autoLayout ifSubset="aspect-ratio:16-10">6 4</autoLayout>
+    </imagegrid>
+  </customView>
+</theme>

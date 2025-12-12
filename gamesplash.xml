@@ -20,23 +20,23 @@
 
 	<view name="splash">
 		<image name="background">
-			<pos>0.5 0.3</pos>
+			<pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<minSize>0.3 0.3</minSize>
+			<minSize>1 1</minSize>
 			<roundCorners>0</roundCorners>
 			<linearSmooth>true</linearSmooth>
 			<color>ffffff</color>
 			<colorEnd>404040</colorEnd>
 			<gradientType>vertical</gradientType>
-			<zIndex>3</zIndex>
+			<zIndex>-10</zIndex>
 		</image>
 
-		<image name="backgroundalt" extra="true">
-	    	<path>./main/background/game.jpg</path>
+		<!--<image name="backgroundalt" extra="true">
+	    <path>./main/background/game.jpg</path>
 			<linearSmooth>true</linearSmooth>
 			<minSize>1 1</minSize>
 			<zIndex>1</zIndex>
-		</image>
+		</image>-->
 	
 		<text name="loading" extra="true">
 			<text>Wait for a moment...</text>
@@ -51,8 +51,8 @@
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
-            <forceUppercase>1</forceUppercase>
-			<zIndex>05</zIndex>
+			<forceUppercase>1</forceUppercase>
+			<zIndex>5</zIndex>
 		</text>
 
 		<text name="label">
@@ -70,10 +70,10 @@
 
 		<image name="logo-splash" extra="true">
 			<path>{game:marquee}</path>
-			<pos>0.5 0.76</pos>
+			<pos>0.20 0.85</pos>
 			<origin>0.5 0.5</origin>
-			<maxSize>0.50 0.20</maxSize>
-			<zIndex>05</zIndex>
+			<maxSize>0.50 0.30</maxSize>
+			<zIndex>5</zIndex>
 			<visible>!empty({game:name})</visible>
 			<linearSmooth>true</linearSmooth>
 		</image>
@@ -93,7 +93,7 @@
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
-			<zIndex>05</zIndex>
+			<zIndex>7</zIndex>
 			<autoScroll>horizontal</autoScroll>
 			<singleLineScroll>true</singleLineScroll>
 			<autoScrollDelay>0</autoScrollDelay>
@@ -138,7 +138,7 @@
 			<size>0.25 0.032</size>
 			<orientation>horizontal</orientation>
 			<backgroundColor>FF000000</backgroundColor>
-			<zIndex>09</zIndex>
+			<zIndex>9</zIndex>
 	
 			<image name="icons-releaseyear">
 			<visible>true</visible>
@@ -233,7 +233,7 @@
 			<size>0.25 0.032</size>
 			<orientation>horizontal</orientation>
 			<backgroundColor>FF000000</backgroundColor>
-			<zIndex>05</zIndex>
+			<zIndex>9</zIndex>
 
 			<text name="gamedata-stars">
 				<fontSize>0.025</fontSize>
@@ -273,7 +273,7 @@
 			<size>0.25 0.032</size>
 			<orientation>horizontal</orientation>
 			<backgroundColor>FF000000</backgroundColor>
-			<zIndex>09</zIndex>
+			<zIndex>9</zIndex>
 
 			<image name="flag-region">
 				<path>./main/media/flags/{game:region}.png</path>
@@ -381,7 +381,7 @@
 			<glowColor>00000035</glowColor>
 			<glowSize>1</glowSize>
 			<glowOffset>3 2</glowOffset>
-			<zIndex>05</zIndex>
+			<zIndex>9</zIndex>
 			<autoScroll>horizontal</autoScroll>
 			<singleLineScroll>true</singleLineScroll>
 			<autoScrollDelay>0</autoScrollDelay>
@@ -411,7 +411,7 @@
 			<zIndex>8</zIndex>
 		</image>
 
-       	<image name="infoBack" extra="true" ifSubset="hotkeytips:yes">
+    <image name="infoBack" extra="true" ifSubset="hotkeytips:yes">
 			<visible>true</visible>
 			<path>./main/media/colorbg.png</path>
 			<origin>0 0</origin>
@@ -419,7 +419,7 @@
 			<size>0.29 0.25</size>
       <color>${baseColor}bb</color>
 			<linearSmooth>true</linearSmooth>
-			<zIndex>4</zIndex>
+			<zIndex>5</zIndex>
 		</image>
 
 		<splash name="splash">

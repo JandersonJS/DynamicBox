@@ -86,6 +86,7 @@
             <fontSize>0.08</fontSize>
             <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
             <color>${baseColor}</color>
+            <zIndex>-50</zIndex>
         </text>
 
         <image name="logo">

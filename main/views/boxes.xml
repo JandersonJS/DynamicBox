@@ -3,7 +3,7 @@
   <formatVersion>7</formatVersion>
   <customView name="Boxes" inherits="grid" displayName="${basicGridName}">
     <imagegrid name="gamegrid">
-      <autoLayout>6 2</autoLayout>
+      <autoLayout>0 3</autoLayout>
       <autoLayout verticalScreen="true">2 2</autoLayout>
       <autoLayoutSelectedZoom>1.08</autoLayoutSelectedZoom>
     </imagegrid>

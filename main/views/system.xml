@@ -21,42 +21,44 @@
             <iconColor>ffffff</iconColor>
         </helpsystem>
 
-      <text name="system_description" extra="static">
-      <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
-      <origin>0 0</origin>
-      <verticalAlignment>top</verticalAlignment>
-      <pos>0.235 0.325</pos>
-      <size>0.75 0.152</size>
-      <glowSize>1.8</glowSize>
-      <glowColor>00000035</glowColor>
-      <glowOffset>3 2</glowOffset>
-      <forceUppercase>1</forceUppercase>
-      <fontSize>0.020</fontSize>
-      <color>FFFFFF</color>
-      <autoScroll>vertical</autoScroll>
-      <autoScrollDelay>0</autoScrollDelay>
-      <zIndex>80</zIndex>
-      </text>
+        <text name="system_description" extra="static">
+            <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+            <origin>0 0</origin>
+            <verticalAlignment>top</verticalAlignment>
+            <pos>0.235 0.325</pos>
+            <size>0.75 0.152</size>
+            <glowSize>1.8</glowSize>
+            <glowColor>00000035</glowColor>
+            <glowOffset>3 2</glowOffset>
+            <forceUppercase>1</forceUppercase>
+            <fontSize>0.020</fontSize>
+            <color>FFFFFF</color>
+            <autoScroll>vertical</autoScroll>
+            <autoScrollDelay>0</autoScrollDelay>
+            <zIndex>80</zIndex>
+        </text>
 
-    <text name="logoText">
-      <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
-      <color>${baseColor}</color>
-      <forceUppercase>true</forceUppercase>
-    </text>
-    <image name="logo">
+        <text name="logoText">
+          <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
+          <color>${baseColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        
+        <image name="logo">
 
-      <storyboard event="scroll" repeatAt="1" ifSubset="staticTiles:yes">
-        <animation property="opacity" from="1" to="1" duration="1" mode="Linear"/>
-      </storyboard>
+        <storyboard event="scroll" repeatAt="1" ifSubset="staticTiles:yes">
+          <animation property="opacity" from="1" to="1" duration="1" mode="Linear"/>
+        </storyboard>
 
-      <!-- try png -->
-      <path>./main/logosDynamics/${system.theme}.png</path>
-      <!-- try jpg -->
-      <path>./main/logosDynamics/${system.theme}.jpg</path>
-      <!-- check if lang resources exist -->
-      <path>./main/logosDynamics/${system.theme}-${lang}.png</path>
-      <path>./main/logosDynamics/${system.theme}-${lang}.jpg</path>
-    </image>
+        <!-- try png -->
+        <path>./main/squaredLogos/${system.theme}.png</path>
+        <!-- try jpg -->
+        <path>./main/squaredLogos/${system.theme}.jpg</path>
+        <!-- check if lang resources exist -->
+        <path>./main/squaredLogos/${system.theme}-${lang}.png</path>
+        <path>./main/squaredLogos/${system.theme}-${lang}.jpg</path>
+      </image>
+
       <carousel name="systemcarousel">
          <type>horizontal</type>
          <color>00000000</color>
@@ -70,20 +72,20 @@
       </carousel>
 
       <image name="marco" extra="static">
-      <path>./main/media/marco.png</path>
-      <linearSmooth>true</linearSmooth>
-      <pos>0.009 0.32</pos>        
-      <size>0.193 0</size>
-      <origin>0 0</origin>
-      <color>${baseColor}</color>
-      <storyboard>
-        <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
-        <animation property="offsetX" to="-0.008" duration="150" mode="ease" autoreverse="true" />
-        <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
-        <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
-        <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
-      </storyboard>
-         <zIndex>81</zIndex>
+          <path>./main/media/marco.png</path>
+          <linearSmooth>true</linearSmooth>
+          <pos>0.009 0.32</pos>   
+          <size>0.193 0</size>   
+          <origin>0 0</origin>
+          <color>${baseColor}</color>
+          <storyboard>
+            <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
+            <animation property="offsetX" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+            <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+            <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
+            <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
+          </storyboard>
+          <zIndex>81</zIndex>
       </image>
 
         <image name="bottom" extra="static">
@@ -223,7 +225,7 @@ Partidas iniciadas : {binding:played}</text>
       <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
       <fontSize>0.020</fontSize>
       <pos>0.013 0.695</pos>
-      <size>0.2 0.07</size>
+      <size>0.19 0.07</size>
       <zIndex>100</zIndex>
       <color>FFFFFF</color>
       <glowColor>000000</glowColor>
@@ -242,16 +244,6 @@ Partidas iniciadas : {binding:played}</text>
       <text lang="pt">Número de Imagens: {binding:total}</text>
     </text>
 
-      <image name="avatar" extra="static" ifSubset="roundAvatar:on">
-         <path>./main/avatars/${image.avatar}</path>
-         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
-         <pos>0.02 0.035</pos>
-         <maxSize>0.063 0.063</maxSize>
-         <roundCorners>0.5</roundCorners>
-         <zIndex>99</zIndex>
-         <linearSmooth>true</linearSmooth>
-      </image>
-
       <image name="avatar" extra="static" ifSubset="roundAvatar:off">
          <path>./main/avatars/${image.avatar}</path>
          <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
@@ -262,20 +254,30 @@ Partidas iniciadas : {binding:played}</text>
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:on">
-         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+      <image name="avatar" extra="static" ifSubset="roundAvatar:on">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
          <pos>0.02 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
          <roundCorners>0.5</roundCorners>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
-       </webimage>
+      </image>
 
       <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:off">
          <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
          <pos>0.02 0.035</pos>
          <maxSize>0.063 0.063</maxSize>
          <roundCorners>0</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:on">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.02 0.035</pos>
+         <maxSize>0.063 0.063</maxSize>
+         <roundCorners>0.5</roundCorners>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
        </webimage>

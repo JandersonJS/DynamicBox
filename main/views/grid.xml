@@ -3,16 +3,6 @@
   <formatVersion>7</formatVersion>
   <view name="grid">
 
-      <image name="avatar" extra="static" ifSubset="roundAvatar:on">
-         <path>./main/avatars/${image.avatar}</path>
-         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
-         <pos>0.075 0.222</pos>
-         <maxSize>0.11 0.11</maxSize>
-         <roundCorners>0.5</roundCorners>
-         <zIndex>99</zIndex>
-         <linearSmooth>true</linearSmooth>
-      </image>
-
       <image name="avatar" extra="static" ifSubset="roundAvatar:off">
          <path>./main/avatars/${image.avatar}</path>
          <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
@@ -23,20 +13,30 @@
          <linearSmooth>true</linearSmooth>
       </image>
 
-      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:on">
-         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+      <image name="avatar" extra="static" ifSubset="roundAvatar:on">
+         <path>./main/avatars/${image.avatar}</path>
+         <path ifSubset="system-avatar:custom">./custom-avatar.png</path>
          <pos>0.075 0.222</pos>
          <maxSize>0.11 0.11</maxSize>
          <roundCorners>0.5</roundCorners>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
-       </webimage>
+      </image>
 
       <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:off">
          <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
          <pos>0.075 0.222</pos>
          <maxSize>0.11 0.11</maxSize>
          <roundCorners>0</roundCorners>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
+       </webimage>
+
+      <webimage name="avatar"  extra="static" if="{global.cheevos} == true" ifSubset="system-avatar:cheevos" ifSubset="roundAvatar:on">
+         <path>https://media.retroachievements.org/UserPic/${global.cheevos.username}.png</path>
+         <pos>0.075 0.222</pos>
+         <maxSize>0.11 0.11</maxSize>
+         <roundCorners>0.5</roundCorners>
          <zIndex>99</zIndex>
          <linearSmooth>true</linearSmooth>
        </webimage>
@@ -120,7 +120,6 @@
       <pos>0.01 0.875</pos>
       <forceUppercase>0</forceUppercase>
       <fontPath>./main/fonts/Cabin-Bold.ttf</fontPath>
-      <fontSize>0.023</fontSize>
     </text>
 
     <rating name="md_rating">
@@ -244,7 +243,7 @@
 
     <datetime name="md_releasedate">
       <color>EFEFFF</color>
-      <pos>0.115 0.44</pos>       
+      <pos>0.115 0.44</pos>     
       <size>0.1 0</size>
     </datetime>
 
@@ -252,8 +251,8 @@
       <autoScroll>horizontal</autoScroll>
       <origin>0 0.5</origin>
       <color>ffffff</color>
-      <pos>0.01 0.385</pos>       
-      <size>0.1 0</size>
+      <pos>0.01 0.385</pos>  
+      <size>0.1 0</size>     
       <alignment>left</alignment>
     </text>
 
@@ -261,7 +260,7 @@
       <autoScroll>horizontal</autoScroll> 
       <origin>0 0.5</origin>
       <color>ffffff</color>
-      <pos>0.115 0.385</pos>       
+      <pos>0.115 0.385</pos>     
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>
@@ -269,7 +268,7 @@
     <text name="md_lbl_publisher">
       <autoScroll>horizontal</autoScroll> 
       <color>ffffff</color>
-      <pos>0.01 0.395</pos>       
+      <pos>0.01 0.395</pos>      
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>
@@ -277,7 +276,7 @@
     <text name="md_publisher">
       <autoScroll>horizontal</autoScroll> 
       <color>ffffff</color>
-      <pos>0.115 0.395</pos>       
+      <pos>0.115 0.395</pos>     
       <size>0.1 0</size>
       <alignment>left</alignment>
     </text>

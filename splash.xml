@@ -30,7 +30,7 @@
 		</splash>
 		<image name="background">
 			<path>./main/media/splash.jpg</path>
-			<size>1 1</size>
+			<minSize>1 1</minSize>
 		</image>
 		<text name="label, DynamicBox" extra="true">
 			<origin>0 0</origin>
@@ -42,7 +42,8 @@
 
 
 		<text name="DynamicBox" extra="true">
-			<pos>0.367 0.239</pos>
+			<origin>0.5 0.5</origin>
+			<pos>0.6 0.239</pos>
 			<fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
 			<fontSize>0.090</fontSize>
 			<alignment>left</alignment>

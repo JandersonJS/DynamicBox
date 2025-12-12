@@ -23,8 +23,10 @@ license: creative commons CC-BY-NC-SA
     <systemInfoColor>DDDDDDD8</systemInfoColor>
     <groupColor>BD4747</groupColor>
     <groupSeparatorColor>BD4747</groupSeparatorColor>
-    <backgroundImage>./main/media/fiber.png</backgroundImage>
     <tilesViewName>Tiles</tilesViewName>
+    <theme.Avatar>Avatar</theme.Avatar>
+    <theme.username>Username</theme.username>
+    <theme.detected>Detected</theme.detected>
     <roundBorderSubsetName>Round borders</roundBorderSubsetName>
     <blinkBorderSubsetName>Blinking borders</blinkBorderSubsetName>
     <previewBarSubsetName>Preview bar</previewBarSubsetName>
@@ -75,6 +77,7 @@ license: creative commons CC-BY-NC-SA
     <subset.shader>Efeitos de TV</subset.shader>
     <theme.Avatar>Avatar</theme.Avatar>
     <theme.username>Nome de Usuário</theme.username>
+    <theme.detected>Detectado</theme.detected>
     <subset.iconset>Ícones</subset.iconset>
     <animationsSubsetName>Animações</animationsSubsetName>
     <roundAvatar>Avatar Redondo</roundAvatar>
@@ -118,6 +121,7 @@ license: creative commons CC-BY-NC-SA
     <subset.shader>Effets TV</subset.shader>
     <theme.Avatar>Avatar</theme.Avatar>
     <theme.username>Nom d'utilisateur</theme.username>
+    <theme.detected>Détecté</theme.detected>
     <subset.iconset>ensemble d'icônes</subset.iconset>
     <animationsSubsetName>Animations</animationsSubsetName>
     <roundAvatar>avatar rond</roundAvatar>
@@ -161,6 +165,7 @@ license: creative commons CC-BY-NC-SA
     <subset.shader>Efectos de TV</subset.shader>
     <theme.Avatar>Avatar</theme.Avatar>
     <theme.username>Nombre de usuario</theme.username>
+    <theme.detected>Detectada</theme.detected>
     <subset.iconset>Iconos</subset.iconset>
     <animationsSubsetName>Animaciones</animationsSubsetName>
     <roundAvatar>Avatar Redondo</roundAvatar>
@@ -225,14 +230,35 @@ license: creative commons CC-BY-NC-SA
 
 
 <!--NICKNAMES-->
-<subset name="system-username" displayName="${theme.username}">
-	<include name="custom" displayName="${custom}">./custom-username.xml</include>
-	<include name="cheevos" displayName="Retroachievements ID">./main/usernames/cheevos.xml</include>
-	<include name="netplay" displayName="Netplay ID">./main/usernames/netplay.xml</include>
-</subset>  
+  <subset name="system-username" displayName="${theme.username}">
+  	<include name="custom" displayName="${custom}">./custom-username.xml</include>
+  	<include name="cheevos" displayName="Retroachievements ID">./main/usernames/cheevos.xml</include>
+  	<include name="netplay" displayName="Netplay ID">./main/usernames/netplay.xml</include>
+  </subset> 
 
+<!--ASPECT RATIO (auto detection)-->
+  <subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
+    <include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 (${theme.detected})" />
+    <include if="{screen.ratio} == '5/3'" name="5-3" displayName="5:3 (${theme.detected})" />
+    <include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 (${theme.detected})" />
+    <include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2 (${theme.detected})" />
+    <include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4 (${theme.detected})">./main/aspect-ratio/5-4.xml</include>
+    <include if="{screen.ratio} == '21/9'" name="21-9" displayName="21:9 (${theme.detected})" />
+    <include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})">./main/aspect-ratio/16-10.xml</include>
+  </subset>
 
-  <!-- Subset options for icons  -->
+  <!--NOT DETECTED ASPECT RATIO (All options) -->
+  <subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
+    <include name="16-9" displayName="16:9 Widescreen" />
+    <include name="4-3" displayName="4:3 Fullscreen" />
+    <include name="16-10" displayName="16:10 PC Widescreen" />
+    <include name="21-9" displayName="21:9 Ultrawide" />
+    <include name="5-4" displayName="5:4 SXGA" />  
+    <include name="3-2" displayName="3:2 Classic" />
+    <include name="5-3" displayName="5:3 Europe Widescreen" />
+  </subset>
+
+<!-- Subset options for icons  -->
   <subset name="iconset" displayName="${subset.iconset}">
       <include name="XBOX" displayName="${XBOX}">./main/iconsets/xbox.xml</include>
       <include name="XBOX-color" displayName="${XBOX-color}">./main/iconsets/xbox-color.xml</include>
@@ -311,8 +337,8 @@ license: creative commons CC-BY-NC-SA
     <include name="no" displayName="${no}"/>
   </subset> 
     <subset name="roundAvatar" displayName="${roundAvatar}">
-        <include name="off" displayName="${no}"/>
         <include name="on" displayName="${yes}"/>
+        <include name="off" displayName="${no}"/>
    </subset>
     <subset name="hotkeytips" displayName="${hotkeytips}">
         <include name="on" displayName="${yes}"/>

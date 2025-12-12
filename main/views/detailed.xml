@@ -98,8 +98,9 @@
 
         <image name="md_flag">
             <origin>0 0</origin>
-            <pos>0.96 0.555</pos>
-            <maxSize>0.02 0.05</maxSize>
+            <pos>0.39 0.855</pos>
+			<maxSize>0.025 0.018</maxSize>
+            <zIndex>150</zIndex>
         </image>
 
         <image name="back-information" extra="static">

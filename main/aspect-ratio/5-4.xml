@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<formatVersion>7</formatVersion>
+
+  <view name="system">  	
+      <text name="system_description" extra="static">
+            <pos ifSubset="aspect-ratio:5-4">0.235 0.425</pos>
+            <size ifSubset="aspect-ratio:5-4">0.75 0.112</size>
+      </text> 
+
+      <carousel name="systemcarousel">
+            <logoSize ifSubset="aspect-ratio:5-4">0.12</logoSize>
+      </carousel>
+
+      <image name="marco" extra="static">
+            <pos ifSubset="aspect-ratio:5-4">0.00865 0.425</pos>
+            <size ifSubset="aspect-ratio:5-4">0.193 0.243</size>
+      </image>
+
+      <text name="systemInfoEx" extra="true">
+            <fontSize ifSubset="aspect-ratio:5-4">0.018</fontSize>
+      </text>
+
+      <image name="achievement" extra="static">
+            <pos ifSubset="aspect-ratio:5-4">0.08 0.072</pos>
+      </image>
+
+      <text name="trophy-level" extra="static">
+	        <pos ifSubset="aspect-ratio:5-4">0.1 0.068</pos>
+      </text>
+
+      <text name="username" extra="static">
+	        <pos ifSubset="aspect-ratio:5-4">0.08 0.03</pos>
+	        <fontSize ifSubset="aspect-ratio:5-4">0.027</fontSize>
+      </text>
+  </view>
+
+  <view name="grid">
+      <text name="username" extra="static">
+         <pos ifSubset="aspect-ratio:5-4">0.13 0.35</pos>
+      </text>
+
+    <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_players, md_lbl_releasedate">
+      <fontSize ifSubset="aspect-ratio:5-4">0.020</fontSize>
+    </text>
+
+    <datetime name="md_lastplayed, md_releasedate, md_developer, md_lbl_developer, md_publisher, md_lbl_publisher">
+      <fontSize ifSubset="aspect-ratio:5-4">0.020</fontSize>
+    </datetime>
+
+    <text name="md_genre">
+	    <pos ifSubset="aspect-ratio:5-4">0.009 0.875</pos>
+    </text>
+
+    <rating name="md_rating">
+      <pos ifSubset="aspect-ratio:5-4">0.118 0.8865</pos>
+	  <size ifSubset="aspect-ratio:5-4">0.035 0.025</size>
+    </rating> 
+
+    <text name="md_description">
+      <fontSize ifSubset="aspect-ratio:5-4">0.020</fontSize>
+    </text>
+
+    <datetime name="md_releasedate">
+      <pos ifSubset="aspect-ratio:5-4">0.125 0.44</pos>
+      <size ifSubset="aspect-ratio:5-4">0.09 0</size> 
+    </datetime>
+
+    <text name="md_lbl_developer">
+    </text>
+
+    <text name="md_developer">
+      <pos ifSubset="aspect-ratio:5-4">0.125 0.3859</pos> 
+      <size ifSubset="aspect-ratio:5-4">0.09 0</size> 
+    </text>
+
+    <text name="md_lbl_publisher">
+      <pos ifSubset="aspect-ratio:5-4">0.01 0.368</pos> 
+    </text>
+
+    <text name="md_publisher">
+      <pos ifSubset="aspect-ratio:5-4">0.125 0.395</pos> 
+      <size ifSubset="aspect-ratio:5-4">0.09 0</size> 
+    </text>
+  </view>
+
+  <customView name="Tiles" inherits="grid" displayName="${tilesViewName}">
+    <imagegrid name="gamegrid">
+      <autoLayout ifSubset="aspect-ratio:5-4">5 4</autoLayout>
+    </imagegrid>
+  </customView>
+
+  <view name="detailed">
+        <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+            <fontSize ifSubset="aspect-ratio:5-4">0.017</fontSize>
+        </text>
+
+        <text name="md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_favorite">
+            <fontSize ifSubset="aspect-ratio:5-4">0.017</fontSize>
+        </text>
+
+        <text name="md_lbl_rating">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.556</pos>
+        </text>
+
+        <text name="md_lbl_releasedate">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.23</pos>
+        </text>
+
+        <text name="md_lbl_developer">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.27</pos>
+        </text>
+
+        <text name="md_developer">
+        </text>
+
+        <text name="md_lbl_publisher">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.31</pos>
+        </text>
+
+        <text name="md_publisher">
+        </text>
+
+        <text name="md_lbl_genre">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.35</pos>
+        </text>
+
+        <text name="md_genre">
+        </text>
+
+        <text name="md_lbl_players">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.39</pos>
+        </text>
+
+        <text name="md_players">
+        </text>
+
+        <text name="md_lbl_lastplayed">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.47</pos>
+        </text>
+
+        <datetime name="md_lastplayed">
+        </datetime>
+
+        <text name="md_lbl_playcount">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.43</pos>
+        </text>
+
+        <text name="md_playcount">
+        </text>
+
+        <text name="md_lbl_favorite">
+            <pos ifSubset="aspect-ratio:5-4">0.75 0.51</pos>
+        </text>
+  </view>
+  <view name="gamecarousel" displayName="${gameCarouselViewName}">
+        <text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
+            <fontSize ifSubset="aspect-ratio:5-4">0.019</fontSize>
+        </text>
+
+        <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players">
+            <fontSize ifSubset="aspect-ratio:5-4">0.019</fontSize>
+        </text>
+
+        <image name="md_hidden">
+            <pos ifSubset="aspect-ratio:5-4">0.73 0.9</pos>
+        </image>
+
+        <image name="md_kidgame">
+            <pos ifSubset="aspect-ratio:5-4">0.76 0.9</pos>
+        </image>
+
+        <image name="md_savestate, md_nosavestate">
+            <pos ifSubset="aspect-ratio:5-4">0.79 0.9</pos>
+        </image>
+        
+        <image name="md_nosavestate">
+        </image>
+    
+        <image name="md_cheevos, md_notcheevos">
+            <pos ifSubset="aspect-ratio:5-4">0.82 0.9</pos>
+        </image>
+        
+        <image name="md_notcheevos">
+        </image>
+
+        <image name="md_manual, md_nomanual">
+            <pos ifSubset="aspect-ratio:5-4">0.85 0.9</pos>
+        </image>
+  </view>
+</theme>
