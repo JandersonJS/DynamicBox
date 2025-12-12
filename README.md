@@ -45,3 +45,8 @@ Starting with this version, all customizations and additions will be cataloged s
 
 🚀 Next steps
 There are countless ideas planned for future versions. I hope you enjoy the result, and of course, feel free to share your suggestions!
+
+
+<img width="1920" height="1080" alt="16-9" src="https://github.com/user-attachments/assets/328ca81a-f209-4515-b54f-d10579659dca" />
+<img width="1280" height="800" alt="16-10" src="https://github.com/user-attachments/assets/ad08e5f7-a324-4136-89bc-1ead7765e1ac" />
+<img width="1280" height="1024" alt="5-4" src="https://github.com/user-attachments/assets/f431f33d-2c5a-497e-8bca-b5c081b098ab" />
