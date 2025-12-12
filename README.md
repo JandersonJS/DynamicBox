@@ -28,7 +28,7 @@ Starting with this version, all customizations and additions will be cataloged s
 8. Several new customizations have been added, such as avatar format, video sound, and more.
 
 
-📅 03/12/2025 – v1.0.1
+📅 12/12/2025 – v1.0.1
 
 🆕 New features and improvements
 1. Added Namco3xx system for better adaptation to Retrobat;
