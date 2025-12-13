@@ -28,15 +28,16 @@
 			<color>ffffff</color>
 			<colorEnd>404040</colorEnd>
 			<gradientType>vertical</gradientType>
-			<zIndex>-10</zIndex>
+			<visible>empty({game:rom})</visible>
 		</image>
 
-		<!--<image name="backgroundalt" extra="true">
-	    <path>./main/background/game.jpg</path>
+		<image name="backgroundalt" extra="true">
+	    <default>./main/background/game.jpg</default>
+			<path>{game:fanart}</path>
 			<linearSmooth>true</linearSmooth>
 			<minSize>1 1</minSize>
 			<zIndex>1</zIndex>
-		</image>-->
+		</image>
 	
 		<text name="loading" extra="true">
 			<text>Wait for a moment...</text>
@@ -70,8 +71,8 @@
 
 		<image name="logo-splash" extra="true">
 			<path>{game:marquee}</path>
-			<pos>0.20 0.85</pos>
 			<origin>0.5 0.5</origin>
+			<pos>0.30 0.85</pos>
 			<maxSize>0.50 0.30</maxSize>
 			<zIndex>5</zIndex>
 			<visible>!empty({game:name})</visible>
