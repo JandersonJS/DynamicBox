@@ -28,7 +28,7 @@ Starting with this version, all customizations and additions will be cataloged s
 8. Several new customizations have been added, such as avatar format, video sound, and more.
 
 
-📅 03/12/2025 – v1.0.1
+📅 12/12/2025 – v1.0.1
 
 🆕 New features and improvements
 1. Added Namco3xx system for better adaptation to Retrobat;
@@ -42,6 +42,14 @@ Starting with this version, all customizations and additions will be cataloged s
 5. Added original and exclusive images for square logos;
 
 6. Round avatar is now set by default, but you can choose square if you prefer.
+
+   
+📅 13/12/2025 – v1.0.2
+
+🆕 New features and improvements
+1. Added aspect ratio 4:3;
+
+2. Added cooler game splash.
 
 🚀 Next steps
 There are countless ideas planned for future versions. I hope you enjoy the result, and of course, feel free to share your suggestions!
