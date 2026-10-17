@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+		<text>The Sharp MZ-80K was one of the popular early consumer-level microcomputers, with an architecture based on the Zilog Z80 8-bit microprocessor. It was introduced into Europe in 1979. The machine had 48KB of RAM, 32KB of which was available for user programs (the actual figure was dependent on the memory configuration and the system languages being used). It could run a variety of high-level languages including BASIC, Pascal and FORTRAN, which had to be loaded into RAM before any programming could be undertaken. It could also be programmed directly in assembly code or machine code. The machine had an inbuilt monochrome display and a cassette tape drive. The display, keyboard and cassette drive lifted on hinges to expose the motherboard and circuitry underneath. Graphics capability was primitive, with only preset shapes and icons being available and no native hi-res capability. This was not unusual for a late-1970s vintage microcomputer. The main drawback, however, of the MZ-80K was the non-standard keyboard, which was difficult to use.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Sharp MZ-80K fue uno de los primeros microordenadores de consumo más populares; su arquitectura se basaba en el microprocesador de 8 bits Zilog Z80. Se introdujo en Europa en 1979. El equipo contaba con 48 KB de memoria RAM, de los cuales 32 KB estaban disponibles para los programas del usuario (la cifra exacta dependía de la configuración de la memoria y de los lenguajes del sistema que se estuvieran utilizando). Podía ejecutar diversos lenguajes de alto nivel, como BASIC, Pascal y FORTRAN, los cuales debían cargarse en la memoria RAM antes de poder realizar cualquier tarea de programación. También era posible programarlo directamente en lenguaje ensamblador o en código máquina. El dispositivo incluía una pantalla monocroma integrada y una unidad de cinta de casete. La pantalla, el teclado y la unidad de casete estaban montados sobre bisagras, lo que permitía levantarlos para acceder a la placa base y a los circuitos situados debajo. Sus capacidades gráficas eran rudimentarias: solo ofrecía formas e iconos predefinidos, sin posibilidad de trabajar con alta resolución de forma nativa. Esto no resultaba inusual para un microordenador de finales de la década de 1970. Sin embargo, el principal inconveniente del MZ-80K era su teclado, que no seguía un estándar y resultaba difícil de utilizar.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le Sharp MZ-80K fut l'un des premiers microordinateurs grand public populaires ; son architecture reposait sur le microprocesseur 8 bits Zilog Z80. Il a été commercialisé en Europe en 1979. La machine était dotée de 48 Ko de mémoire vive (RAM), dont 32 Ko étaient accessibles aux programmes utilisateur (la capacité réelle variait selon la configuration mémoire et les langages système utilisés). Elle permettait d'utiliser divers langages de haut niveau, tels que le BASIC, le Pascal et le FORTRAN, qui devaient être chargés en mémoire vive avant toute programmation. Il était également possible de programmer directement en langage assembleur ou en code machine. L'appareil intégrait un écran monochrome ainsi qu'un lecteur de cassettes. L'ensemble composé de l'écran, du clavier et du lecteur de cassettes pouvait être soulevé grâce à des charnières, donnant ainsi accès à la carte mère et aux circuits situés en dessous. Les capacités graphiques étaient rudimentaires : elles se limitaient à des formes et des icônes prédéfinies, sans prise en charge native de la haute résolution — ce qui n'avait rien d'inhabituel pour un microordinateur de la fin des années 1970. Le principal défaut du MZ-80K résidait toutefois dans son clavier, qui n'était pas conforme aux standards habituels et s'avérait difficile à utiliser.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Sharp MZ-80K foi um dos microcomputadores voltados ao consumidor final mais populares de seu tempo, apresentando uma arquitetura baseada no microprocessador de 8 bits Zilog Z80. Ele foi lançado na Europa em 1979. A máquina contava com 48 KB de memória RAM, dos quais 32 KB ficavam disponíveis para programas do usuário (o valor exato dependia da configuração de memória e das linguagens de sistema em uso). Era possível executar diversas linguagens de alto nível, incluindo BASIC, Pascal e FORTRAN, que precisavam ser carregadas na memória RAM antes que qualquer programação pudesse ser realizada. Também era possível programar a máquina diretamente em linguagem assembly ou código de máquina. O equipamento possuía um monitor monocromático integrado e um leitor de fitas cassete. O conjunto formado pelo monitor, teclado e leitor de fitas podia ser levantado por meio de dobradiças, revelando a placa-mãe e os circuitos internos. A capacidade gráfica era rudimentar, limitando-se a formas e ícones predefinidos, sem suporte nativo para alta resolução — algo que não era incomum para um microcomputador do final da década de 1970. O principal ponto negativo do MZ-80K, contudo, era o seu teclado fora do padrão, que tornava o uso bastante difícil.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sharp MZ-80K</text>
+		</text>
+	</view>
+</theme>

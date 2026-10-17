@@ -1,0 +1,29 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+				
+				<text name="system_description" extra="true">
+				<text>The TRS-80 Micro Computer System (TRS-80, colloquially known as the "Trash-80", later renamed the TRS-80 Model I to distinguish it from its successors) is a desktop microcomputer developed by American company Tandy Corporation and sold through their Radio Shack stores. Launched in 1977, it is one of the earliest mass-produced and mass-marketed retail home computers. The name is derived from Tandy Radio Shack Z80, referring to its Zilog Z80 8-bit microprocessor.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="es">
+				<text>El TRS-80 Micro Computer System (TRS-80, conocido coloquialmente como «Trash-80» y rebautizado más tarde como TRS-80 Model I para distinguirlo de sus sucesores) es una microcomputadora de sobremesa desarrollada por la empresa estadounidense Tandy Corporation y comercializada a través de sus tiendas Radio Shack. Lanzada en 1977, es una de las primeras computadoras domésticas producidas y comercializadas a gran escala. Su nombre proviene de «Tandy Radio Shack Z80», en referencia a su microprocesador de 8 bits Zilog Z80.</text>
+		</text>
+		
+				<text name="system_description" extra="true" lang="fr">
+				<text>Le TRS-80 Micro Computer System (surnommé « Trash-80 » par dérision, puis rebaptisé « TRS-80 Model I » pour le distinguer de ses successeurs) est un micro-ordinateur de bureau développé par la société américaine Tandy Corporation et commercialisé via ses magasins Radio Shack. Lancé en 1977, il figure parmi les tout premiers ordinateurs domestiques produits et vendus à grande échelle. Son nom provient de « Tandy Radio Shack Z80 », en référence au microprocesseur 8 bits Zilog Z80 qu'il intègre.</text>
+		</text>
+
+	
+				<text name="system_description" extra="true" lang="pt">
+				<text>O TRS-80 Micro Computer System (TRS-80, conhecido coloquialmente como "Trash-80" e, mais tarde, renomeado para TRS-80 Model I para distingui-lo de seus sucessores) é um microcomputador de mesa desenvolvido pela empresa norte-americana Tandy Corporation e vendido por meio de suas lojas Radio Shack. Lançado em 1977, é um dos primeiros computadores domésticos produzidos e comercializados em larga escala no varejo. O nome deriva de "Tandy Radio Shack Z80", uma referência ao seu microprocessador de 8 bits Zilog Z80.</text>
+		</text>
+		
+				
+
+		<text name="system_name" extra="true">
+			<text>TRS-80</text>
+		</text>
+	</view>
+</theme>

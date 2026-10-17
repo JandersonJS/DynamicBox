@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Japanese Sharp MZ-800 microcomputers succeeded the Sharp MZ-700 line, with which they were partially compatible (as they were also with the earlier Sharp MZ-80K). The series consisted of three models: the MZ-811, MZ-821, and MZ-831. In Japan, the MZ-800 was sold as the MZ-1500, featuring a black chassis, a built-in Quick-Disk drive, and slightly modified video management. Like other machines in the MZ series, it did not have a resident programming language, containing only a boot ROM.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>Los microordenadores japoneses Sharp MZ-800 sucedieron a la línea Sharp MZ-700, con la cual eran parcialmente compatibles (así como con el antiguo Sharp MZ80K). Contaba con tres modelos: MZ-811, MZ-821 y MZ-831. En Japón, el MZ-800 se comercializó como MZ-1500, diferenciándose por una carcasa negra, una unidad Quick-Disk integrada y una gestión de vídeo ligeramente modificada. Al igual que otros equipos de la serie MZ, no disponía de un lenguaje de programación residente, sino únicamente de una ROM de arranque.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Les micro-ordinateurs japonais Sharp MZ-800 ont succédé à la gamme Sharp MZ-700, avec laquelle ils étaient partiellement compatibles (tout comme avec l'ancien Sharp MZ80K). La série comprenait trois modèles : le MZ-811, le MZ-821 et le MZ-831. Au Japon, le MZ-800 a été commercialisé sous le nom de MZ-1500, se distinguant par un boîtier noir, un lecteur Quick-Disk intégré et une gestion vidéo légèrement modifiée. À l'instar des autres machines de la série MZ, il ne disposait pas de langage de programmation résident, mais uniquement d'une ROM de démarrage.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>Os microcomputadores japoneses Sharp MZ-800 sucederam à linha Sharp MZ-700, com a qual eram parcialmente compatíveis (bem como com o antigo Sharp MZ80K). Apresentava três modelos: MZ-811, MZ-821 e MZ-831. No Japão, o MZ-800 foi vendido como MZ-1500, tendo como diferenciais um gabinete preto, um acionador Quick-Disk embutido e um gerenciamento de vídeo ligeiramente modificado. Como outras máquinas da série MZ, não possuía linguagem de programação residente, apenas uma ROM de boot.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sharp MZ-800</text>
+		</text>
+	</view>
+</theme>

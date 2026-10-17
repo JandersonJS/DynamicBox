@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Amstrad PCW series is a range of personal computers produced by British company Amstrad from 1985 to 1998, and also sold under licence in Europe as the "Joyce" by the German electronics company Schneider in the early years of the series' life. The PCW, short for Personal Computer Word-processor, was targeted at the word processing and home office markets. When it was launched, the cost of a PCW system was under 25% of the cost of almost all PC compatibles in the UK, and as a result the machine was very popular both in the UK and in Europe. The series sold 8 million units. The last two models, introduced in the mid-1990s, were commercial failures, because of falling prices, greater capabilities, and wider range of software for PC compatibles.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La serie Amstrad PCW es una gama de ordenadores personales fabricados por la empresa británica Amstrad entre 1985 y 1998; durante los primeros años, también se comercializaron en Europa bajo licencia con el nombre «Joyce» a través de la compañía electrónica alemana Schneider. El PCW —siglas de *Personal Computer Word-processor* (ordenador personal para procesamiento de textos)— estaba dirigido a los mercados de procesamiento de textos y oficina doméstica. En el momento de su lanzamiento, el coste de un sistema PCW representaba menos del 25 % del precio de casi cualquier ordenador compatible con PC en el Reino Unido; gracias a ello, el equipo gozó de gran popularidad tanto en el Reino Unido como en el resto de Europa. De esta serie se vendieron 8 millones de unidades. Los dos últimos modelos, presentados a mediados de la década de 1990, fueron fracasos comerciales debido a la bajada de precios, a las mayores prestaciones y a la mayor oferta de software disponible para los ordenadores compatibles con PC.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>La gamme Amstrad PCW désigne une série d'ordinateurs personnels produits par l'entreprise britannique Amstrad entre 1985 et 1998 ; durant les premières années, ces appareils furent également commercialisés en Europe sous le nom de « Joyce » par la société d'électronique allemande Schneider. Le terme « PCW » — abréviation de *Personal Computer Word-processor* (ordinateur personnel dédié au traitement de texte) — indique que ces machines étaient destinées au traitement de texte et au travail de bureau à domicile. À son lancement, un système PCW coûtait moins de 25 % du prix de la quasi-totalité des PC compatibles disponibles au Royaume-Uni ; la machine connut donc un grand succès, tant au Royaume-Uni qu'ailleurs en Europe. Au total, 8 millions d'unités furent vendues. Les deux derniers modèles, commercialisés au milieu des années 1990, furent des échecs commerciaux, en raison de la baisse des prix, de l'amélioration des performances et de la plus grande variété de logiciels disponibles pour les PC compatibles.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>A série Amstrad PCW é uma linha de computadores pessoais produzida pela empresa britânica Amstrad entre 1985 e 1998; nos primeiros anos, foi também comercializada na Europa sob licença pela empresa alemã de eletrônicos Schneider, sob o nome "Joyce". O PCW — abreviação de *Personal Computer Word-processor* (computador pessoal para processamento de texto) — era voltado para os mercados de processamento de texto e escritório doméstico. No momento de seu lançamento, o custo de um sistema PCW era inferior a 25% do preço da maioria dos computadores compatíveis com PC no Reino Unido; como resultado, o equipamento tornou-se bastante popular tanto no Reino Unido quanto no restante da Europa. A série alcançou a marca de 8 milhões de unidades vendidas. Os dois últimos modelos, lançados em meados da década de 1990, foram fracassos comerciais, devido à queda nos preços, ao maior desempenho e à maior variedade de softwares disponíveis para os computadores compatíveis com PC.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Amstrad PCW</text>
+		</text>
+	</view>
+</theme>

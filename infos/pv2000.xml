@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The PV-2000, also known as RakuGaki, is a home computer manufactured by Casio and released in Japan in 1983, with a launch price of ¥29,800. It has similar hardware to MSX machines, but uses a different sound chip, memory allocations and BIOS. The PV-2000 was released shortly after the PV-1000 game console. It was intended as a home computer and featured an integrated keyboard. It is compatible with PV-1000 controllers but not its games, as it features a different architecture.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El PV-2000, también conocido como RakuGaki, es un ordenador doméstico fabricado por Casio y lanzado en Japón en 1983, con un precio de salida de 29 800 yenes. Posee un hardware similar al de los equipos MSX, pero utiliza un chip de sonido, una distribución de memoria y una BIOS diferentes. El PV-2000 salió al mercado poco después de la videoconsola PV-1000. Fue concebido como un ordenador doméstico e incluía un teclado integrado. Es compatible con los mandos de la PV-1000, pero no con sus juegos, ya que presenta una arquitectura distinta.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le PV-2000, également connu sous le nom de RakuGaki, est un ordinateur familial fabriqué par Casio et commercialisé au Japon en 1983, au prix de lancement de 29 800 ¥. Bien que son matériel soit comparable à celui des machines MSX, il utilise une puce sonore, une gestion de la mémoire et un BIOS différents. Le PV-2000 a été lancé peu après la console de jeux PV-1000. Conçu comme un ordinateur familial, il est doté d'un clavier intégré. Il est compatible avec les manettes du PV-1000, mais pas avec ses jeux, en raison d'une architecture différente.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O PV-2000, também conhecido como RakuGaki, é um computador doméstico fabricado pela Casio e lançado no Japão em 1983, com um preço de lançamento de ¥ 29.800. Ele possui um hardware semelhante ao das máquinas MSX, mas utiliza um chip de som, alocações de memória e BIOS diferentes. O PV-2000 foi lançado pouco depois do console de videogame PV-1000. Ele foi concebido como um computador doméstico e contava com um teclado integrado. É compatível com os controles do PV-1000, mas não com os seus jogos, uma vez que apresenta uma arquitetura diferente.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Cassio PV-2000</text>
+		</text>
+	</view>
+</theme>

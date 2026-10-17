@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Sega AI Computer (AIセガコンピュータ) is a home computer launched by Sega in 1986. It was released in Japan only, with plans to be released in North America under the name Sega DI 8300. Its purpose was to be used in schools, and thus featured only edutainment software. The computer used a large rectangular touchpad that was customizable via custom overlays bundled with most of its programs.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Sega AI Computer (AIセガコンピュータ) es un ordenador doméstico lanzado por Sega en 1986. Se comercializó únicamente en Japón, aunque existían planes para lanzarlo en Norteamérica bajo el nombre de Sega DI 8300. Estaba destinado a su uso en escuelas, por lo que contaba exclusivamente con software educativo y lúdico. El equipo utilizaba un panel táctil rectangular de gran tamaño, personalizable mediante superposiciones específicas que se incluían con la mayoría de sus programas.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le Sega AI Computer est un ordinateur familial lancé par Sega en 1986. Il a été commercialisé uniquement au Japon, bien qu'une sortie en Amérique du Nord, sous le nom de Sega DI 8300, ait été envisagée. Conçu pour un usage scolaire, il ne proposait que des logiciels ludo-éducatifs. L'appareil était doté d'un grand pavé tactile rectangulaire, personnalisable grâce à des superpositions (overlays) fournies avec la plupart des programmes.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Sega AI Computer (AIセガコンピュータ) é um computador doméstico lançado pela Sega em 1986. Ele foi lançado apenas no Japão, havendo planos para seu lançamento na América do Norte sob o nome Sega DI 8300. Sua finalidade era o uso em escolas e, por isso, contava exclusivamente com softwares de caráter educativo e recreativo (*edutainment*). O computador utilizava um grande *touchpad* retangular, personalizável por meio de sobreposições específicas que acompanhavam a maioria de seus programas.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sega AI Computer</text>
+		</text>
+	</view>
+</theme>

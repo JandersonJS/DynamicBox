@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Bandai RX-78 is a Japanese 8-bit microcomputer manufactured by Bandai. Its name comes from the RX-78-2 Gundam. It was released in July 1983, the RX-78 had a release cost of 59,800 yen, and was sold with a dozen of games and software, including a BASIC interpreter cartridge featuring a cassette tape interface. The Bandai RX-78 was primarily a gaming machine, with two joysticks included. Software was available on cartridges or cassettes.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Bandai RX-78 es un microordenador japonés de 8 bits fabricado por Bandai. Su nombre proviene del RX-78-2 Gundam. Lanzado en julio de 1983, el RX-78 salió al mercado con un precio de 59 800 yenes y se vendía junto con una docena de juegos y programas, incluido un cartucho con un intérprete de BASIC que contaba con una interfaz para cintas de casete. El Bandai RX-78 era, ante todo, una máquina destinada a los videojuegos e incluía dos joysticks. El software estaba disponible tanto en cartuchos como en cintas de casete.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le Bandai RX-78 est un micro-ordinateur japonais 8 bits fabriqué par Bandai. Son nom est inspiré du RX-78-2 Gundam. Lancé en juillet 1983 au prix de 59 800 yens, il était vendu avec une douzaine de jeux et de logiciels, incluant une cartouche contenant un interpréteur BASIC dotée d'une interface pour lecteur de cassettes. Le Bandai RX-78 était avant tout une machine destinée au jeu ; il était d'ailleurs fourni avec deux joysticks. Les logiciels étaient disponibles sur cartouches ou sur cassettes.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Bandai RX-78 é um microcomputador japonês de 8 bits fabricado pela Bandai. Seu nome deriva do RX-78-2 Gundam. Lançado em julho de 1983, o RX-78 custava 59.800 ienes e era vendido com uma dúzia de jogos e programas, incluindo um cartucho com interpretador BASIC que contava com uma interface para fitas cassete. O Bandai RX-78 era, essencialmente, uma máquina voltada para jogos, vindo acompanhado de dois joysticks. Os softwares eram disponibilizados em cartuchos ou fitas cassete.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Bandai RX-78 Gundam</text>
+		</text>
+	</view>
+</theme>

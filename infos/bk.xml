@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Elektronika BK 0010-01 is a Soviet-made home computer from 1986. It's based on a 16-bit PDP-11-compatible processor (К1801ВМ1) running at 3MHz and has 32kB of RAM, half of which is used for graphics (512x256 in monochrome mode or 256x256 in 4-color mode). The programming language that the computer starts into is Vilnius BASIC (more information on the Russian Wikipedia site here), which is a slightly simplified dialect of MSX BASIC. It compiles code before running it, which makes the programs run a bit faster than on other BASIC implementations that were popular on contemporary home computers. Apart from BASIC, it's also possible to write programs in PDP-11 assembly or machine code.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Elektronika BK 0010-01 es un ordenador doméstico de fabricación soviética de 1986. Se basa en un procesador de 16 bits compatible con PDP-11 (el K1801VM1) que funciona a 3 MHz y cuenta con 32 KB de memoria RAM; la mitad de esta se destina a gráficos (512x256 en modo monocromo o 256x256 en modo de 4 colores). El lenguaje de programación con el que arranca el equipo es Vilnius BASIC (más información en la Wikipedia en ruso aquí), un dialecto ligeramente simplificado de MSX BASIC. Este lenguaje compila el código antes de ejecutarlo, lo que permite que los programas funcionen con mayor rapidez que en otras implementaciones de BASIC populares en los ordenadores domésticos de la época. Además de BASIC, también es posible escribir programas en lenguaje ensamblador PDP-11 o en código máquina.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>L'Elektronika BK 0010-01 est un ordinateur domestique de fabrication soviétique datant de 1986. Il est équipé d'un processeur 16 bits compatible PDP-11 (le K1801VM1) cadencé à 3 MHz et dispose de 32 ko de mémoire vive (RAM), dont la moitié est dédiée à l'affichage graphique (512x256 en mode monochrome ou 256x256 en mode 4 couleurs). Au démarrage, l'ordinateur propose le langage Vilnius BASIC (plus d'informations disponibles sur la version russe de Wikipédia, ici) ; il s'agit d'une variante légèrement simplifiée du MSX BASIC. Ce langage compile le code avant son exécution, ce qui permet aux programmes de fonctionner plus rapidement que sur d'autres implémentations du BASIC courantes sur les ordinateurs domestiques de l'époque. Outre le BASIC, il est également possible de programmer en langage assembleur PDP-11 ou en code machine.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Elektronika BK 0010-01 é um computador doméstico de fabricação soviética, lançado em 1986. Ele é baseado em um processador de 16 bits compatível com a arquitetura PDP-11 (o K1801VM1), operando a 3 MHz, e conta com 32 KB de memória RAM — metade da qual é dedicada a gráficos (512x256 no modo monocromático ou 256x256 no modo de 4 cores). Ao ser ligado, o computador inicia no ambiente de programação Vilnius BASIC (mais informações podem ser encontradas na Wikipédia em russo, aqui), que é um dialeto ligeiramente simplificado do MSX BASIC. Ele compila o código antes da execução, o que torna os programas um pouco mais rápidos do que em outras implementações de BASIC comuns nos computadores domésticos daquela época. Além do BASIC, também é possível desenvolver programas utilizando linguagem assembly para PDP-11 ou código de máquina.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Elektronika BK 0010-01</text>
+		</text>
+	</view>
+</theme>

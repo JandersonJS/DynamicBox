@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Commodore 16 is a home computer made by Commodore International with a 6502-compatible 7501 or 8501 CPU, released in 1984 and intended to be an entry-level computer to replace the VIC-20. A cost-reduced version, the Commodore 116, was mostly sold in Europe. The C16 and C116 belong to the same family as the higher-end Plus/4 and are internally very similar: 24  to it (albeit with less RAM – 16 KB rather than 64 KB – and lacking the Plus/4's user port and Three-Plus-One software). Software is generally compatible among all three provided it can fit within the C16's smaller RAM and does not utilize the user port on the Plus/4. While the C16 was a failure on the US market, it enjoyed some success in certain European countries and Mexico.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Commodore 16 es un ordenador doméstico fabricado por Commodore International, equipado con una CPU 7501 u 8501 (compatible con la arquitectura 6502). Lanzado en 1984, fue concebido como un equipo de gama básica destinado a sustituir al VIC-20. Una versión de coste reducido, el Commodore 116, se comercializó principalmente en Europa. Tanto el C16 como el C116 pertenecen a la misma familia que el Plus/4 —un modelo de gama superior— y son internamente muy similares a este; no obstante, cuentan con menos memoria RAM (16 KB frente a 64 KB) y carecen tanto del puerto de usuario como del paquete de software «Three-Plus-One» presentes en el Plus/4. Por lo general, el software es compatible entre los tres modelos, siempre que quepa en la memoria RAM más limitada del C16 y no haga uso del puerto de usuario del Plus/4. Si bien el C16 fue un fracaso en el mercado estadounidense, gozó de cierto éxito en algunos países europeos y en México.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le Commodore 16 est un ordinateur familial conçu par Commodore International, équipé d'un processeur 7501 ou 8501 compatible avec le 6502. Lancé en 1984, il se positionnait comme un modèle d'entrée de gamme destiné à remplacer le VIC-20. Une version allégée, le Commodore 116, a été principalement commercialisée en Europe. Le C16 et le C116 appartiennent à la même famille que le Plus/4 — un modèle plus haut de gamme — dont ils sont techniquement très proches ; ils disposent toutefois de moins de mémoire vive (16 Ko contre 64 Ko) et sont dépourvus du port utilisateur ainsi que de la suite logicielle « Three-Plus-One » présents sur le Plus/4. Les logiciels sont, dans l'ensemble, compatibles entre ces trois machines, à condition qu'ils puissent tenir dans la mémoire plus limitée du C16 et qu'ils ne fassent pas appel au port utilisateur du Plus/4. Si le C16 fut un échec sur le marché américain, il a connu un certain succès dans plusieurs pays européens ainsi qu'au Mexique.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Commodore 16 é um computador doméstico fabricado pela Commodore International, equipado com uma CPU 7501 ou 8501 (compatível com a arquitetura 6502). Lançado em 1984, foi concebido como um modelo de entrada para substituir o VIC-20. Uma versão com custo reduzido, o Commodore 116, foi comercializada principalmente na Europa. O C16 e o ​​C116 pertencem à mesma família do modelo mais avançado, o Plus/4, sendo internamente muito semelhantes a ele — embora contem com menos memória RAM (16 KB, em vez de 64 KB) e não possuam a porta de usuário nem o pacote de software "Three-Plus-One" presentes no Plus/4. De modo geral, os softwares são compatíveis entre os três modelos, desde que caibam na memória RAM mais limitada do C16 e não utilizem a porta de usuário do Plus/4. Embora o C16 tenha sido um fracasso no mercado norte-americano, obteve certo sucesso em alguns países europeus e no México.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Commodore 16</text>
+		</text>
+	</view>
+</theme>

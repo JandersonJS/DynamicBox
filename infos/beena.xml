@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Advanced Pico Beena (アドバンスピコ・ビーナ) is an educational video game console developed by Sega Toys and released on August 6, 2005 exclusively in Japan. It is the direct successor to the Sega Pico (1993) and is often considered Sega's final console, albeit an educational one. The name “Beena” was chosen to sound like the first syllables of “Be Natural”. Unlike the Sega Pico which was based on Mega Drive/Genesis hardware, the Beena uses a 32-bit ARM7TDMI CPU running at 81 MHz. Games come on book-shaped cartridges called Storyware, each containing a physical booklet with artwork pages — turning a page changes the on-screen content.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La Advanced Pico Beena (アドバンスピコ・ビーナ) es una videoconsola educativa desarrollada por Sega Toys y lanzada el 6 de agosto de 2005, exclusivamente en Japón. Es la sucesora directa de la Sega Pico (1993) y, a menudo, se la considera la última consola de Sega, aunque se trate de un dispositivo educativo. El nombre «Beena» fue elegido para que sonara como las primeras sílabas de la expresión inglesa «Be Natural». A diferencia de la Sega Pico, que se basaba en el hardware de la Mega Drive/Genesis, la Beena utiliza una CPU ARM7TDMI de 32 bits que funciona a 81 MHz. Los juegos se presentan en cartuchos con forma de libro denominados «Storyware»; cada uno incluye un cuadernillo físico con páginas ilustradas, de modo que, al pasar una página, cambia el contenido que se muestra en pantalla.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>L'Advanced Pico Beena est une console de jeux vidéo éducative développée par Sega Toys et sortie le 6 août 2005, exclusivement au Japon. Succédant directement à la Sega Pico (1993), elle est souvent considérée comme la dernière console de Sega, bien qu'il s'agisse d'un modèle éducatif. Le nom « Beena » a été choisi pour évoquer les premières syllabes de l'expression anglaise « Be Natural ». Contrairement à la Sega Pico, qui reposait sur l'architecture de la Mega Drive (ou Genesis), la Beena utilise un processeur ARM7TDMI 32 bits cadencé à 81 MHz. Les jeux se présentent sous la forme de cartouches en forme de livre appelées « Storyware » ; chacune contient un livret physique illustré, et le fait de tourner une page modifie le contenu affiché à l'écran.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Advanced Pico Beena (アドバンスピコ・ビーナ) é um console de videogame educacional desenvolvido pela Sega Toys e lançado em 6 de agosto de 2005, exclusivamente no Japão. Ele é o sucessor direto do Sega Pico (1993) e é frequentemente considerado o último console da Sega, ainda que de caráter educacional. O nome “Beena” foi escolhido por soar como as primeiras sílabas da expressão em inglês “Be Natural” (“seja natural”). Ao contrário do Sega Pico, que era baseado no hardware do Mega Drive/Genesis, o Beena utiliza uma CPU ARM7TDMI de 32 bits operando a 81 MHz. Os jogos são apresentados em cartuchos com formato de livro, chamados de “Storyware”; cada um contém um livreto físico com páginas ilustradas — ao virar uma página, o conteúdo exibido na tela é alterado.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Advanced Pico Beena</text>
+		</text>
+	</view>
+</theme>

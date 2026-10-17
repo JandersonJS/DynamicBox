@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The PC-8000 series (Japanese: PC-8000シリーズ, Hepburn: Pī-Shī Hassen Shirīzu) is a line of personal computers developed for the Japanese market by NEC. The PC-8001 model was also sold in the United States and Canada as the PC-8001A. Original models of the NEC PC-8001B (or sometimes the NEC PC-8000) were also sold in some European countries like in the UK, France, Spain, Italy and the Netherlands and in Australia and New Zealand as well.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La serie PC-8000 (en japonés: PC-8000シリーズ, Hepburn: Pī-Shī Hassen Shirīzu) es una línea de computadoras personales desarrollada por NEC para el mercado japonés. El modelo PC-8001 también se comercializó en Estados Unidos y Canadá bajo la denominación PC-8001A. Asimismo, versiones originales del NEC PC-8001B (o, en ocasiones, NEC PC-8000) se vendieron en varios países europeos —como el Reino Unido, Francia, España, Italia y los Países Bajos—, así como en Australia y Nueva Zelanda.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>La série PC-8000 (en japonais : PC-8000シリーズ, Hepburn : Pī-Shī Hassen Shirīzu) est une gamme d'ordinateurs personnels développée par NEC pour le marché japonais. Le modèle PC-8001 a également été commercialisé aux États-Unis et au Canada sous la référence PC-8001A. Des versions du NEC PC-8001B (parfois désignées sous le nom de NEC PC-8000) ont par ailleurs été vendues dans certains pays européens — notamment au Royaume-Uni, en France, en Espagne, en Italie et aux Pays-Bas — ainsi qu'en Australie et en Nouvelle-Zélande.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>A série PC-8000 (em japonês: PC-8000シリーズ, Hepburn: Pī-Shī Hassen Shirīzu) é uma linha de computadores pessoais desenvolvida pela NEC para o mercado japonês. O modelo PC-8001 também foi comercializado nos Estados Unidos e no Canadá sob a designação PC-8001A. Versões do NEC PC-8001B (por vezes referidas como NEC PC-8000) também foram vendidas em alguns países europeus — como Reino Unido, França, Espanha, Itália e Países Baixos —, bem como na Austrália e na Nova Zelândia.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>NEC PC-8000</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Gakken Compact Vision TV Boy (Japanese: TV ボーイ, Hepburn: TV bōi) is a second generation home video game console developed by Gakken and released in Japan in 1983 for a price of ¥8,800. The system was made to compete with the Epoch Cassette Vision, which had a market dominance of 70% in Japan. The console was released months after the Nintendo Famicom and Sega SG-1000 which, although more expensive at ¥15,000, were more advanced and had more features as well as bigger games libraries; furthermore, Epoch had just launched the Cassette Vision Jr. revision for ¥5,000. These factors made the system obsolete from the start, with a high price tag, few and comparably rudimentary games, and a strange form factor, leading to poor sales. As a result, it is now a rare collector's item among some retro gamers.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La Gakken Compact Vision TV Boy (en japonés: TV ボーイ, Hepburn: TV bōi) es una videoconsola doméstica de segunda generación, desarrollada por Gakken y lanzada en Japón en 1983 a un precio de 8800 yenes. El sistema fue creado para competir con la Epoch Cassette Vision, que por aquel entonces dominaba el 70 % del mercado japonés. La consola salió al mercado meses después de la Nintendo Famicom y la Sega SG-1000; aunque estas eran más caras —costaban 15 000 yenes—, resultaban más avanzadas, ofrecían más funcionalidades y contaban con un catálogo de juegos más amplio. Además, Epoch acababa de lanzar la revisión «Cassette Vision Jr.» por 5000 yenes. Estos factores hicieron que el sistema quedara obsoleto desde el principio: su elevado precio, su catálogo reducido y rudimentario, y su peculiar diseño dieron lugar a unas ventas muy bajas. Como resultado, hoy en día es un objeto de colección poco común entre los aficionados a los videojuegos retro.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>La Gakken Compact Vision TV Boy (en japonais : TV ボーイ, Hepburn : TV bōi) est une console de jeux vidéo de salon de deuxième génération, développée par Gakken et commercialisée au Japon en 1983 au prix de 8 800 ¥. Le système a été conçu pour concurrencer la Epoch Cassette Vision, qui détenait alors 70 % des parts de marché au Japon. La console est sortie quelques mois après la Nintendo Famicom et la Sega SG-1000 ; bien que ces dernières fussent plus onéreuses (15 000 ¥), elles étaient techniquement plus avancées, offraient davantage de fonctionnalités et disposaient d'une ludothèque plus vaste. Par ailleurs, Epoch venait tout juste de lancer une nouvelle version, la Cassette Vision Jr., au prix de 5 000 ¥. Ces différents facteurs ont rendu la console obsolète dès son lancement : un prix élevé, un catalogue de jeux restreint et relativement rudimentaire, ainsi qu'un design atypique, ce qui a conduit à de faibles ventes. En conséquence, elle constitue aujourd'hui une pièce de collection rare, prisée par certains amateurs de jeux vidéo rétro.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Gakken Compact Vision TV Boy (em japonês: TV ボーイ, Hepburn: TV bōi) é um console de videogame doméstico de segunda geração, desenvolvido pela Gakken e lançado no Japão em 1983 pelo preço de ¥ 8.800. O sistema foi criado para competir com o Epoch Cassette Vision, que detinha 70% de participação no mercado japonês. O console foi lançado meses após o Nintendo Famicom e o Sega SG-1000 — que, embora mais caros (custando ¥ 15.000), eram mais avançados, ofereciam mais recursos e contavam com bibliotecas de jogos maiores. Além disso, a Epoch havia acabado de lançar uma versão revisada, o Cassette Vision Jr., por ¥ 5.000. Esses fatores tornaram o sistema obsoleto desde o seu lançamento: com um preço elevado, uma biblioteca de jogos reduzida e bastante rudimentar, além de um formato peculiar, o console acabou apresentando vendas fracas. Como resultado, hoje ele é um item de colecionador raro entre entusiastas de jogos retrô.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Gakken Compact Vision TV Boy</text>
+		</text>
+	</view>
+</theme>

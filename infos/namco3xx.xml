@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Namco System 357 is an arcade system board based on the Sony PlayStation 3. It was released in 2007 as the board for Tekken 6. Unlike its predecessor, it did not see widespread adoption by other manufacturers. In 2011, Namco released an upgraded version of the arcade board, the System 369, also known as System 359, for use with Tekken Tag Tournament 2. The System 369's specifications are the same as Slim model retail PS3 consoles, and as such feature a smaller chassis with less heat.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El Namco System 357 es una placa base para sistemas arcade basada en la Sony PlayStation 3. Fue lanzada en 2007 como la plataforma para *Tekken 6*. A diferencia de su predecesora, no tuvo una adopción generalizada por parte de otros fabricantes. En 2011, Namco lanzó una versión mejorada de esta placa arcade, el System 369 —también conocido como System 359—, para su uso con *Tekken Tag Tournament 2*. Las especificaciones del System 369 son idénticas a las de las consolas PS3 comerciales (modelo Slim), por lo que cuentan con un chasis más compacto y generan menos calor.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le Namco System 357 est une carte système pour borne d'arcade basée sur la PlayStation 3 de Sony. Il a été lancé en 2007 pour le jeu *Tekken 6*. Contrairement à son prédécesseur, il n'a pas été largement adopté par d'autres fabricants. En 2011, Namco a commercialisé une version améliorée de cette carte, le System 369 (également appelé System 359), destinée au jeu *Tekken Tag Tournament 2*. Les caractéristiques techniques du System 369 sont identiques à celles des consoles PS3 grand public de modèle « Slim » ; il se présente ainsi dans un boîtier plus compact et génère moins de chaleur.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Namco System 357 é uma placa de sistema para arcade baseada no Sony PlayStation 3. Foi lançado em 2007 como a plataforma para o jogo Tekken 6. Ao contrário de seu antecessor, não teve uma adoção generalizada por outros fabricantes. Em 2011, a Namco lançou uma versão aprimorada dessa placa, o System 369 — também conhecido como System 359 —, para ser utilizado com o jogo Tekken Tag Tournament 2. As especificações do System 369 são idênticas às dos consoles PS3 modelo "Slim" vendidos no varejo; por isso, apresentam um chassi menor e geram menos calor.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Namco System 357/369</text>
+		</text>
+	</view>
+</theme>

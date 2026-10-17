@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Japanese home computer MZ-2000 (also known as the "Super MZ80B") was an improved and restyled version of the Sharp MZ80B, following an "all-in-one" design concept with a video monitor, keyboard, and cassette recorder integrated into the main unit. Despite these enhancements, it retained the procedure used by other MZ-series machines, requiring BASIC to be loaded into memory from a cassette tape—a process that took one to two minutes. Starting in April 1983, an expansion card called the "16 Bit Board Kit" became available, allowing the system to be upgraded from 8-bit to 16-bit architecture, with additional RAM. It was succeeded by the MZ-2200 and, ultimately, the powerful MZ-2500—the last Z80-based microcomputer from Sharp.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El ordenador doméstico japonés MZ-2000 (también llamado "Super MZ80B") fue una versión mejorada y rediseñada del Sharp MZ80B, basada en el concepto "todo en uno", con monitor de vídeo, teclado y grabadora de casete integrados en la carcasa. A pesar de las mejoras, mantuvo el procedimiento característico de las demás máquinas de la serie MZ: cargar el lenguaje BASIC en la memoria desde una cinta de casete (proceso que requería entre uno y dos minutos). A partir de abril de 1983, se empezó a comercializar una tarjeta de expansión, el "16 Bit Board Kit", que permitía transformar el sistema de 8 a 16 bits, añadiendo más memoria RAM. Tuvo como sucesores al MZ-2200 y al último microordenador basado en el procesador Z80 de Sharp: el potente MZ-2500.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>L'ordinateur domestique japonais MZ-2000 (également appelé « Super MZ80B ») était une version améliorée et restylée du Sharp MZ80B, conçue selon le concept « tout-en-un » : moniteur vidéo, clavier et lecteur de cassettes étaient intégrés au boîtier. Malgré ces améliorations, il conservait le fonctionnement propre aux autres machines de la gamme MZ, consistant à charger le BASIC en mémoire depuis une cassette (une opération qui prenait une à deux minutes). À partir d'avril 1983, une carte d'extension, le « 16 Bit Board Kit », a été commercialisée ; elle permettait de faire passer le système de 8 à 16 bits et d'augmenter la mémoire vive (RAM). Il a eu pour successeurs le MZ-2200 ainsi que le dernier micro-ordinateur à base de Z80 de Sharp : le puissant MZ-2500.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O computador doméstico japonês MZ-2000 (também chamado de "Super MZ80B") foi uma versão aperfeiçoada e reestilizada do Sharp MZ80B, dentro do conceito "all-in-one", monitor de vídeo, teclado e gravador cassete integrados ao gabinete. Apesar das melhorias, manteve o processo das demais máquinas MZ de carregar o BASIC em memória a partir de uma fita cassete (o que levava de um a dois minutos). A partir de abril de 1983, uma placa de expansão, a 16 Bit Board Kit passou a ser vendida, permitindo transformar o sistema de 8 para 16 bits, com mais memória RAM. Teve como sucessores o MZ-2200 e o último micro Z80 da Sharp, o poderoso MZ-2500.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sharp MZ-2000</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The MZ-2500, also known as the Super MZ, is an 8-bit personal computer released on 1 October 1985 as part of the Sharp MZ series. It is a successor to the MZ-2000/2200 and a direct successor to the MZ-80B from the previous generation. The MZ-2000 was a model that was given significant functions, along with a faster processing speed. It is also the final model of the entire 8-bit MZ series with architecture of its kind. It is sometimes referred to as the best 8-bit machine along with the 6809 FM77AV and the MB-S1. In Japanese computer magazines, the MZ-2500 was also called 'The Phoenix'. Its successor was the Sharp MZ-2861 which has a compatible mode and a newly developed 16-bit mode. The development code is LEY and can be found in the circuit diagram.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El MZ-2500, también conocido como Super MZ, es un ordenador personal de 8 bits lanzado el 1 de octubre de 1985 como parte de la serie Sharp MZ. Es el sucesor de los modelos MZ-2000/2200 y el sucesor directo del MZ-80B de la generación anterior. El MZ-2000 era un modelo que incorporaba funciones destacadas, además de una velocidad de procesamiento más elevada. Asimismo, es el último modelo de toda la serie MZ de 8 bits con esta arquitectura específica. A veces se le considera la mejor máquina de 8 bits, junto con el FM77AV (basado en el procesador 6809) y el MB-S1. En las revistas de informática japonesas, el MZ-2500 también recibía el nombre de «El Fénix». Su sucesor fue el Sharp MZ-2861, que contaba con un modo compatible y un modo de 16 bits de nuevo desarrollo. Su código de desarrollo es LEY, el cual puede encontrarse en el esquema del circuito.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le MZ-2500, également connu sous le nom de « Super MZ », est un ordinateur personnel 8 bits lancé le 1er octobre 1985 au sein de la gamme Sharp MZ. Il succède aux MZ-2000 et MZ-2200, et prend directement la relève du MZ-80B de la génération précédente. Le MZ-2500 se distinguait par des fonctionnalités avancées et une vitesse de traitement accrue. Il s'agit par ailleurs du dernier modèle de la série MZ 8 bits à adopter cette architecture spécifique. Il est parfois considéré comme l'une des meilleures machines 8 bits, aux côtés du FM77AV (basé sur le processeur 6809) et du MB-S1. Dans la presse informatique japonaise, le MZ-2500 était également surnommé « The Phoenix » (le Phénix). Son successeur fut le Sharp MZ-2861, doté d'un mode de compatibilité ainsi que d'un mode 16 bits inédit. Son nom de code de développement, « LEY », figure sur les schémas électroniques de l'appareil.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O MZ-2500, também conhecido como "Super MZ", é um computador pessoal de 8 bits lançado em 1º de outubro de 1985, como parte da série Sharp MZ. Ele é o sucessor do MZ-2000/2200 e o sucessor direto do MZ-80B, da geração anterior. O MZ-2000 era um modelo que apresentava funcionalidades significativas, além de uma velocidade de processamento mais elevada. Trata-se, também, do último modelo de toda a série MZ de 8 bits com esse tipo de arquitetura. É, por vezes, considerado a melhor máquina de 8 bits, ao lado do FM77AV (baseado no processador 6809) e do MB-S1. Em revistas de informática japonesas, o MZ-2500 também era chamado de "A Fênix" (The Phoenix). Seu sucessor foi o Sharp MZ-2861, que conta com um modo compatível e um modo de 16 bits desenvolvido especificamente para ele. O codinome de desenvolvimento é LEY, o qual pode ser encontrado no diagrama do circuito.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sharp MZ-2500</text>
+		</text>
+	</view>
+</theme>

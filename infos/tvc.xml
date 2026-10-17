@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The TV-Computer (or TVC in short) is an 8-bit home computer which was manufactured by the Hungarian company Videoton around 1986. The computer was based on the Enterprise and had a built-in BASIC interpreter. Programs could be loaded via tape or floppy. It had a built-in joystick and a keyboard with Hungarian letters and nine function keys. The TVC has three graphical modes: 128×240/16 colors, 256×240/4 colors, and 512×240/2 colors (black and white). There was no text mode, only graphical. This made the computer a bit slow and smooth scrolling is pretty challenging (though there are examples for vertical and horizontal scrolling games nowadays).</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El TV-Computer (o TVC, abreviado) es un ordenador doméstico de 8 bits fabricado por la empresa húngara Videoton alrededor de 1986. El equipo estaba basado en el Enterprise e incluía un intérprete de BASIC integrado. Los programas podían cargarse mediante cinta o disquete. Contaba con un joystick incorporado y un teclado que incluía caracteres húngaros y nueve teclas de función. El TVC dispone de tres modos gráficos: 128×240 con 16 colores, 256×240 con 4 colores y 512×240 con 2 colores (blanco y negro). No contaba con un modo de texto, sino únicamente con modos gráficos. Esto hacía que el ordenador fuera algo lento, y lograr un desplazamiento (scroll) fluido resultaba bastante complicado (aunque, hoy en día, existen ejemplos de juegos que implementan desplazamiento tanto vertical como horizontal).</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le TV-Computer (ou TVC) est un ordinateur familial 8 bits fabriqué par la société hongroise Videoton vers 1986. Basé sur l'Enterprise, cet ordinateur intégrait un interpréteur BASIC. Les programmes pouvaient être chargés depuis une cassette ou une disquette. Il disposait d'un joystick intégré ainsi que d'un clavier incluant les caractères hongrois et neuf touches de fonction. Le TVC proposait trois modes graphiques : 128×240 (16 couleurs), 256×240 (4 couleurs) et 512×240 (2 couleurs : noir et blanc). Il ne possédait pas de mode texte, uniquement des modes graphiques. Cette particularité rendait l'ordinateur quelque peu lent et rendait le défilement fluide assez difficile à réaliser (bien qu'il existe aujourd'hui des exemples de jeux proposant un défilement vertical ou horizontal).</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O TV-Computer (ou TVC, abreviadamente) é um computador doméstico de 8 bits fabricado pela empresa húngara Videoton por volta de 1986. O computador baseava-se no Enterprise e contava com um interpretador BASIC integrado. Os programas podiam ser carregados por meio de fita ou disquete. Ele possuía um joystick embutido e um teclado com caracteres húngaros e nove teclas de função. O TVC dispõe de três modos gráficos: 128×240 com 16 cores, 256×240 com 4 cores e 512×240 com 2 cores (preto e branco). Não havia um modo de texto, apenas modos gráficos. Isso tornava o computador um tanto lento, e a realização de uma rolagem (scrolling) suave é bastante desafiadora (embora, hoje em dia, existam exemplos de jogos com rolagem vertical e horizontal).</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>TV-Computer</text>
+		</text>
+	</view>
+</theme>

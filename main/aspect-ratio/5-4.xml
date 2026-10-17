@@ -2,190 +2,378 @@
 <theme>
 	<formatVersion>7</formatVersion>
 
-  <view name="system">  	
-      <text name="system_description" extra="static">
-            <pos ifSubset="aspect-ratio:5-4">0.235 0.425</pos>
-            <size ifSubset="aspect-ratio:5-4">0.75 0.112</size>
-      </text> 
+  <view name="system"> 
+        <text name="system_description" extra="static">
+            <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+            <origin>0 0</origin>
+            <verticalAlignment>top</verticalAlignment>
+            <pos>0.235 0.425</pos>
+            <size>0.75 0.112</size>
+            <glowSize>1.8</glowSize>
+            <glowColor>00000035</glowColor>
+            <glowOffset>3 2</glowOffset>
+            <forceUppercase>1</forceUppercase>
+            <fontSize>0.020</fontSize>
+            <color>FFFFFF</color>
+            <autoScroll>vertical</autoScroll>
+            <autoScrollDelay>0</autoScrollDelay>
+            <zIndex>80</zIndex>
+        </text>  
 
       <carousel name="systemcarousel">
-            <logoSize ifSubset="aspect-ratio:5-4">0.12</logoSize>
+         <type>horizontal</type>
+         <color>00000000</color>
+         <logoSize>0.12</logoSize>
+         <logoScale>2</logoScale>
+         <scaledLogoSpacing>1.22</scaledLogoSpacing>
+         <maxLogoCount>17</maxLogoCount>
+         <logoAlignment>bottom</logoAlignment>
+         <pos>-0.825 -0.32</pos>
+         <size>1.86 1</size>
       </carousel>
 
       <image name="marco" extra="static">
-            <pos ifSubset="aspect-ratio:5-4">0.00865 0.425</pos>
-            <size ifSubset="aspect-ratio:5-4">0.193 0.243</size>
+          <path>./main/media/marco.png</path>
+          <linearSmooth>true</linearSmooth>
+          <pos>0.00865 0.425</pos>  
+          <size>0.193 0.243</size>   
+          <origin>0 0</origin>
+          <color>${baseColor}</color>
+          <storyboard>
+            <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
+            <animation property="offsetX" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+            <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+            <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
+            <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
+          </storyboard>
+          <zIndex>81</zIndex>
       </image>
 
-      <text name="systemInfoEx" extra="true">
-            <fontSize ifSubset="aspect-ratio:5-4">0.018</fontSize>
+      <text name="manufacturerName" extra="static">
+        <text>${system.sortedBy}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./main/fonts/XboxOriginalBold-YzPYy.ttf</fontPath>
+        <fontSize>0.060</fontSize>
+        <pos>0.012 0.137</pos>
+        <size>0.942 0.28</size>
+        <color>FFFFFF</color>      
+        <zIndex>100</zIndex>
+        <color>D0D0D0FF</color>
+        <glowColor>00000080</glowColor>
+        <glowSize>1</glowSize>
+        <fontSize tinyScreen="true">0.065</fontSize>
+        <glowSize tinyScreen="true">1</glowSize>
       </text>
+      <text name="fullName" extra="true">
+        <text>${system.fullName}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <pos>0.013 0.220</pos>    
+        <size>0.94 0.28</size>
+        <zIndex>100</zIndex>
+        <color>FFFFFF</color>
+        <glowColor>000000A0</glowColor>
+        <glowSize>1</glowSize>
+        <glowColor tinyScreen="true">00000040</glowColor>
+        <fontSize tinyScreen="true">0.035</fontSize>
+      </text>
+      <text name="releaseYyear" extra="true">
+        <text>${system.releaseYearOrNull}</text>
+        <alignment>left</alignment>
+        <verticalAlignment>top</verticalAlignment>
+        <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+        <fontSize>0.024</fontSize>
+        <pos>0.013 0.257</pos>      
+        <size>0.94 0.28</size>        
+        <zIndex>100</zIndex>
+        <color>FFFFFF</color>
+        <glowColor>000000A0</glowColor>
+        <glowSize>1</glowSize>
+                
+        <glowColor tinyScreen="true">00000040</glowColor>
+        <fontSize tinyScreen="true">0.035</fontSize>
+      </text> 
+
+    <image name="game" extra="true">
+      <linearSmooth>true</linearSmooth>
+      <path>./main/media/band.svg</path>
+      <color>${baseColor}</color>
+      <origin>0 0.5</origin>
+      <pos>0.010 0.793</pos>
+      <size>0.191 0.198</size>
+          <storyboard>
+            <animation property="scale" from="0.94" to="1" duration="300" mode="bump" />
+            <animation property="offsetX" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+            <animation property="offsetY" to="-0.008" duration="150" mode="ease" autoreverse="true" />
+            <animation property="opacity" from="0" to="1.0" duration="500" mode="easeInOut" />
+            <animation property="opacity" from="1" to="0.3" begin="1000" duration="500" mode="easeInOut" autoreverse="true" repeat="forever" />
+          </storyboard>
+      <zIndex>90</zIndex>
+    </image>
+
+    <image name="fanart1" extra="static">
+      <path>{random:fanart}</path>
+      <origin>0 0.5</origin>
+      <pos>0.051 0.793</pos>
+      <minSize>0.05 0.198</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <zIndex>93</zIndex>
+    </image>
+
+    <image name="fanart2" extra="static">
+      <path>{random:fanart}</path>
+      <origin>0 0.5</origin>
+      <pos>0.101 0.793</pos>
+      <minSize>0.05 0.198</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <zIndex>95</zIndex>
+    </image>
+
+    <image name="fanart3" extra="static">
+      <path>{random:fanart}</path>
+      <origin>0 0.5</origin>
+      <pos>0.151 0.793</pos>
+      <minSize>0.05 0.198</minSize>
+      <videoLinearSmooth>true</videoLinearSmooth>
+      <zIndex>97</zIndex>
+    </image>
+
+    <text name="systemInfo" visible="false"/>
+    <text name="systemInfoEx" extra="true">
+      <!-- possible bindings are :
+{binding:total}, {binding:played}, {binding:favorites}, {binding:hidden}, {binding:gamesPlayed}
+{binding:mostPlayed}, {binding:lastPlayedDate}
+-->
+      <text>Games : {binding:total}
+Favorites : {binding:favorites}
+Games played : {binding:gamesPlayed}
+Last played : {binding:lastPlayedDate}
+Most played : {binding:mostPlayed}
+Games started : {binding:played}</text>
+      <text lang="fr">Nombre de jeux : {binding:total}
+Favoris : {binding:favorites}
+Jeux joués : {binding:gamesPlayed}
+Dernière partie : {binding:lastPlayedDate}
+Le plus joué : {binding:mostPlayed}
+Parties commencées : {binding:played}</text>
+      <text lang="es">Número de juegos : {binding:total}
+Favoritos : {binding:favorites}
+Jugados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+El más jugado : {binding:mostPlayed}
+Juegos iniciados : {binding:played}</text>
+      <text lang="pt">Número de jogos : {binding:total}
+Favoritos : {binding:favorites}
+Jogados : {binding:gamesPlayed}
+Última partida : {binding:lastPlayedDate}
+O mais jogado : {binding:mostPlayed}
+Partidas iniciadas : {binding:played}</text>
+      <alignment>left</alignment>
+      <verticalAlignment>top</verticalAlignment>
+      <fontPath>./main/fonts/Cabin-Regular.ttf</fontPath>
+      <fontSize>0.018</fontSize>
+      <pos>0.013 0.695</pos>
+      <size>0.19 0.07</size>
+      <zIndex>100</zIndex>
+      <color>FFFFFF</color>
+      <glowColor>000000</glowColor>
+      <glowSize>1</glowSize>
+    </text>
 
       <image name="achievement" extra="static">
-            <pos ifSubset="aspect-ratio:5-4">0.08 0.072</pos>
+         <path>./main/media/achievement.svg</path>
+         <pos>0.08 0.072</pos>
+         <maxSize>0.023 0.023</maxSize>
+         <zIndex>99</zIndex>
+         <linearSmooth>true</linearSmooth>
       </image>
 
       <text name="trophy-level" extra="static">
-	        <pos ifSubset="aspect-ratio:5-4">0.1 0.068</pos>
+         <text>2025</text>
+         <pos>0.1 0.068</pos>
+         <size>0.048 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Roman.ttf</fontPath>
+         <fontSize>0.020</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
       </text>
 
       <text name="username" extra="static">
-	        <pos ifSubset="aspect-ratio:5-4">0.08 0.03</pos>
-	        <fontSize ifSubset="aspect-ratio:5-4">0.027</fontSize>
+         <text>${theme.nick}</text>
+         <text ifSubset="system-username:custom">${custom.nick}</text>
+         <pos>0.08 0.03</pos>
+         <size>0.165 0.035</size>
+         <color>ffffff</color>
+         <fontPath>./main/fonts/SST Light.ttf</fontPath>
+         <fontSize>0.027</fontSize>
+         <alignment>left</alignment>
+         <glowColor>00000035</glowColor>
+         <glowSize>1</glowSize>
+         <glowOffset>3 2</glowOffset>
+         <zIndex>99</zIndex>
+         <backgroundColor>ff000000</backgroundColor>
       </text>
   </view>
 
   <view name="grid">
       <text name="username" extra="static">
-         <pos ifSubset="aspect-ratio:5-4">0.13 0.35</pos>
+         <pos>0.13 0.35</pos>
       </text>
 
     <text name="md_lbl_genre, md_genre, md_lbl_rating, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_lastplayed, md_lbl_playcount, md_playcount, md_players, md_lbl_releasedate">
-      <fontSize ifSubset="aspect-ratio:5-4">0.020</fontSize>
+      <fontSize>0.020</fontSize>
     </text>
 
     <datetime name="md_lastplayed, md_releasedate, md_developer, md_lbl_developer, md_publisher, md_lbl_publisher">
-      <fontSize ifSubset="aspect-ratio:5-4">0.020</fontSize>
+      <fontSize>0.020</fontSize>
     </datetime>
 
     <text name="md_genre">
-	    <pos ifSubset="aspect-ratio:5-4">0.009 0.875</pos>
+	    <pos>0.009 0.875</pos>
     </text>
 
     <rating name="md_rating">
-      <pos ifSubset="aspect-ratio:5-4">0.118 0.8865</pos>
-	  <size ifSubset="aspect-ratio:5-4">0.035 0.025</size>
+      <pos>0.118 0.8865</pos>
+	  <size>0.035 0.025</size>
     </rating> 
 
     <text name="md_description">
-      <fontSize ifSubset="aspect-ratio:5-4">0.020</fontSize>
+      <fontSize>0.020</fontSize>
     </text>
 
     <datetime name="md_releasedate">
-      <pos ifSubset="aspect-ratio:5-4">0.125 0.44</pos>
-      <size ifSubset="aspect-ratio:5-4">0.09 0</size> 
+      <pos>0.125 0.44</pos>
+      <size>0.09 0</size> 
     </datetime>
 
     <text name="md_lbl_developer">
     </text>
 
     <text name="md_developer">
-      <pos ifSubset="aspect-ratio:5-4">0.125 0.3859</pos> 
-      <size ifSubset="aspect-ratio:5-4">0.09 0</size> 
+      <pos>0.125 0.3859</pos> 
+      <size>0.09 0</size> 
     </text>
 
     <text name="md_lbl_publisher">
-      <pos ifSubset="aspect-ratio:5-4">0.01 0.368</pos> 
+      <pos>0.01 0.368</pos> 
     </text>
 
     <text name="md_publisher">
-      <pos ifSubset="aspect-ratio:5-4">0.125 0.395</pos> 
-      <size ifSubset="aspect-ratio:5-4">0.09 0</size> 
+      <pos>0.125 0.395</pos> 
+      <size>0.09 0</size> 
     </text>
   </view>
 
   <customView name="Tiles" inherits="grid" displayName="${tilesViewName}">
     <imagegrid name="gamegrid">
-      <autoLayout ifSubset="aspect-ratio:5-4">5 4</autoLayout>
+      <autoLayout>5 4</autoLayout>
     </imagegrid>
   </customView>
 
   <view name="detailed">
         <text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
-            <fontSize ifSubset="aspect-ratio:5-4">0.017</fontSize>
+            <fontSize>0.017</fontSize>
         </text>
 
         <text name="md_releasedate, md_developer, md_publisher, md_genre, md_players, md_lastplayed, md_playcount, md_favorite">
-            <fontSize ifSubset="aspect-ratio:5-4">0.017</fontSize>
+            <fontSize>0.017</fontSize>
         </text>
 
         <text name="md_lbl_rating">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.556</pos>
+            <pos>0.75 0.556</pos>
         </text>
 
         <text name="md_lbl_releasedate">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.23</pos>
+            <pos>0.75 0.23</pos>
         </text>
 
         <text name="md_lbl_developer">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.27</pos>
+            <pos>0.75 0.27</pos>
         </text>
 
         <text name="md_developer">
         </text>
 
         <text name="md_lbl_publisher">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.31</pos>
+            <pos>0.75 0.31</pos>
         </text>
 
         <text name="md_publisher">
         </text>
 
         <text name="md_lbl_genre">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.35</pos>
+            <pos>0.75 0.35</pos>
         </text>
 
         <text name="md_genre">
         </text>
 
         <text name="md_lbl_players">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.39</pos>
+            <pos>0.75 0.39</pos>
         </text>
 
         <text name="md_players">
         </text>
 
         <text name="md_lbl_lastplayed">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.47</pos>
+            <pos>0.75 0.47</pos>
         </text>
 
         <datetime name="md_lastplayed">
         </datetime>
 
         <text name="md_lbl_playcount">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.43</pos>
+            <pos>0.75 0.43</pos>
         </text>
 
         <text name="md_playcount">
         </text>
 
         <text name="md_lbl_favorite">
-            <pos ifSubset="aspect-ratio:5-4">0.75 0.51</pos>
+            <pos>0.75 0.51</pos>
         </text>
   </view>
   <view name="gamecarousel" displayName="${gameCarouselViewName}">
         <text name="md_lbl_developer, md_lbl_publisher, md_lbl_lastplayed, md_lbl_playcount, md_lbl_players, md_lbl_releasedate">
-            <fontSize ifSubset="aspect-ratio:5-4">0.019</fontSize>
+            <fontSize>0.019</fontSize>
         </text>
 
         <text name="md_genre, md_developer, md_publisher, md_lastplayed, md_releasedate, md_players">
-            <fontSize ifSubset="aspect-ratio:5-4">0.019</fontSize>
+            <fontSize>0.019</fontSize>
         </text>
 
         <image name="md_hidden">
-            <pos ifSubset="aspect-ratio:5-4">0.73 0.9</pos>
+            <pos>0.73 0.9</pos>
         </image>
 
         <image name="md_kidgame">
-            <pos ifSubset="aspect-ratio:5-4">0.76 0.9</pos>
+            <pos>0.76 0.9</pos>
         </image>
 
         <image name="md_savestate, md_nosavestate">
-            <pos ifSubset="aspect-ratio:5-4">0.79 0.9</pos>
+            <pos>0.79 0.9</pos>
         </image>
         
         <image name="md_nosavestate">
         </image>
     
         <image name="md_cheevos, md_notcheevos">
-            <pos ifSubset="aspect-ratio:5-4">0.82 0.9</pos>
+            <pos>0.82 0.9</pos>
         </image>
         
         <image name="md_notcheevos">
         </image>
 
         <image name="md_manual, md_nomanual">
-            <pos ifSubset="aspect-ratio:5-4">0.85 0.9</pos>
+            <pos>0.85 0.9</pos>
         </image>
   </view>
 </theme>

@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Cassette Vision is a second generation home video game console made by Epoch Co. and released in Japan on July 30, 1981. A redesigned model called the Cassette Vision Jr. was released afterwards. The term cassette is a contemporary Japanese synonym for ROM cartridge, not to be confused with the magnetic cassette tape format. In terms of power, it is comparable to the Atari 2600. The Cassette Vision has unusual controls: four knobs built into the console itself, two for each player (one for horizontal, one for vertical), plus two buttons per player. The system originally retailed for ¥13,500, with games priced at ¥4,000. The Cassette Vision sold around 400,000 units, and was the best selling video game console in Japan before Nintendo's Family Computer. It received a successor called the Super Cassette Vision.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La Cassette Vision es una videoconsola doméstica de segunda generación, fabricada por Epoch Co. y lanzada en Japón el 30 de julio de 1981. Posteriormente, se lanzó un modelo rediseñado llamado Cassette Vision Jr. El término «cassette» es, en el contexto japonés de la época, un sinónimo de «cartucho ROM»; no debe confundirse con el formato de cinta magnética. En cuanto a potencia, es comparable a la Atari 2600. La Cassette Vision cuenta con unos controles inusuales: cuatro diales integrados en la propia consola —dos para cada jugador (uno para el movimiento horizontal y otro para el vertical)—, además de dos botones por jugador. El sistema salió al mercado con un precio de 13 500 yenes, mientras que los juegos costaban 4000 yenes. La Cassette Vision vendió alrededor de 400 000 unidades y fue la videoconsola más vendida en Japón antes de la llegada de la Family Computer de Nintendo. Tuvo una sucesora llamada Super Cassette Vision.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>La Cassette Vision est une console de jeux vidéo de salon de deuxième génération fabriquée par Epoch Co. et lancée au Japon le 30 juillet 1981. Un modèle redessiné, baptisé Cassette Vision Jr., a été commercialisé par la suite. Le terme « cassette » est ici un synonyme japonais courant pour désigner une cartouche de jeu (ROM), à ne pas confondre avec le format de cassette audio magnétique. En termes de puissance, elle est comparable à l'Atari 2600. La Cassette Vision se distingue par ses commandes atypiques : quatre molettes intégrées à la console elle-même — deux par joueur (l'une pour le déplacement horizontal, l'autre pour le vertical) — ainsi que deux boutons par joueur. À sa sortie, le système était vendu 13 500 yens et les jeux 4 000 yens. La Cassette Vision s'est écoulée à environ 400 000 exemplaires, devenant la console de jeux vidéo la plus vendue au Japon avant l'arrivée de la Family Computer de Nintendo. Elle a connu un successeur nommé Super Cassette Vision.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O Cassette Vision é um console de videogame doméstico de segunda geração fabricado pela Epoch Co. e lançado no Japão em 30 de julho de 1981. Posteriormente, foi lançada uma versão redesenhada chamada Cassette Vision Jr. O termo "cassette" é um sinônimo japonês da época para cartucho de ROM, não devendo ser confundido com o formato de fita cassete magnética. Em termos de potência, o console é comparável ao Atari 2600. O Cassette Vision possui controles incomuns: quatro botões giratórios integrados ao próprio console — dois para cada jogador (um para o movimento horizontal e outro para o vertical) — além de dois botões de ação por jogador. O sistema foi lançado originalmente pelo preço de ¥ 13.500, com jogos custando ¥ 4.000. O Cassette Vision vendeu cerca de 400.000 unidades e foi o console de videogame mais vendido no Japão antes do Family Computer, da Nintendo. Ele ganhou um sucessor chamado Super Cassette Vision.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Cassette Vision</text>
+		</text>
+	</view>
+</theme>

@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>SC-3000 foi um computador doméstico fabricado pela Sega equivalente ao videogame SG-1000. Foi vendido por ¥29.800 em 1983 e anunciado como um computador para iniciantes. Graças a compatibilidade com os jogos desenvolvidos para SG-1000 e devido a capacidade de utilizar aplicativos típicos de computadores, vendeu mais unidades que o SG-1000. Além disso, seus usuários podiam criar seus próprios softwares e jogos na própria máquina. O SC-3000H, vendido originalmente por ¥33.800, era uma versão melhorada do sistema original, com mais memória RAM e um teclado melhorado (a versão original era equipado com um teclado de membrana). Entre os acessórios disponíveis para o computador estavam uma unidade de síntese de voz, uma caneta óptica e uma extensão chamada SF-7000 que acrescentava 64KB de memória RAM, 8KB de memória ROM, um drive de disquete, uma porta paralela Centronics e uma porta serial RS232.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El SC-3000 fue un ordenador doméstico fabricado por Sega, equivalente a la videoconsola SG-1000. Se vendió por 29.800 yenes en 1983 y se promocionó como un ordenador para principiantes. Gracias a su compatibilidad con los juegos desarrollados para la SG-1000 y a su capacidad para ejecutar aplicaciones típicas de los ordenadores, vendió más unidades que la SG-1000. Además, los usuarios podían crear su propio software y juegos en la propia máquina. El SC-3000H, que se vendía originalmente por 33.800 yenes, era una versión mejorada del sistema original; contaba con más memoria RAM y un teclado superior (la versión original estaba equipada con un teclado de membrana). Entre los accesorios disponibles para el ordenador se incluían una unidad de síntesis de voz, un lápiz óptico y una expansión denominada SF-7000, que añadía 64 KB de memoria RAM, 8 KB de memoria ROM, una unidad de disquete, un puerto paralelo Centronics y un puerto serie RS232.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>Le SC-3000 était un ordinateur familial fabriqué par Sega, équivalent à la console de jeux vidéo SG-1000. Commercialisé au prix de 29 800 ¥ en 1983, il était présenté comme un ordinateur destiné aux débutants. Grâce à sa compatibilité avec les jeux développés pour la SG-1000 et à sa capacité à faire fonctionner des logiciels informatiques classiques, il s'est vendu à davantage d'exemplaires que la SG-1000. Par ailleurs, les utilisateurs avaient la possibilité de créer leurs propres logiciels et jeux directement sur la machine. Le SC-3000H, vendu initialement au prix de 33 800 ¥, constituait une version améliorée du système d'origine, dotée d'une mémoire vive (RAM) plus importante et d'un clavier perfectionné (la version initiale était équipée d'un clavier à membrane). Parmi les accessoires disponibles pour cet ordinateur figuraient un module de synthèse vocale, un stylo optique ainsi qu'une extension baptisée SF-7000 ; cette dernière ajoutait 64 Ko de mémoire vive (RAM), 8 Ko de mémoire morte (ROM), un lecteur de disquettes, un port parallèle Centronics et un port série RS-232.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>SC-3000 foi um computador doméstico fabricado pela Sega equivalente ao videogame SG-1000. Foi vendido por ¥29.800 em 1983 e anunciado como um computador para iniciantes. Graças a compatibilidade com os jogos desenvolvidos para SG-1000 e devido a capacidade de utilizar aplicativos típicos de computadores, vendeu mais unidades que o SG-1000. Além disso, seus usuários podiam criar seus próprios softwares e jogos na própria máquina. O SC-3000H, vendido originalmente por ¥33.800, era uma versão melhorada do sistema original, com mais memória RAM e um teclado melhorado (a versão original era equipado com um teclado de membrana). Entre os acessórios disponíveis para o computador estavam uma unidade de síntese de voz, uma caneta óptica e uma extensão chamada SF-7000 que acrescentava 64KB de memória RAM, 8KB de memória ROM, um drive de disquete, uma porta paralela Centronics e uma porta serial RS232.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sega SC-3000</text>
+		</text>
+	</view>
+</theme>

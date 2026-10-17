@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The EACA EG2000 Colour Genie was a computer produced by Hong Kong–based manufacturer EACA, and introduced in Germany in August 1982 by Trommeschläger Computer Service and Schmidtke Electronic. It followed their earlier Video Genie I and II computers and was released around the same time as the business-oriented Video Genie.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>El EACA EG2000 Colour Genie fue un ordenador fabricado por la empresa EACA, con sede en Hong Kong, e introducido en Alemania en agosto de 1982 por Trommeschläger Computer Service y Schmidtke Electronic. Sucedió a sus anteriores modelos, los ordenadores Video Genie I y II, y fue lanzado aproximadamente al mismo tiempo que el Video Genie, orientado al ámbito empresarial.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>L'EACA EG2000 Colour Genie était un ordinateur fabriqué par la société EACA, basée à Hong Kong, et lancé en Allemagne en août 1982 par Trommeschläger Computer Service et Schmidtke Electronic. Il succédait aux modèles précédents Video Genie I et II et est sorti à peu près en même temps que le Video Genie, un modèle destiné au monde des affaires.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O EACA EG2000 Colour Genie foi um computador produzido pela fabricante EACA, sediada em Hong Kong, e lançado na Alemanha em agosto de 1982 pela Trommeschläger Computer Service e pela Schmidtke Electronic. Ele sucedeu aos modelos anteriores Video Genie I e II e foi lançado na mesma época que o Video Genie, voltado ao segmento empresarial.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>EACA EG2000 Colour Genie</text>
+		</text>
+	</view>
+</theme>

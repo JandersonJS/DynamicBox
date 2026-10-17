@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The Sharp MZ is a series of personal computers sold in Japan and Europe (particularly Germany and Great Britain) by Sharp beginning in 1978. In 1983, after the most popular home computers appeared in the UK, the Sharp MZ-700 was briefly the 10th best selling machine out of 20 considered, beating the Apple IIe, Atari 800 and TI-99/4A.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La serie Sharp MZ comprende una gama de computadoras personales comercializadas por Sharp en Japón y Europa (especialmente en Alemania y Gran Bretaña) a partir de 1978. En 1983, tras la aparición de las computadoras domésticas más populares en el Reino Unido, la Sharp MZ-700 llegó a ocupar, durante un breve periodo, el décimo puesto en ventas de un total de 20 modelos analizados, superando a la Apple IIe, la Atari 800 y la TI-99/4A.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>La gamme Sharp MZ désigne une série d'ordinateurs personnels commercialisés au Japon et en Europe (notamment en Allemagne et en Grande-Bretagne) par Sharp à partir de 1978. En 1983, après l'apparition des ordinateurs domestiques les plus populaires au Royaume-Uni, le Sharp MZ-700 s'est hissé, pendant une courte période, à la 10e place des ventes parmi les 20 modèles pris en compte, devançant ainsi l'Apple IIe, l'Atari 800 et le TI-99/4A.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>A Sharp MZ é uma série de computadores pessoais comercializada no Japão e na Europa (particularmente na Alemanha e na Grã-Bretanha) pela Sharp a partir de 1978. Em 1983, após o surgimento dos computadores domésticos mais populares no Reino Unido, o Sharp MZ-700 figurou brevemente como o décimo modelo mais vendido entre os 20 analisados, superando o Apple IIe, o Atari 800 e o TI-99/4A.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>Sharp MZ-700</text>
+		</text>
+	</view>
+</theme>

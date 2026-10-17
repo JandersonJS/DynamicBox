@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>N64: Recompiled is a tool to statically recompile N64 binaries into C code that can be compiled for any platform. This can be used for ports or tools as well as for simulating behaviors significantly faster than interpreters or dynamic recompilation can. More widely, it can be used in any context where you want to run some part of an N64 binary in a standalone environment. This is not the first project that uses static recompilation on game console binaries. A well known example is jamulator, which targets NES binaries. Additionally, this is not even the first project to apply static recompilation to N64-related projects: the IDO static recompilation recompiles the SGI IRIX IDO compiler on modern systems to faciliate matching decompilation of N64 games. This project works similarly to the IDO static recomp project in some ways, and that project was my main inspiration for making this.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>N64: Recompiled es una herramienta que permite recompilar de forma estática binarios de N64 en código C, el cual puede compilarse para cualquier plataforma. Esto resulta útil tanto para realizar adaptaciones (ports) o crear herramientas, como para simular comportamientos a una velocidad significativamente mayor que la que ofrecen los intérpretes o la recompilación dinámica. En un sentido más amplio, puede emplearse en cualquier contexto en el que se requiera ejecutar una parte de un binario de N64 en un entorno independiente. Este no es el primer proyecto que utiliza la recompilación estática en binarios de videoconsolas; un ejemplo conocido es jamulator, orientado a binarios de NES. Asimismo, tampoco es el primer proyecto que aplica la recompilación estática a elementos relacionados con la N64: la recompilación estática de IDO permite recompilar el compilador IDO de SGI IRIX en sistemas modernos, facilitando así la obtención de una descompilación equivalente (matching decompilation) de los juegos de N64. Este proyecto funciona, en ciertos aspectos, de manera similar a la recompilación estática de IDO, la cual sirvió como mi principal fuente de inspiración para desarrollar esta herramienta.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>« N64: Recompiled » est un outil permettant de recompiler de manière statique des binaires N64 en code C, lequel peut ensuite être compilé pour n'importe quelle plateforme. Il peut être utilisé pour réaliser des portages ou concevoir des outils, mais aussi pour simuler des comportements avec une efficacité nettement supérieure à celle des interpréteurs ou des systèmes de recompilation dynamique. Plus généralement, il peut servir dans tout contexte nécessitant l'exécution d'une partie d'un binaire N64 au sein d'un environnement autonome. Ce n'est pas le premier projet à recourir à la recompilation statique pour des binaires issus de consoles de jeux ; on peut citer, par exemple, « jamulator », qui cible les binaires NES. Par ailleurs, ce n'est pas non plus la première initiative du genre appliquée à l'écosystème N64 : le projet de recompilation statique de l'IDO (compilateur SGI IRIX) permet de faire fonctionner cet outil sur des systèmes modernes, facilitant ainsi la décompilation fidèle (« matching decompilation ») des jeux N64. Le fonctionnement de « N64: Recompiled » présente des similitudes avec ce projet, qui a d'ailleurs constitué ma principale source d'inspiration.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O N64: Recompiled é uma ferramenta para recompilar estaticamente binários de N64 em código C, o qual pode ser compilado para qualquer plataforma. Ele pode ser utilizado para ports ou ferramentas, bem como para simular comportamentos com velocidade significativamente superior à de interpretadores ou da recompilação dinâmica. De forma mais ampla, pode ser empregado em qualquer contexto em que se deseje executar uma parte de um binário de N64 em um ambiente independente (*standalone*). Este não é o primeiro projeto a utilizar a recompilação estática em binários de consoles de jogos; um exemplo conhecido é o jamulator, voltado para binários de NES. Além disso, este nem sequer é o primeiro projeto a aplicar a recompilação estática a projetos relacionados ao N64: a recompilação estática do IDO recompila o compilador IDO do SGI IRIX em sistemas modernos para facilitar a obtenção de uma descompilação compatível (*matching decompilation*) de jogos de N64. Este projeto funciona de maneira semelhante ao projeto de recompilação estática do IDO em alguns aspectos, e esse projeto foi minha principal inspiração para criá-lo.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>N64: Recompiled</text>
+		</text>
+	</view>
+</theme>

@@ -238,12 +238,12 @@ license: creative commons CC-BY-NC-SA
 
 <!--ASPECT RATIO (auto detection)-->
   <subset name="aspect-ratio" displayName="${theme.aspect-ratio}">
-    <include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 (${theme.detected})" />
+    <include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 (${theme.detected})">./main/aspect-ratio/16-9.xml</include>
     <include if="{screen.ratio} == '5/3'" name="5-3" displayName="5:3 (${theme.detected})" />
     <include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 (${theme.detected})">./main/aspect-ratio/4-3.xml</include>
     <include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2 (${theme.detected})" />
     <include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4 (${theme.detected})">./main/aspect-ratio/5-4.xml</include>
-    <include if="{screen.ratio} == '21/9'" name="21-9" displayName="21:9 (${theme.detected})" />
+    <include if="{screen.ratio} == '21/9'" name="21-9" displayName="21:9 (${theme.detected})">./main/aspect-ratio/21-9.xml</include>
     <include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10 (${theme.detected})">./main/aspect-ratio/16-10.xml</include>
     <include if="{screen.ratio} == '1/1'" name="1-1" displayName="1:1 (${theme.detected})" />
   </subset>

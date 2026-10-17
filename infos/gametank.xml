@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>The GameTank is an open source 8-bit retroconsole that YOU can build, and build games for. Similar in spirit to fantasy consoles like the Pico-8 or TIC-80, the GameTank is set apart by its implementation as a physical hardware device first, followed by an emulator second. Games are written in assembly, or a mix of C and assembly. The special hardware features of the GameTank - such as the Sprite Copy mechanism and the Audio Coprocessor - streamline the process of writing fun and richly animated games.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>La GameTank es una retroconsola de 8 bits de código abierto que TÚ puedes construir y para la cual puedes crear juegos. Aunque su espíritu es similar al de las «consolas de fantasía» (fantasy consoles) como Pico-8 o TIC-80, la GameTank se distingue por haberse concebido, ante todo, como un dispositivo de hardware físico, al que posteriormente se le añadió un emulador. Los juegos se programan en lenguaje ensamblador o mediante una combinación de C y ensamblador. Las características de hardware específicas de la GameTank —como el mecanismo de copia de *sprites* y el coprocesador de audio— facilitan el desarrollo de juegos divertidos y con una animación rica.</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>La GameTank est une console rétro 8 bits open source que VOUS pouvez construire et pour laquelle vous pouvez créer des jeux. Bien qu'elle partage l'esprit des « consoles virtuelles » (fantasy consoles) telles que la Pico-8 ou la TIC-80, la GameTank se distingue par sa conception : il s'agit avant tout d'un matériel physique, l'émulateur n'arrivant qu'en second lieu. Les jeux sont développés en langage assembleur ou via un mélange de C et d'assembleur. Les fonctionnalités matérielles spécifiques de la GameTank — comme le mécanisme de copie de sprites et le coprocesseur audio — facilitent la création de jeux amusants et richement animés.</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>O GameTank é um retroconsole de 8 bits de código aberto que VOCÊ pode montar e para o qual pode criar jogos. Com uma proposta semelhante à de "consoles de fantasia" (fantasy consoles), como o Pico-8 ou o TIC-80, o GameTank se destaca por ter sido concebido, primeiramente, como um hardware físico, contando também com um emulador. Os jogos são desenvolvidos em linguagem assembly ou por meio de uma combinação de C e assembly. Os recursos de hardware específicos do GameTank — como o mecanismo de cópia de sprites (Sprite Copy) e o coprocessador de áudio — facilitam a criação de jogos divertidos e com animações ricas.</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>GameTank</text>
+		</text>
+	</view>
+</theme>

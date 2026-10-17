@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme defaultView="Tiles">
   <formatVersion>7</formatVersion>
-  <view name="basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel, original">
+  <view name="basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel, icons">
 
         <text name="system_description" extra="static">
             <visible>false</visible>

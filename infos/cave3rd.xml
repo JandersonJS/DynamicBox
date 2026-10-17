@@ -1,0 +1,27 @@
+<theme>
+	<formatVersion>7</formatVersion>
+
+	<view name="system, basic, detailed, grid, Tiles, Carousel, Boxes, grid, gamecarousel">
+
+		<text name="system_description" extra="true">
+			<text>CAVE Interactive Co., Ltd. is a Japanese video game company founded in 1994 by former employees of Toaplan following its bankruptcy. It is known primarily for its "bullet hell" shoot 'em ups; from 1995 up to 2013, CAVE was one of the most prolific shoot 'em up developers in the Japanese market. Alongside this, CAVE has produced a variety of other types games for arcades, home consoles, PCs, and smartphones, also dating back to 1995. "CAVE" is an acronym for "Computer Art Visual Entertainment".</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="es">
+			<text>CAVE Interactive Co., Ltd. es una empresa japonesa de videojuegos fundada en 1994 por antiguos empleados de Toaplan tras la quiebra de esta última. Es conocida principalmente por sus juegos de disparos del subgénero «bullet hell»; desde 1995 hasta 2013, CAVE fue uno de los desarrolladores más prolíficos de este tipo de títulos en el mercado japonés. Asimismo, desde 1995, CAVE ha producido una gran variedad de juegos de otros géneros para máquinas recreativas, consolas domésticas, PC y teléfonos inteligentes. «CAVE» es un acrónimo de «Computer Art Visual Entertainment».</text>
+		</text>
+		
+		<text name="system_description" extra="true" lang="fr">
+			<text>CAVE Interactive Co., Ltd. est une société japonaise de jeux vidéo, fondée en 1994 par d'anciens employés de Toaplan à la suite de la faillite de cette dernière. L'entreprise est principalement connue pour ses jeux de tir de type « bullet hell » ; de 1995 à 2013, CAVE a été l'un des développeurs les plus prolifiques du genre sur le marché japonais. Parallèlement, CAVE a également produit, depuis 1995, divers autres types de jeux destinés aux salles d'arcade, aux consoles de salon, aux ordinateurs et aux smartphones. « CAVE » est un acronyme pour « Computer Art Visual Entertainment ».</text>
+		</text>
+
+		<text name="system_description" extra="true" lang="pt">
+			<text>A CAVE Interactive Co., Ltd. é uma empresa japonesa de videogames, fundada em 1994 por ex-funcionários da Toaplan após a falência desta. A empresa é conhecida, principalmente, por seus jogos do gênero *shoot 'em up* do tipo "bullet hell"; de 1995 a 2013, a CAVE foi uma das desenvolvedoras mais prolíficas desse gênero no mercado japonês. Paralelamente, a CAVE produziu diversos outros tipos de jogos para *arcades*, consoles domésticos, PCs e *smartphones*, atividades que também remontam a 1995. "CAVE" é um acrônimo para "Computer Art Visual Entertainment".</text>
+		</text>
+
+
+		<text name="system_name" extra="true">
+			<text>CAVE Interactive Co.</text>
+		</text>
+	</view>
+</theme>
